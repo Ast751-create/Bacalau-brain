@@ -834,6 +834,18 @@ function showResults() {
     elements.resultCorrect.textContent = state.sessionCorrect;
     elements.resultWrong.textContent = state.sessionWrong;
     elements.resultAccuracy.textContent = accuracy + '%';
+    
+    // Мотивационное сообщение в зависимости от результата
+    let messages;
+    if (accuracy >= 90) messages = RESULT_MESSAGES.excellent;
+    else if (accuracy >= 70) messages = RESULT_MESSAGES.good;
+    else if (accuracy >= 50) messages = RESULT_MESSAGES.okay;
+    else messages = RESULT_MESSAGES.low;
+    
+    const motivationEl = document.getElementById('results-motivation');
+    if (motivationEl) {
+        motivationEl.textContent = messages[Math.floor(Math.random() * messages.length)];
+    }
 }
 
 function updateProgressBar() {
@@ -877,6 +889,38 @@ const CONTINUE_MESSAGES = [
     "Ты на волне! 🌊",
     "Следующий раунд! 🎯"
 ];
+
+const RESULT_MESSAGES = {
+    excellent: [ // 90-100%
+        "Ты просто машина! 🔥",
+        "Excelente! Так держать! 🏆",
+        "Мозг в огне! Браво! 🧠✨",
+        "Perfeito! Ты крутая! 💎",
+        "Гений португальского! 🇵🇹",
+        "Невероятно! Muito bem! 🌟"
+    ],
+    good: [ // 70-89%
+        "Молодец! Отличный результат! 👏",
+        "Muito bom! Продолжай! 💪",
+        "Здорово! Прогресс налицо! 📈",
+        "Ты на верном пути! 🎯",
+        "Bom trabalho! 👍",
+        "Супер! Ещё чуть-чуть! 🚀"
+    ],
+    okay: [ // 50-69%
+        "Неплохо! Практика — сила! 💪",
+        "Нормально! Повтори ещё раз 📚",
+        "Ты справишься! Вперёд! 🌊",
+        "Continua! Всё получится! ✨",
+        "Не сдавайся! 🔥"
+    ],
+    low: [ // <50%
+        "Ничего! Повтори эти слова 📖",
+        "Практикуйся — будет лучше! 💪",
+        "Não desistas! Ты можешь! 🌟",
+        "Следующий раунд будет лучше! 🎯"
+    ]
+};
 
 let isFirstSession = true;
 
