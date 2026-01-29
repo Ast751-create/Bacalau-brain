@@ -15,14 +15,14 @@ const VOCABULARY = [
         ru: "метод обучения", 
         imageQuery: "teaching classroom",
         imageUrl: "https://images.unsplash.com/photo-1608986596619-eb50cc56831f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx0ZWFjaGluZyUyMGNsYXNzcm9vbXxlbnwwfDB8fHwxNzY5NzAwODU0fDA&ixlib=rb-4.1.0&q=80&w=400",
-        soundHint: "МЕТОД (слово совпадает)"
+        soundHint: "МЕТОД лечения настолько странный — врач танцует вокруг больного с бубном!"
     },
     { 
         pt: "Os Emirados", 
         ru: "Эмираты", 
         imageQuery: "dubai emirates skyline",
         imageUrl: "https://images.unsplash.com/photo-1643043804724-4b1c706f40a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkdWJhaSUyMGVtaXJhdGVzJTIwc2t5bGluZXxlbnwwfDB8fHwxNzY5NzAwODU2fDA&ixlib=rb-4.1.0&q=80&w=400",
-        soundHint: "ЭМИРАТЫ (слово совпадает)"
+        soundHint: "ЭМИРАТЫ — шейх на верблюде швыряет золотые монеты прямо из скорой помощи!"
     },
     { 
         pt: "o pensamento", 
@@ -148,14 +148,14 @@ const VOCABULARY = [
         ru: "правая партия", 
         imageQuery: "politics right wing",
         imageUrl: "https://images.unsplash.com/photo-1631540700964-6e292543024c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwb2xpdGljcyUyMHJpZ2h0JTIwd2luZ3xlbnwwfDB8fHwxNzY5NzAxMTc4fDA&ixlib=rb-4.1.0&q=80&w=400",
-        soundHint: "ПАРТИЯ + ДИРЕКТОР = правая партия"
+        soundHint: "ПАРТИЯ ДИРЕКТОРОВ вся сидит СПРАВА — левые стулья пусты и грустят!"
     },
     { 
         pt: "o partido socialista", 
         ru: "социалистическая партия", 
         imageQuery: "socialist party politics",
         imageUrl: "https://images.unsplash.com/photo-1713311189995-c65382803668?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzb2NpYWxpc3QlMjBwYXJ0eSUyMHBvbGl0aWNzfGVufDB8MHx8fDE3Njk3MDExODB8MA&ixlib=rb-4.1.0&q=80&w=400",
-        soundHint: "СОЦИАЛИСТ (слово совпадает)"
+        soundHint: "СОЦИАЛИСТ в красном раздаёт бесплатные таблетки — толпа сносит аптеку!"
     },
     { 
         pt: "negar", 
@@ -243,7 +243,7 @@ const VOCABULARY = [
         ru: "кровообращение", 
         imageQuery: "blood circulation heart",
         imageUrl: "https://images.unsplash.com/photo-1715111641899-b0118be16660?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxibG9vZCUyMGNpcmN1bGF0aW9uJTIwaGVhcnR8ZW58MHwwfHx8MTc2OTcwMTIwNnww&ixlib=rb-4.1.0&q=80&w=400",
-        soundHint: "ЦИРКУЛЯЦИЯ (слово совпадает)"
+        soundHint: "В ЦИРКЕ артист бежит по кругу так быстро — кровь ЦИРКУЛИРУЕТ со свистом!"
     },
     { 
         pt: "ficar de pé", 
@@ -264,7 +264,7 @@ const VOCABULARY = [
         ru: "Ближний Восток", 
         imageQuery: "middle east desert map",
         imageUrl: "https://images.unsplash.com/photo-1594946319025-be00d2c3ef6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxtaWRkbGUlMjBlYXN0JTIwZGVzZXJ0JTIwbWFwfGVufDB8MHx8fDE3Njk3MDEyMTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
-        soundHint: "СРЕДНИЙ ОРИЕНТ (прямой перевод)"
+        soundHint: "СРЕДНИЙ ОРИЕНТ — верблюд в чалме посреди пустыни показывает на восток!"
     },
     { 
         pt: "o conhecimento", 
@@ -414,7 +414,7 @@ const VOCABULARY = [
         ru: "голосовать", 
         imageQuery: "vote election ballot",
         imageUrl: "https://images.unsplash.com/photo-1595126731003-755959b6baf8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx2b3RlJTIwZWxlY3Rpb24lMjBiYWxsb3R8ZW58MHwwfHx8MTc2OTcwNzMxMHww&ixlib=rb-4.1.0&q=80&w=400",
-        soundHint: "ВОТАР = VOTE (голосовать)"
+        soundHint: "ВОТАР — ВОТ АРмия избирателей штурмует урны, бюллетени летят как снег!"
     },
     { 
         pt: "a testemunha", 
@@ -460,14 +460,14 @@ const VOCABULARY = [
         pt: "caso", 
         ru: "если, в случае", 
         imageQuery: "case condition if",
-        soundHint: "КАЗО = CASE (случай)"
+        soundHint: "В этом КАЗОвом СЛУЧАЕ — чемодан открылся и оттуда выпрыгнул клоун!"
     },
     { 
         pt: "itens", 
         ru: "предметы", 
         imageQuery: "items objects things",
         imageUrl: "https://images.unsplash.com/photo-1521499892833-773a6c6fd0b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxpdGVtcyUyMG9iamVjdHMlMjB0aGluZ3N8ZW58MHwwfHx8MTc2OTcwNzMyNnww&ixlib=rb-4.1.0&q=80&w=400",
-        soundHint: "ИТЕНС = ITEMS (предметы)"
+        soundHint: "АЙ! ТЕНС предметов упало с полки — всё разбилось, кот убегает!"
     },
     { 
         pt: "o carregador de telemóvel", 
@@ -590,7 +590,7 @@ const VOCABULARY = [
         ru: "кабель, провод", 
         imageQuery: "cable wire cord",
         imageUrl: "https://images.unsplash.com/photo-1584809923235-fabdba83d1df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjYWJsZSUyMHdpcmUlMjBjb3JkfGVufDB8MHx8fDE3Njk3MDczNjJ8MA&ixlib=rb-4.1.0&q=80&w=400",
-        soundHint: "КАБО = КАБЕЛЬ"
+        soundHint: "КАБЕЛЬ вырвался из стены и КАБОй душит электрика — искры летят!"
     },
     { 
         pt: "a fé", 
@@ -645,7 +645,7 @@ const VOCABULARY = [
         pt: "de antecedência", 
         ru: "заранее", 
         imageQuery: "advance prior beforehand",
-        soundHint: "АНТЕСЕДЕНСИЯ — АНТЕ (до) = заранее"
+        soundHint: "АНТЕ! СЕЛ заранее ДЕНЬги откладывать — теперь миллионер, все завидуют!"
     },
     { 
         pt: "a vedação", 
@@ -666,7 +666,7 @@ const VOCABULARY = [
         ru: "новый год, новая жизнь", 
         imageQuery: "new year celebration fresh start",
         imageUrl: "https://images.unsplash.com/photo-1765667525131-70f351668b41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxuZXclMjB5ZWFyJTIwY2VsZWJyYXRpb24lMjBmcmVzaCUyMHN0YXJ0fGVufDB8MHx8fDE3Njk3MDczODN8MA&ixlib=rb-4.1.0&q=80&w=400",
-        soundHint: "АНО НОВО, ВИДА НОВА — прямой перевод"
+        soundHint: "В НОВЫЙ ГОД — НОВАЯ ЖИЗНЬ! Человек выбрасывает старые вещи с балкона!"
     },
     { 
         pt: "doido/a", 
@@ -728,7 +728,7 @@ const VOCABULARY = [
         pt: "delicado", 
         ru: "деликатный, нежный", 
         imageQuery: "delicate gentle soft",
-        soundHint: "ДЕЛИКАДО = ДЕЛИКАТНЫЙ"
+        soundHint: "ДЕЛИКАТЕС такой нежный — официант несёт его на цыпочках, дыша через раз!"
     },
     { 
         pt: "bruto", 
@@ -752,7 +752,7 @@ const VOCABULARY = [
         pt: "interessado", 
         ru: "заинтересованный", 
         imageQuery: "interested curious engaged",
-        soundHint: "ИНТЕРЕСАДО = ИНТЕРЕС"
+        soundHint: "ИНТЕРЕС такой сильный — глаза вылезают из орбит и тянутся к книге!"
     },
     { 
         pt: "bondoso", 
@@ -764,7 +764,7 @@ const VOCABULARY = [
         pt: "cruel", 
         ru: "жестокий", 
         imageQuery: "cruel harsh mean",
-        soundHint: "КРУЭЛ = CRUEL жестокий"
+        soundHint: "КРУЭЛла де Виль так ЖЕСТОКА — она гонится за щенками с ножницами!"
     },
     { 
         pt: "humilde", 
@@ -776,7 +776,7 @@ const VOCABULARY = [
         pt: "arrogante", 
         ru: "высокомерный", 
         imageQuery: "arrogant proud snobbish",
-        soundHint: "АРРОГАНТ = АРОГАНТНЫЙ"
+        soundHint: "АРОГАНТ задрал нос так высоко — врезался в люстру и повис на ней!"
     },
     { 
         pt: "carinhoso", 
@@ -800,7 +800,7 @@ const VOCABULARY = [
         pt: "extrovertido", 
         ru: "общительный, экстраверт", 
         imageQuery: "extrovert social outgoing",
-        soundHint: "ЭКШТРОВЕРТИДО = ЭКСТРАВЕРТ"
+        soundHint: "ЭКСТРАВЕРТ так болтает — у него рот растянулся до ушей, все убегают!"
     },
     { 
         pt: "expansivo", 
@@ -836,7 +836,7 @@ const VOCABULARY = [
         pt: "impulsivo", 
         ru: "импульсивный", 
         imageQuery: "impulsive spontaneous rash",
-        soundHint: "ИМПУЛЬСИВО = ИМПУЛЬСИВНЫЙ"
+        soundHint: "ИМПУЛЬС ударил в голову — он купил слона не думая, жена в шоке!"
     },
     { 
         pt: "sincero", 
@@ -854,13 +854,13 @@ const VOCABULARY = [
         pt: "genuíno", 
         ru: "искренний, подлинный", 
         imageQuery: "genuine authentic real",
-        soundHint: "ЖЕНУИНО = GENUINE, подлинный"
+        soundHint: "ЖЕНя УНИкальный — его картина ПОДЛИННАЯ, эксперты падают в обморок!"
     },
     { 
         pt: "espontâneo", 
         ru: "спонтанный", 
         imageQuery: "spontaneous natural impulsive",
-        soundHint: "ЭШПОНТАNEO = СПОНТАННЫЙ"
+        soundHint: "СПОНТАННО начал петь в метро — все пассажиры подхватили, вагон трясётся!"
     },
     { 
         pt: "hipócrita", 
@@ -915,7 +915,7 @@ const VOCABULARY = [
         pt: "suficiente", 
         ru: "достаточно", 
         imageQuery: "enough sufficient plenty",
-        soundHint: "СУФИСЬЕНТЕ = SUFFICIENT, достаточно"
+        soundHint: "СУФле — ДОСТАТОЧНО! Повар так объелся, что катится по кухне как шар!"
     },
     { 
         pt: "os estranhos", 
@@ -975,7 +975,7 @@ const VOCABULARY = [
         pt: "o Estado", 
         ru: "государство", 
         imageQuery: "state government country",
-        soundHint: "ЭШТАДУ = STATE, государство"
+        soundHint: "Э! ШТАт ДУмает он ГОСУДАРСТВО! Губернатор надел корону и требует поклонов!"
     },
     { 
         pt: "a abelha", 
@@ -987,7 +987,7 @@ const VOCABULARY = [
         pt: "sou pobre, mas honrado", 
         ru: "я бедный, но честный", 
         imageQuery: "poor honest humble dignity",
-        soundHint: "СОУ ПОБРЕ, МАШ ОНРАДУ — прямой смысл"
+        soundHint: "СОУ ПОБРЕ — я БЕДНЫЙ, но ЧЕСТНЫЙ! Бомж возвращает найденный кошелёк миллионеру!"
     },
     { 
         pt: "ao modo como", 
@@ -1047,7 +1047,7 @@ const VOCABULARY = [
         pt: "o entretenimento", 
         ru: "развлечение", 
         imageQuery: "entertainment fun leisure",
-        soundHint: "ЭНТРЕТЕНИМЕНТO = ENTERTAINMENT"
+        soundHint: "АНТРЕ (вход) в ТЕНТ с развлечениями — клоуны выскакивают и пугают!"
     },
     { 
         pt: "a lata de spray", 
@@ -1144,7 +1144,7 @@ const VOCABULARY = [
         pt: "o objetivo", 
         ru: "цель", 
         imageQuery: "goal target objective",
-        soundHint: "ОБЖЕТИВУ = OBJECTIVE, цель"
+        soundHint: "ОБЖЕктив камеры нацелен на ЦЕЛЬ — фотограф прыгает за идеальным кадром!"
     },
     { 
         pt: "a ovelha", 
@@ -1198,13 +1198,13 @@ const VOCABULARY = [
         pt: "atrair", 
         ru: "привлекать", 
         imageQuery: "attract magnet pull",
-        soundHint: "АТРАИР = ATTRACT, привлекать"
+        soundHint: "А! ТРАктор ПРИТЯГИВАЕТ всех магнитом — люди летят к нему со всех сторон!"
     },
     { 
         pt: "atraído", 
         ru: "привлечённый", 
         imageQuery: "attracted drawn interested",
-        soundHint: "АТРАИДУ — ATTRACT + привлечён"
+        soundHint: "А! ТРАктор ИДУ к нему — ПРИВЛЕЧЁН магнитной силой, ноги скользят!"
     },
     { 
         pt: "quem corre por gosto não cansa", 
@@ -1228,7 +1228,7 @@ const VOCABULARY = [
         pt: "a expetativa", 
         ru: "ожидание", 
         imageQuery: "expectation hope waiting",
-        soundHint: "ЭШПЕТАТИВА = EXPECTATION, ожидание"
+        soundHint: "ЭШ! ПЕТя ТЯНЕТ шею в ОЖИДАНИИ — так долго ждал, что шея стала как у жирафа!"
     },
     { 
         pt: "esgotados", 
@@ -1294,7 +1294,7 @@ const VOCABULARY = [
         pt: "fixo", 
         ru: "фиксированный", 
         imageQuery: "fixed static stable",
-        soundHint: "ФИШУ = FIXED, фиксированный"
+        soundHint: "ФИШКА прибита к столу — ФИКСИРОВАННАЯ цена, торговаться бесполезно!"
     },
     { 
         pt: "o alojamento", 
@@ -1343,7 +1343,7 @@ const VOCABULARY = [
         pt: "as competências", 
         ru: "навыки, компетенции", 
         imageQuery: "skills competence abilities",
-        soundHint: "КОМПЕТЕНСИАШ = КОМПЕТЕНЦИИ"
+        soundHint: "КОМПЕТЕНТный специалист жонглирует десятью задачами — босс аплодирует!"
     },
     { 
         pt: "julgar", 
@@ -1391,13 +1391,13 @@ const VOCABULARY = [
         pt: "aproximar-se de", 
         ru: "приближаться к", 
         imageQuery: "approach come closer near",
-        soundHint: "АПРОКСИМАР = APPROXIMATE, приблизиться"
+        soundHint: "А! ПРОКСИмити — датчик орёт, когда ПРИБЛИЖАЕШЬСЯ, все подпрыгивают!"
     },
     { 
         pt: "reconhecer", 
         ru: "узнавать, признавать", 
         imageQuery: "recognize acknowledge face",
-        soundHint: "РЕКОНЬЕСЕР = RECOGNIZE, узнавать"
+        soundHint: "РЕКОгносцировка — шпион УЗНАЁТ врага и прячется за газетой с дыркой!"
     },
     { 
         pt: "a lágrima", 
@@ -1463,7 +1463,7 @@ const VOCABULARY = [
         pt: "o carrossel", 
         ru: "карусель", 
         imageQuery: "carousel merry go round",
-        soundHint: "КАРРОЗЕЛ = КАРУСЕЛЬ"
+        soundHint: "КАРУСЕЛЬ раскрутилась так — дети летят по орбите как спутники, родители визжат!"
     },
     { 
         pt: "é uma seca", 
@@ -1487,7 +1487,7 @@ const VOCABULARY = [
         pt: "o pastor", 
         ru: "пастух", 
         imageQuery: "shepherd sheep herding",
-        soundHint: "ПАШТОР = ПАСТОР/пастух"
+        soundHint: "ПАСТОР в рясе пасёт овец — они слушают проповедь и кивают головами!"
     },
     { 
         pt: "a missa do Galo", 
