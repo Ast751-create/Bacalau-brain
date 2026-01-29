@@ -25,7 +25,10 @@ body {
     background: var(--bg);
     color: var(--text);
     min-height: 100vh;
+    min-height: -webkit-fill-available; /* Safari fix */
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .app {
@@ -33,7 +36,13 @@ body {
     margin: 0 auto;
     padding: 16px;
     min-height: 100vh;
+    min-height: -webkit-fill-available; /* Safari fix */
+    display: -webkit-box;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
     flex-direction: column;
 }
 
@@ -366,11 +375,13 @@ body {
 }
 
 .speak-btn:hover {
+    -webkit-transform: scale(1.1);
     transform: scale(1.1);
     background: white;
 }
 
 .speak-btn:active {
+    -webkit-transform: scale(0.95);
     transform: scale(0.95);
 }
 
@@ -427,12 +438,17 @@ body {
 }
 
 .card-mnemonic.revealed {
+    -webkit-animation: fadeIn 0.3s ease;
     animation: fadeIn 0.3s ease;
 }
 
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-10px); }
+    to { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); }
+}
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-10px); }
+    to { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); }
 }
 
 /* Choices */
@@ -631,30 +647,45 @@ body {
 }
 
 /* Animations */
+@-webkit-keyframes shake {
+    0%, 100% { -webkit-transform: translateX(0); transform: translateX(0); }
+    25% { -webkit-transform: translateX(-5px); transform: translateX(-5px); }
+    75% { -webkit-transform: translateX(5px); transform: translateX(5px); }
+}
 @keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    25% { transform: translateX(-5px); }
-    75% { transform: translateX(5px); }
+    0%, 100% { -webkit-transform: translateX(0); transform: translateX(0); }
+    25% { -webkit-transform: translateX(-5px); transform: translateX(-5px); }
+    75% { -webkit-transform: translateX(5px); transform: translateX(5px); }
 }
 
 .shake {
+    -webkit-animation: shake 0.3s ease;
     animation: shake 0.3s ease;
 }
 
+@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); transform: scale(1); }
+    50% { -webkit-transform: scale(1.05); transform: scale(1.05); }
+    100% { -webkit-transform: scale(1); transform: scale(1); }
+}
 @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
+    0% { -webkit-transform: scale(1); transform: scale(1); }
+    50% { -webkit-transform: scale(1.05); transform: scale(1.05); }
+    100% { -webkit-transform: scale(1); transform: scale(1); }
 }
 
 .pulse {
+    -webkit-animation: pulse 0.3s ease;
     animation: pulse 0.3s ease;
 }
 
 /* ==================== LAYOUT WITH SIDEBAR ==================== */
 .app-layout {
+    display: -webkit-box;
+    display: -webkit-flex;
     display: flex;
     min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 /* Sidebar */
@@ -662,12 +693,21 @@ body {
     width: 280px;
     background: var(--card-bg);
     border-right: 1px solid var(--border);
+    display: -webkit-box;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
     flex-direction: column;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
     transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .sidebar.collapsed {
+    -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
     position: absolute;
     height: 100%;
@@ -741,11 +781,15 @@ body {
 .category-arrow {
     font-size: 0.7rem;
     color: var(--text-muted);
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
     transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
     width: 12px;
 }
 
 .category-group.expanded .category-arrow {
+    -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
@@ -947,15 +991,21 @@ body {
         top: 0;
         height: 100%;
         z-index: 100;
+        -webkit-transform: translateX(-100%);
         transform: translateX(-100%);
     }
     
     .sidebar.open {
+        -webkit-transform: translateX(0);
         transform: translateX(0);
+        -webkit-box-shadow: var(--shadow-lg);
         box-shadow: var(--shadow-lg);
     }
     
     .app-layout {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
         flex-direction: column;
     }
 }

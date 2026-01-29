@@ -8,6 +8,33 @@ const CONFIG = {
     AUTO_ADVANCE_DELAY: 5 // секунд
 };
 
+// ==================== SAFARI STORAGE FIX ====================
+// Safari в приватном режиме может блокировать localStorage
+const safeStorage = {
+    getItem: (key) => {
+        try {
+            return localStorage.getItem(key);
+        } catch (e) {
+            console.warn('localStorage недоступен:', e);
+            return null;
+        }
+    },
+    setItem: (key, value) => {
+        try {
+            localStorage.setItem(key, value);
+        } catch (e) {
+            console.warn('localStorage недоступен:', e);
+        }
+    },
+    removeItem: (key) => {
+        try {
+            localStorage.removeItem(key);
+        } catch (e) {
+            console.warn('localStorage недоступен:', e);
+        }
+    }
+};
+
 // ==================== SOUND EFFECTS ====================
 const AudioContext = window.AudioContext || window.webkitAudioContext;
 let audioCtx = null;
@@ -93,7 +120,7 @@ function getSettings() {
         autoAdvanceDelay: 5
     };
     
-    const stored = localStorage.getItem('pt-trainer-settings');
+    const stored = safeStorage.getItem('pt-trainer-settings');
     if (stored) {
         const parsed = JSON.parse(stored);
         // Мержим с дефолтами чтобы новые настройки работали
@@ -103,25 +130,25 @@ function getSettings() {
 }
 
 function saveSettings(settings) {
-    localStorage.setItem('pt-trainer-settings', JSON.stringify(settings));
+    safeStorage.setItem('pt-trainer-settings', JSON.stringify(settings));
 }
 
 // ==================== WORD LISTS ====================
 function getWordLists() {
-    const stored = localStorage.getItem('pt-trainer-lists');
+    const stored = safeStorage.getItem('pt-trainer-lists');
     return stored ? JSON.parse(stored) : {};
 }
 
 function saveWordLists(lists) {
-    localStorage.setItem('pt-trainer-lists', JSON.stringify(lists));
+    safeStorage.setItem('pt-trainer-lists', JSON.stringify(lists));
 }
 
 function getCurrentListId() {
-    return localStorage.getItem('pt-trainer-current-list') || 'default';
+    return safeStorage.getItem('pt-trainer-current-list') || 'default';
 }
 
 function setCurrentListId(id) {
-    localStorage.setItem('pt-trainer-current-list', id);
+    safeStorage.setItem('pt-trainer-current-list', id);
 }
 
 function getCurrentVocabulary() {
@@ -349,12 +376,12 @@ async function generateMnemonicsForList(words, statusCallback) {
 }
 
 function getMnemonicsStorage() {
-    const stored = localStorage.getItem('pt-trainer-mnemonics');
+    const stored = safeStorage.getItem('pt-trainer-mnemonics');
     return stored ? JSON.parse(stored) : {};
 }
 
 function saveMnemonicsStorage(mnemonics) {
-    localStorage.setItem('pt-trainer-mnemonics', JSON.stringify(mnemonics));
+    safeStorage.setItem('pt-trainer-mnemonics', JSON.stringify(mnemonics));
 }
 
 function getMnemonic(word) {
@@ -386,7 +413,13 @@ function initTTS() {
 
 function speak(text) {
     if (!text) return;
-    speechSynthesis.cancel();
+    
+    // Safari fix: иногда speechSynthesis зависает, нужен cancel
+    try {
+        speechSynthesis.cancel();
+    } catch (e) {
+        console.warn('speechSynthesis.cancel() failed:', e);
+    }
     
     const utterance = new SpeechSynthesisUtterance(text);
     if (ptPTVoice) {
@@ -396,7 +429,14 @@ function speak(text) {
     utterance.rate = 0.9;
     utterance.pitch = 1;
     
-    speechSynthesis.speak(utterance);
+    // Safari fix: задержка для стабильности
+    setTimeout(() => {
+        try {
+            speechSynthesis.speak(utterance);
+        } catch (e) {
+            console.warn('speechSynthesis.speak() failed:', e);
+        }
+    }, 10);
 }
 
 // ==================== STATE ====================
@@ -459,12 +499,12 @@ const elements = {
 
 // ==================== STORAGE ====================
 function getProgress() {
-    const stored = localStorage.getItem('pt-trainer-progress');
+    const stored = safeStorage.getItem('pt-trainer-progress');
     return stored ? JSON.parse(stored) : {};
 }
 
 function saveProgress(progress) {
-    localStorage.setItem('pt-trainer-progress', JSON.stringify(progress));
+    safeStorage.setItem('pt-trainer-progress', JSON.stringify(progress));
 }
 
 function getWordProgress(word) {
@@ -514,7 +554,7 @@ function updateWordProgress(word, isCorrect) {
 }
 
 function getTodayStats() {
-    const stored = localStorage.getItem('pt-trainer-today');
+    const stored = safeStorage.getItem('pt-trainer-today');
     const today = new Date().toISOString().split('T')[0];
     
     if (stored) {
@@ -529,7 +569,7 @@ function getTodayStats() {
 
 function saveTodayStats(count, streak) {
     const today = new Date().toISOString().split('T')[0];
-    localStorage.setItem('pt-trainer-today', JSON.stringify({
+    safeStorage.setItem('pt-trainer-today', JSON.stringify({
         date: today,
         count: count,
         streak: streak
@@ -1015,7 +1055,7 @@ function renderWordLists() {
         }
         
         // Определяем какая категория раскрыта (по текущему выбранному списку)
-        let expandedCategory = localStorage.getItem('expandedCategory') || '';
+        let expandedCategory = safeStorage.getItem('expandedCategory') || '';
         const currentList = THEMED_LISTS[currentId];
         if (currentList && currentList.category) {
             expandedCategory = currentList.category;
@@ -1087,9 +1127,9 @@ function renderWordLists() {
             // Открываем текущую (если была закрыта)
             if (!wasExpanded) {
                 group.classList.add('expanded');
-                localStorage.setItem('expandedCategory', catId);
+                safeStorage.setItem('expandedCategory', catId);
             } else {
-                localStorage.removeItem('expandedCategory');
+                safeStorage.removeItem('expandedCategory');
             }
         });
     });
@@ -1348,9 +1388,9 @@ generateAllBtn.addEventListener('click', generateAllMnemonics);
 
 resetProgressBtn.addEventListener('click', () => {
     if (confirm('Точно сбросить весь прогресс?')) {
-        localStorage.removeItem('pt-trainer-progress');
-        localStorage.removeItem('pt-trainer-today');
-        localStorage.removeItem('pt-trainer-mnemonics');
+        safeStorage.removeItem('pt-trainer-progress');
+        safeStorage.removeItem('pt-trainer-today');
+        safeStorage.removeItem('pt-trainer-mnemonics');
         showStartScreen();
         alert('Прогресс сброшен');
     }
