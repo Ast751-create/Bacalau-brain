@@ -698,36 +698,42 @@ const VOCABULARY = [
         pt: "trabalhador", 
         ru: "трудолюбивый", 
         imageQuery: "hardworking diligent worker",
+        imageUrl: "https://images.unsplash.com/photo-1599981967200-89283dbcb3a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxoYXJkd29ya2luZyUyMGRpbGlnZW50JTIwd29ya2VyfGVufDB8MHx8fDE3Njk3MTExNjB8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ТРАБАЛЬЯДОР — ТРУБАч работяга"
     },
     { 
         pt: "preguiçoso", 
         ru: "ленивый", 
         imageQuery: "lazy sloth idle",
+        imageUrl: "https://images.unsplash.com/photo-1724906791390-4ca04156aafb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsYXp5JTIwc2xvdGglMjBpZGxlfGVufDB8MHx8fDE3Njk3MTExNjJ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПРЕГИСОЗО — ПРЕГРАДа лени"
     },
     { 
         pt: "descontraído", 
         ru: "расслабленный", 
         imageQuery: "relaxed casual chill",
+        imageUrl: "https://images.unsplash.com/photo-1659087374131-6707281eba1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxyZWxheGVkJTIwY2FzdWFsJTIwY2hpbGx8ZW58MHwwfHx8MTc2OTcxMTE2NHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ДЕШКОНТРАИДО — ДЕШёвый КОНТРАКТ = расслабься"
     },
     { 
         pt: "ansioso", 
         ru: "тревожный", 
         imageQuery: "anxious nervous worried",
+        imageUrl: "https://images.unsplash.com/photo-1614999776688-3980cc1e8640?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhbnhpb3VzJTIwbmVydm91cyUyMHdvcnJpZWR8ZW58MHwwfHx8MTc2OTcxMTE2Nnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АНСИОЗО — АНАЛИЗ тревожный"
     },
     { 
         pt: "cuidadoso", 
         ru: "аккуратный, бережный", 
         imageQuery: "careful cautious neat",
+        imageUrl: "https://images.unsplash.com/photo-1717298812095-692414f0cb13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjYXJlZnVsJTIwY2F1dGlvdXMlMjBuZWF0fGVufDB8MHx8fDE3Njk3MTExNjh8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КУЙДАДОЗО — КУДА? ДОЗОР аккуратный"
     },
     { 
         pt: "delicado", 
         ru: "деликатный, нежный", 
         imageQuery: "delicate gentle soft",
+        imageUrl: "https://images.unsplash.com/photo-1750580781761-5a800f3848db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkZWxpY2F0ZSUyMGdlbnRsZSUyMHNvZnR8ZW58MHwwfHx8MTc2OTcxMTE3MHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ДЕЛИКАТЕС такой нежный — официант несёт его на цыпочках, дыша через раз!"
     },
     { 
@@ -752,12 +758,14 @@ const VOCABULARY = [
         pt: "interessado", 
         ru: "заинтересованный", 
         imageQuery: "interested curious engaged",
+        imageUrl: "https://images.unsplash.com/photo-1758270704851-adff797a2010?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxpbnRlcmVzdGVkJTIwY3VyaW91cyUyMGVuZ2FnZWR8ZW58MHwwfHx8MTc2OTcxMTE3OHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ИНТЕРЕС такой сильный — глаза вылезают из орбит и тянутся к книге!"
     },
     { 
         pt: "bondoso", 
         ru: "добрый", 
         imageQuery: "kind good hearted nice",
+        imageUrl: "https://images.unsplash.com/photo-1626480145636-a733bcfdcbc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxraW5kJTIwZ29vZCUyMGhlYXJ0ZWQlMjBuaWNlfGVufDB8MHx8fDE3Njk3MTExODB8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "БОНДОЗО — БОНД добрый агент"
     },
     { 
@@ -782,48 +790,56 @@ const VOCABULARY = [
         pt: "carinhoso", 
         ru: "заботливый, ласковый", 
         imageQuery: "caring loving affectionate",
+        imageUrl: "https://images.unsplash.com/photo-1758874089517-3b86e1f74258?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjYXJpbmclMjBsb3ZpbmclMjBhZmZlY3Rpb25hdGV8ZW58MHwwfHx8MTc2OTcxMTE4N3ww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАРИНЬОЗО — КАРИНА заботливая"
     },
     { 
         pt: "frio", 
         ru: "холодный (в отношениях)", 
         imageQuery: "cold distant emotionless",
+        imageUrl: "https://images.unsplash.com/photo-1737296968601-c4e3d8f765be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjb2xkJTIwZGlzdGFudCUyMGVtb3Rpb25sZXNzfGVufDB8MHx8fDE3Njk3MTExOTB8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ФРИО — ФРИгидный, холодный"
     },
     { 
         pt: "distante", 
         ru: "отстранённый", 
         imageQuery: "distant remote aloof",
+        imageUrl: "https://images.unsplash.com/photo-1707320615512-116641ed8910?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkaXN0YW50JTIwcmVtb3RlJTIwYWxvb2Z8ZW58MHwwfHx8MTc2OTcxMTE5MXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ДИШТАНТ = ДИСТАНЦИЯ, отстранён"
     },
     { 
         pt: "extrovertido", 
         ru: "общительный, экстраверт", 
         imageQuery: "extrovert social outgoing",
+        imageUrl: "https://images.unsplash.com/photo-1714978444551-b938c47b6b4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxleHRyb3ZlcnQlMjBzb2NpYWwlMjBvdXRnb2luZ3xlbnwwfDB8fHwxNzY5NzExMTkzfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭКСТРАВЕРТ так болтает — у него рот растянулся до ушей, все убегают!"
     },
     { 
         pt: "expansivo", 
         ru: "открытый, общительный", 
         imageQuery: "open outgoing friendly",
+        imageUrl: "https://images.unsplash.com/photo-1691267919827-406fcad64c6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxvcGVuJTIwb3V0Z29pbmclMjBmcmllbmRseXxlbnwwfDB8fHwxNzY5NzExMTk1fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭКСПАНСИВО = ЭКСПАНСИВНЫЙ, открытый"
     },
     { 
         pt: "tímido", 
         ru: "застенчивый", 
         imageQuery: "shy timid bashful",
+        imageUrl: "https://images.unsplash.com/photo-1666796143743-01c8fbe5b9f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzaHklMjB0aW1pZCUyMGJhc2hmdWx8ZW58MHwwfHx8MTc2OTcxMTE5N3ww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ТИМИДО — ТИМ застенчивый"
     },
     { 
         pt: "prudente", 
         ru: "рассудительный, осторожный", 
         imageQuery: "prudent careful cautious",
+        imageUrl: "https://images.unsplash.com/photo-1766973117689-1f4fad3c42b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwcnVkZW50JTIwY2FyZWZ1bCUyMGNhdXRpb3VzfGVufDB8MHx8fDE3Njk3MTExOTl8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПРУДЕНТЕ = ПРУДЕНЦИЯ, осторожность"
     },
     { 
         pt: "ponderado", 
         ru: "взвешенный", 
         imageQuery: "thoughtful balanced measured",
+        imageUrl: "https://images.unsplash.com/photo-1670270103229-9a999f368bba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx0aG91Z2h0ZnVsJTIwYmFsYW5jZWQlMjBtZWFzdXJlZHxlbnwwfDB8fHwxNzY5NzExMjAxfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПОНДЕРАДО — ПОНДЕРАть, взвешивать"
     },
     { 
@@ -836,6 +852,7 @@ const VOCABULARY = [
         pt: "impulsivo", 
         ru: "импульсивный", 
         imageQuery: "impulsive spontaneous rash",
+        imageUrl: "https://images.unsplash.com/photo-1747398690599-577c697e787f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxpbXB1bHNpdmUlMjBzcG9udGFuZW91cyUyMHJhc2h8ZW58MHwwfHx8MTc2OTcxMTIwNXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ИМПУЛЬС ударил в голову — он купил слона не думая, жена в шоке!"
     },
     { 
@@ -848,18 +865,21 @@ const VOCABULARY = [
         pt: "mentiroso", 
         ru: "лживый", 
         imageQuery: "liar dishonest false",
+        imageUrl: "https://images.unsplash.com/photo-1631088640423-dc048d6c2e93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsaWFyJTIwZGlzaG9uZXN0JTIwZmFsc2V8ZW58MHwwfHx8MTc2OTcxMTIwOXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "МЕНТИРОЗО — МЕНТ врёт? Лживый!"
     },
     { 
         pt: "genuíno", 
         ru: "искренний, подлинный", 
         imageQuery: "genuine authentic real",
+        imageUrl: "https://images.unsplash.com/photo-1530490125459-847a6d437825?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxnZW51aW5lJTIwYXV0aGVudGljJTIwcmVhbHxlbnwwfDB8fHwxNzY5NzExMjExfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЖЕНя УНИкальный — его картина ПОДЛИННАЯ, эксперты падают в обморок!"
     },
     { 
         pt: "espontâneo", 
         ru: "спонтанный", 
         imageQuery: "spontaneous natural impulsive",
+        imageUrl: "https://images.unsplash.com/photo-1504194699279-06555b45735c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzcG9udGFuZW91cyUyMG5hdHVyYWwlMjBpbXB1bHNpdmV8ZW58MHwwfHx8MTc2OTcxMTIxM3ww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "СПОНТАННО начал петь в метро — все пассажиры подхватили, вагон трясётся!"
     },
     { 
@@ -872,18 +892,21 @@ const VOCABULARY = [
         pt: "calculista", 
         ru: "расчётливый", 
         imageQuery: "calculating scheming cunning",
+        imageUrl: "https://images.unsplash.com/photo-1675242314995-034d11bac319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjYWxjdWxhdGluZyUyMHNjaGVtaW5nJTIwY3VubmluZ3xlbnwwfDB8fHwxNzY5NzExMjE3fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАЛЬКУЛИШТА — КАЛЬКУЛЯТОР расчётов"
     },
     { 
         pt: "falador", 
         ru: "разговорчивый", 
         imageQuery: "talkative chatty verbose",
+        imageUrl: "https://images.unsplash.com/photo-1673515336677-ef1cf9e20ea1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx0YWxrYXRpdmUlMjBjaGF0dHklMjB2ZXJib3NlfGVufDB8MHx8fDE3Njk3MTEyMTl8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ФАЛАДОР — ФАЛА (говорит) много"
     },
     { 
         pt: "calado", 
         ru: "молчаливый", 
         imageQuery: "quiet silent reserved",
+        imageUrl: "https://images.unsplash.com/photo-1609566603188-144fe4cad15c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxxdWlldCUyMHNpbGVudCUyMHJlc2VydmVkfGVufDB8MHx8fDE3Njk3MTEyMjB8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАЛАДО — КАЛАЧ молчит"
     },
     // ===== ТРЕТЬЯ ПАРТИЯ =====
@@ -891,24 +914,28 @@ const VOCABULARY = [
         pt: "o mestrado", 
         ru: "магистратура", 
         imageQuery: "masters degree university graduation",
+        imageUrl: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxtYXN0ZXJzJTIwZGVncmVlJTIwdW5pdmVyc2l0eSUyMGdyYWR1YXRpb258ZW58MHwwfHx8MTc2OTcxMTIyM3ww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "МЕШТРАДУ — МАСТЕР-ГРАД учёных"
     },
     { 
         pt: "a nutrição", 
         ru: "питание", 
         imageQuery: "nutrition food healthy diet",
+        imageUrl: "https://images.unsplash.com/photo-1670164747721-d3500ef757a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxudXRyaXRpb24lMjBmb29kJTIwaGVhbHRoeSUyMGRpZXR8ZW58MHwwfHx8MTc2OTcxMTIyNHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "НУТРИСАО = НУТРИЦИЯ, питание"
     },
     { 
         pt: "as pinturas", 
         ru: "картины", 
         imageQuery: "paintings art gallery museum",
+        imageUrl: "https://images.unsplash.com/photo-1563293743-a9761195b52e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwYWludGluZ3MlMjBhcnQlMjBnYWxsZXJ5JTIwbXVzZXVtfGVufDB8MHx8fDE3Njk3MTEyMjZ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПИНТУРАШ — ПИНТы краски для картин"
     },
     { 
         pt: "o estacionamento", 
         ru: "парковка", 
         imageQuery: "parking lot cars",
+        imageUrl: "https://images.unsplash.com/photo-1732061604970-55c6cdee3378?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwYXJraW5nJTIwbG90JTIwY2Fyc3xlbnwwfDB8fHwxNzY5NzExMjI4fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭШТАСИОНАМЕНТО — СТАНЦИЯ машин = парковка"
     },
     { 
@@ -921,6 +948,7 @@ const VOCABULARY = [
         pt: "os estranhos", 
         ru: "незнакомцы", 
         imageQuery: "strangers unknown people",
+        imageUrl: "https://images.unsplash.com/photo-1553122272-f1f95ec1a52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdHJhbmdlcnMlMjB1bmtub3duJTIwcGVvcGxlfGVufDB8MHx8fDE3Njk3MTEyMzJ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭШТРАНЬОШ — СТРАННЫЕ люди = незнакомцы"
     },
     { 
@@ -933,54 +961,63 @@ const VOCABULARY = [
         pt: "o tecido", 
         ru: "ткань", 
         imageQuery: "fabric textile cloth",
+        imageUrl: "https://images.unsplash.com/photo-1701964619775-b18422290cf9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmYWJyaWMlMjB0ZXh0aWxlJTIwY2xvdGh8ZW58MHwwfHx8MTc2OTcxMTIzNnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ТЕСИДО — ТЕСИТЬ ткань"
     },
     { 
         pt: "leves", 
         ru: "лёгкие", 
         imageQuery: "light weightless feather",
+        imageUrl: "https://images.unsplash.com/photo-1648015796638-c261b974cb69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsaWdodCUyMHdlaWdodGxlc3MlMjBmZWF0aGVyfGVufDB8MHx8fDE3Njk3MTEyMzh8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЛЕВЕШ — ЛЕВ легко прыгает"
     },
     { 
         pt: "abençoada", 
         ru: "благословенная", 
         imageQuery: "blessed holy divine",
+        imageUrl: "https://images.unsplash.com/photo-1764416996882-964e5eb49a70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxibGVzc2VkJTIwaG9seSUyMGRpdmluZXxlbnwwfDB8fHwxNzY5NzExMjQwfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АБЕНСОАДА — А! БЕН благословлён"
     },
     { 
         pt: "a bênção", 
         ru: "благословение", 
         imageQuery: "blessing prayer church",
+        imageUrl: "https://images.unsplash.com/photo-1741485745318-4ee2f095758c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxibGVzc2luZyUyMHByYXllciUyMGNodXJjaHxlbnwwfDB8fHwxNzY5NzExMjQyfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "БЕНСАО — БЕН даёт благословение"
     },
     { 
         pt: "a torrada", 
         ru: "тост (хлеб)", 
         imageQuery: "toast bread breakfast",
+        imageUrl: "https://images.unsplash.com/photo-1612827788868-c8632040ab64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx0b2FzdCUyMGJyZWFkJTIwYnJlYWtmYXN0fGVufDB8MHx8fDE3Njk3MTEyNDN8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ТОРРАДА — ТОРТ-РАДость на завтрак"
     },
     { 
         pt: "torrar", 
         ru: "поджаривать", 
         imageQuery: "toast roast grill",
+        imageUrl: "https://images.unsplash.com/photo-1767320235647-8b40bfdc25ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx0b2FzdCUyMHJvYXN0JTIwZ3JpbGx8ZW58MHwwfHx8MTc2OTcxMTI0Nnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ТОРРАР — ТОРт жарится"
     },
     { 
         pt: "o governo", 
         ru: "правительство", 
         imageQuery: "government parliament politics",
+        imageUrl: "https://images.unsplash.com/photo-1757860090557-2196e39d3bfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxnb3Zlcm5tZW50JTIwcGFybGlhbWVudCUyMHBvbGl0aWNzfGVufDB8MHx8fDE3Njk3MTEyNDh8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ГОВЕРНО — ГОВОРит правительство"
     },
     { 
         pt: "o Estado", 
         ru: "государство", 
         imageQuery: "state government country",
+        imageUrl: "https://images.unsplash.com/photo-1634213585032-9addda9fd695?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdGF0ZSUyMGdvdmVybm1lbnQlMjBjb3VudHJ5fGVufDB8MHx8fDE3Njk3MTEyNTB8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "Э! ШТАт ДУмает он ГОСУДАРСТВО! Губернатор надел корону и требует поклонов!"
     },
     { 
         pt: "a abelha", 
         ru: "пчела", 
         imageQuery: "bee honey insect",
+        imageUrl: "https://images.unsplash.com/photo-1718012934654-69219f3fcd3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxiZWUlMjBob25leSUyMGluc2VjdHxlbnwwfDB8fHwxNzY5NzExMjUxfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АБЕЛЬЯ — А! БЕЛЬЯ пчела ужалила"
     },
     { 
@@ -999,24 +1036,28 @@ const VOCABULARY = [
         pt: "à maneira como", 
         ru: "таким образом, как", 
         imageQuery: "way manner style",
+        imageUrl: "https://images.unsplash.com/photo-1696654149774-6674b4d1ee35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3YXklMjBtYW5uZXIlMjBzdHlsZXxlbnwwfDB8fHwxNzY5NzI0MDU4fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "А МАНЕЙРА КОМУ — по МАНЕРЕ как"
     },
     { 
         pt: "lamento muito", 
         ru: "мне очень жаль", 
         imageQuery: "sorry sad regret",
+        imageUrl: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzb3JyeSUyMHNhZCUyMHJlZ3JldHxlbnwwfDB8fHwxNzY5NzI0MDYwfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЛАМЕНТО МУЙТО — ЛАМЕНТ (плач) = жаль"
     },
     { 
         pt: "picar", 
         ru: "жалить, кусать", 
         imageQuery: "sting bite insect",
+        imageUrl: "https://images.unsplash.com/photo-1682443123657-c63117054838?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdGluZyUyMGJpdGUlMjBpbnNlY3R8ZW58MHwwfHx8MTc2OTcyNDA2Mnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПИКАР — ПИКа жалит остриём"
     },
     { 
         pt: "o lazer", 
         ru: "досуг", 
         imageQuery: "leisure relaxation free time",
+        imageUrl: "https://images.unsplash.com/photo-1769674110349-f9f43cf3cb8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsZWlzdXJlJTIwcmVsYXhhdGlvbiUyMGZyZWUlMjB0aW1lfGVufDB8MHx8fDE3Njk3MjQwNjR8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЛАЗЕР — ЛАЗЕРное шоу на досуге"
     },
     { 
@@ -1029,90 +1070,105 @@ const VOCABULARY = [
         pt: "caseiro", 
         ru: "домашний", 
         imageQuery: "homemade house domestic",
+        imageUrl: "https://images.unsplash.com/photo-1660997598847-bdad1ad226c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxob21lbWFkZSUyMGhvdXNlJTIwZG9tZXN0aWN8ZW58MHwwfHx8MTc2OTcyNDA2OHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАЗЕЙРО — КАЗАН домашний"
     },
     { 
         pt: "emprestar", 
         ru: "одалживать (давать)", 
         imageQuery: "lend give borrow",
+        imageUrl: "https://images.unsplash.com/photo-1761048166535-768b4cf8ffa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsZW5kJTIwZ2l2ZSUyMGJvcnJvd3xlbnwwfDB8fHwxNzY5NzI0MDcwfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭМПРЕШТАР — ЭМ! ПРЕСТАР даёт в долг"
     },
     { 
         pt: "pedir emprestado", 
         ru: "брать в долг", 
         imageQuery: "borrow ask loan",
+        imageUrl: "https://images.unsplash.com/photo-1556064325-bd1048b532f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxib3Jyb3clMjBhc2slMjBsb2FufGVufDB8MHx8fDE3Njk3MjQwNzJ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПЕДИР ЭМПРЕШТАДУ — ПЕДРО просит в долг"
     },
     { 
         pt: "o entretenimento", 
         ru: "развлечение", 
         imageQuery: "entertainment fun leisure",
+        imageUrl: "https://images.unsplash.com/photo-1768121496213-6687124ce7ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxlbnRlcnRhaW5tZW50JTIwZnVuJTIwbGVpc3VyZXxlbnwwfDB8fHwxNzY5NzI0MDc0fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АНТРЕ (вход) в ТЕНТ с развлечениями — клоуны выскакивают и пугают!"
     },
     { 
         pt: "a lata de spray", 
         ru: "баллончик спрея", 
         imageQuery: "spray can aerosol",
+        imageUrl: "https://images.unsplash.com/photo-1553106364-741d67315829?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzcHJheSUyMGNhbiUyMGFlcm9zb2x8ZW58MHwwfHx8MTc2OTcyNDA3Nnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЛАТА де ШПРЕЙ — ЛАТА (банка) СПРЕЯ"
     },
     { 
         pt: "que nojo!", 
         ru: "как противно!", 
         imageQuery: "disgusting gross yuck",
+        imageUrl: "https://images.unsplash.com/photo-1730331775478-97f975342ced?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkaXNndXN0aW5nJTIwZ3Jvc3MlMjB5dWNrfGVufDB8MHx8fDE3Njk3MjQwNzh8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КЕ НОЖО! — НОЖ в еде — противно!"
     },
     { 
         pt: "comida georgiana", 
         ru: "грузинская еда", 
         imageQuery: "georgian food khachapuri",
+        imageUrl: "https://images.unsplash.com/photo-1659275798237-c46d251979bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxnZW9yZ2lhbiUyMGZvb2QlMjBraGFjaGFwdXJpfGVufDB8MHx8fDE3Njk3MjQwODB8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КОМИДА ЖОРЖИАНА — КОМИДА = еда"
     },
     { 
         pt: "sagrado", 
         ru: "священный", 
         imageQuery: "sacred holy divine",
+        imageUrl: "https://images.unsplash.com/photo-1629306712880-62aa32a78101?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzYWNyZWQlMjBob2x5JTIwZGl2aW5lfGVufDB8MHx8fDE3Njk3MjQwODJ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "САГРАДУ — САГа священная"
     },
     { 
         pt: "crocante", 
         ru: "хрустящий", 
         imageQuery: "crunchy crispy chips",
+        imageUrl: "https://images.unsplash.com/photo-1760997707695-f0b5527e5de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjcnVuY2h5JTIwY3Jpc3B5JTIwY2hpcHN8ZW58MHwwfHx8MTc2OTcyNDA4NHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КРОКАНТЕ — КРОКодил хрустит"
     },
     { 
         pt: "sou licenciada em", 
         ru: "у меня диплом по", 
         imageQuery: "degree diploma graduate",
+        imageUrl: "https://images.unsplash.com/photo-1627556704353-016baeb12c79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkZWdyZWUlMjBkaXBsb21hJTIwZ3JhZHVhdGV8ZW58MHwwfHx8MTc2OTcyNDA4Nnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "СОУ ЛИСЕНСИАДА — есть ЛИЦЕНЗИЯ (диплом)"
     },
     { 
         pt: "a riqueza", 
         ru: "богатство", 
         imageQuery: "wealth rich money gold",
+        imageUrl: "https://images.unsplash.com/photo-1610375461246-83df859d849d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3ZWFsdGglMjByaWNoJTIwbW9uZXklMjBnb2xkfGVufDB8MHx8fDE3Njk3MjQwODh8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "РИКЕЗА — РИКИ богатый"
     },
     { 
         pt: "a ameixa", 
         ru: "слива", 
         imageQuery: "plum fruit purple",
+        imageUrl: "https://images.unsplash.com/photo-1762328868487-3054874f5361?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwbHVtJTIwZnJ1aXQlMjBwdXJwbGV8ZW58MHwwfHx8MTc2OTcyNDA5MHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АМЕЙША — А! МЕЙША ест сливу"
     },
     { 
         pt: "prevenir", 
         ru: "предотвращать", 
         imageQuery: "prevent stop protect",
+        imageUrl: "https://images.unsplash.com/photo-1648949298999-982e36bb1c5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwcmV2ZW50JTIwc3RvcCUyMHByb3RlY3R8ZW58MHwwfHx8MTc2OTcyNDA5Mnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПРЕВЕНИР — ПРЕВЕНция, предотвращение"
     },
     { 
         pt: "a pena", 
         ru: "перо", 
         imageQuery: "feather bird quill",
+        imageUrl: "https://images.unsplash.com/photo-1697663580521-92fd2744d0ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmZWF0aGVyJTIwYmlyZCUyMHF1aWxsfGVufDB8MHx8fDE3Njk3MjQwOTR8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПЕНА — ПЕНа лёгкая как перо"
     },
     { 
         pt: "que pena", 
         ru: "как жаль", 
         imageQuery: "pity sorry sad",
+        imageUrl: "https://images.unsplash.com/photo-1707830324398-8b535eb6a313?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwaXR5JTIwc29ycnklMjBzYWR8ZW58MHwwfHx8MTc2OTcyNDA5Nnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КЕ ПЕНА — какая ПЕНА слёз = жаль"
     },
     // ===== ЧЕТВЁРТАЯ ПАРТИЯ =====
@@ -1120,36 +1176,42 @@ const VOCABULARY = [
         pt: "cabelo loiro", 
         ru: "светлые волосы", 
         imageQuery: "blond hair golden",
+        imageUrl: "https://images.unsplash.com/photo-1573748674540-69c6b511f812?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxibG9uZCUyMGhhaXIlMjBnb2xkZW58ZW58MHwwfHx8MTc2OTcyNDA5OHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАБЕЛУ ЛОЙРУ — КАБЕЛЬ ЛОЙяльно светлый"
     },
     { 
         pt: "comportar-se", 
         ru: "вести себя", 
         imageQuery: "behave behavior manners",
+        imageUrl: "https://images.unsplash.com/photo-1609106255719-9b792f5ea253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxiZWhhdmUlMjBiZWhhdmlvciUyMG1hbm5lcnN8ZW58MHwwfHx8MTc2OTcyNDEwMHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КОМПОРТАР-СЕ — КОМПОРТамент = поведение"
     },
     { 
         pt: "portar-se", 
         ru: "вести себя", 
         imageQuery: "behave conduct manners",
+        imageUrl: "https://images.unsplash.com/photo-1705020518968-a253ef0aebac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxiZWhhdmUlMjBjb25kdWN0JTIwbWFubmVyc3xlbnwwfDB8fHwxNzY5NzI0MTAyfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПОРТАР-СЕ — ПОРТной ведёт себя прилично"
     },
     { 
         pt: "a bicha", 
         ru: "очередь; квир", 
         imageQuery: "queue line waiting",
+        imageUrl: "https://images.unsplash.com/photo-1763619814380-1637cdf5f796?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxxdWV1ZSUyMGxpbmUlMjB3YWl0aW5nfGVufDB8MHx8fDE3Njk3MjQxMDR8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "БИША — БИШка стоит в очереди"
     },
     { 
         pt: "o objetivo", 
         ru: "цель", 
         imageQuery: "goal target objective",
+        imageUrl: "https://images.unsplash.com/photo-1767972463265-3668dd44bb87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxnb2FsJTIwdGFyZ2V0JTIwb2JqZWN0aXZlfGVufDB8MHx8fDE3Njk3MjQxMDZ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ОБЖЕктив камеры нацелен на ЦЕЛЬ — фотограф прыгает за идеальным кадром!"
     },
     { 
         pt: "a ovelha", 
         ru: "овца", 
         imageQuery: "sheep lamb wool",
+        imageUrl: "https://images.unsplash.com/photo-1719502044471-2187a7d36a81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzaGVlcCUyMGxhbWIlMjB3b29sfGVufDB8MHx8fDE3Njk3MjQxMDh8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ОВЕЛЬЯ — ОВЕЧКА Веля"
     },
     { 
@@ -1162,42 +1224,49 @@ const VOCABULARY = [
         pt: "vaidoso", 
         ru: "тщеславный", 
         imageQuery: "vain proud conceited",
+        imageUrl: "https://images.unsplash.com/photo-1731123359668-686234c1f5dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx2YWluJTIwcHJvdWQlMjBjb25jZWl0ZWR8ZW58MHwwfHx8MTc2OTcyNDExMnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ВАЙДОЗО — ВАЙ! ДОЗОР тщеславных"
     },
     { 
         pt: "os patins", 
         ru: "ролики", 
         imageQuery: "rollerblades skating wheels",
+        imageUrl: "https://images.unsplash.com/photo-1707126776012-43c753771f4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxyb2xsZXJibGFkZXMlMjBza2F0aW5nJTIwd2hlZWxzfGVufDB8MHx8fDE3Njk3MjQxMTR8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПАТИНШ — ПАТи на роликах"
     },
     { 
         pt: "girar", 
         ru: "вращаться", 
         imageQuery: "spin rotate turn",
+        imageUrl: "https://images.unsplash.com/photo-1622525759119-db152b643a0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzcGluJTIwcm90YXRlJTIwdHVybnxlbnwwfDB8fHwxNzY5NzI0MTE2fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЖИРАР — ЖИРА вращается на сковороде"
     },
     { 
         pt: "o escorrega", 
         ru: "горка (детская)", 
         imageQuery: "slide playground children",
+        imageUrl: "https://images.unsplash.com/photo-1605813968977-07f8b75c0bf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzbGlkZSUyMHBsYXlncm91bmQlMjBjaGlsZHJlbnxlbnwwfDB8fHwxNzY5NzI0MTE4fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭШКОРРЕГА — ЭСКОРТ с горки"
     },
     { 
         pt: "escorregar", 
         ru: "поскользнуться", 
         imageQuery: "slip slide fall",
+        imageUrl: "https://images.unsplash.com/photo-1691293882027-177e51726845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzbGlwJTIwc2xpZGUlMjBmYWxsfGVufDB8MHx8fDE3Njk3MjQxMjB8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭШКОРРЕГАР — ЭСКОРТ поскользнулся"
     },
     { 
         pt: "escorregadio", 
         ru: "скользкий", 
         imageQuery: "slippery wet floor",
+        imageUrl: "https://images.unsplash.com/photo-1762179698793-f87ba0639587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzbGlwcGVyeSUyMHdldCUyMGZsb29yfGVufDB8MHx8fDE3Njk3MjQxMjJ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭШКОРРЕГАДИО — ЭСКОРТ ГАДкий скользкий"
     },
     { 
         pt: "atrair", 
         ru: "привлекать", 
         imageQuery: "attract magnet pull",
+        imageUrl: "https://images.unsplash.com/photo-1741666998073-7df07563d4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhdHRyYWN0JTIwbWFnbmV0JTIwcHVsbHxlbnwwfDB8fHwxNzY5NzI0MTI0fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "А! ТРАктор ПРИТЯГИВАЕТ всех магнитом — люди летят к нему со всех сторон!"
     },
     { 
@@ -1210,6 +1279,7 @@ const VOCABULARY = [
         pt: "quem corre por gosto não cansa", 
         ru: "кто любит дело — не устаёт", 
         imageQuery: "passion work love motivation",
+        imageUrl: "https://images.unsplash.com/photo-1573288810105-cf416af9186d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwYXNzaW9uJTIwd29yayUyMGxvdmUlMjBtb3RpdmF0aW9ufGVufDB8MHx8fDE3Njk3MjQxMjh8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "Кто бежит с удовольствием — не устаёт"
     },
     { 
@@ -1222,6 +1292,7 @@ const VOCABULARY = [
         pt: "a desilusão", 
         ru: "разочарование", 
         imageQuery: "disappointment sad let down",
+        imageUrl: "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkaXNhcHBvaW50bWVudCUyMHNhZCUyMGxldCUyMGRvd258ZW58MHwwfHx8MTc2OTcyNDEzMnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ДЕЗИЛУЗАО — ДЕЗ-ИЛЛЮЗИЯ = разочарование"
     },
     { 
@@ -1234,60 +1305,70 @@ const VOCABULARY = [
         pt: "esgotados", 
         ru: "распроданы", 
         imageQuery: "sold out empty tickets",
+        imageUrl: "https://images.unsplash.com/photo-1616010650990-20e8c46a63ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzb2xkJTIwb3V0JTIwZW1wdHklMjB0aWNrZXRzfGVufDB8MHx8fDE3Njk3MjQxMzV8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭШГОТАДОШ — ЭШ! ГОТОВО! Распродано!"
     },
     { 
         pt: "bilhetes gratuitos", 
         ru: "бесплатные билеты", 
         imageQuery: "free tickets concert",
+        imageUrl: "https://images.unsplash.com/photo-1679130707518-bc6561f0a7b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmcmVlJTIwdGlja2V0cyUyMGNvbmNlcnR8ZW58MHwwfHx8MTc2OTcyNDEzN3ww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "БИЛЬЕТЕШ ГРАТУИТОШ — БИЛЕТЫ ГРАТИС"
     },
     { 
         pt: "a tourada", 
         ru: "коррида", 
         imageQuery: "bullfight bull arena",
+        imageUrl: "https://images.unsplash.com/photo-1759532078994-67f70adb2f4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxidWxsZmlnaHQlMjBidWxsJTIwYXJlbmF8ZW58MHwwfHx8MTc2OTcyNDEzOXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ТУРАДА — ТУР быка на арене"
     },
     { 
         pt: "o touro", 
         ru: "бык", 
         imageQuery: "bull horns animal",
+        imageUrl: "https://images.unsplash.com/photo-1723974306244-5d114d4d7ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxidWxsJTIwaG9ybnMlMjBhbmltYWx8ZW58MHwwfHx8MTc2OTcyNDE0MXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ТОУРУ — ТУР бычий"
     },
     { 
         pt: "infelizmente", 
         ru: "к сожалению", 
         imageQuery: "unfortunately sad regret",
+        imageUrl: "https://images.unsplash.com/photo-1707830324398-8b535eb6a313?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx1bmZvcnR1bmF0ZWx5JTIwc2FkJTIwcmVncmV0fGVufDB8MHx8fDE3Njk3MjQxNDN8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ИНФЕЛИШМЕНТЕ — ИН-ФЕЛИШ = несчастливо"
     },
     { 
         pt: "a greve geral", 
         ru: "всеобщая забастовка", 
         imageQuery: "general strike protest",
+        imageUrl: "https://images.unsplash.com/photo-1608576156180-4479395f7b30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxnZW5lcmFsJTIwc3RyaWtlJTIwcHJvdGVzdHxlbnwwfDB8fHwxNzY5NzI0MTQ1fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ГРЕВЕ ЖЕРАЛ — ГРЕВЦЫ ЖЁСТКО бастуют"
     },
     { 
         pt: "o fornecedor", 
         ru: "поставщик", 
         imageQuery: "supplier vendor business",
+        imageUrl: "https://images.unsplash.com/photo-1721041774700-1f3ca7160ade?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdXBwbGllciUyMHZlbmRvciUyMGJ1c2luZXNzfGVufDB8MHx8fDE3Njk3MjQxNDd8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ФОРНЕСЕДОР — ФОРНитура от ПОСТАВЩИКА"
     },
     { 
         pt: "fornecer", 
         ru: "поставлять", 
         imageQuery: "supply provide deliver",
+        imageUrl: "https://images.unsplash.com/photo-1598546937882-4fa25fa29418?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdXBwbHklMjBwcm92aWRlJTIwZGVsaXZlcnxlbnwwfDB8fHwxNzY5NzI0MTQ5fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ФОРНЕСЕР — ФОРНитуру поставлять"
     },
     { 
         pt: "a lã", 
         ru: "шерсть", 
         imageQuery: "wool yarn sheep",
+        imageUrl: "https://images.unsplash.com/photo-1624362774821-7676e1709acd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3b29sJTIweWFybiUyMHNoZWVwfGVufDB8MHx8fDE3Njk3MjQxNTF8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЛА — ЛАма даёт шерсть"
     },
     { 
         pt: "o algodão", 
         ru: "хлопок", 
         imageQuery: "cotton fabric soft",
+        imageUrl: "https://images.unsplash.com/photo-1733714655023-915dff8cf4de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjb3R0b24lMjBmYWJyaWMlMjBzb2Z0fGVufDB8MHx8fDE3Njk3MjQxNTN8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АЛГОДАО — АЛГОритм ДАО хлопка"
     },
     { 
@@ -2126,7 +2207,8 @@ const THEMED_LISTS = {
             { pt: "o tribunal", ru: "суд", imageQuery: "court tribunal", soundHint: "ТРИБУНАЛ — ТРИБУНАЛ!" },
             { pt: "o juiz", ru: "судья", imageQuery: "judge", soundHint: "ЖУИШ — ДЖАДЖ!" },
             { pt: "a sentença", ru: "приговор", imageQuery: "sentence verdict", soundHint: "СЕНТЭНСА — СЕНТЕНЦИЯ (приговор)!" },
-            { pt: "a pena", ru: "наказание", imageQuery: "punishment penalty", soundHint: "ПЕНА — ПЕНАЛЬТИ!" },
+            { pt: "a pena", ru: "наказание", imageQuery: "punishment penalty",
+        imageUrl: "https://images.unsplash.com/photo-1697663580521-92fd2744d0ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmZWF0aGVyJTIwYmlyZCUyMHF1aWxsfGVufDB8MHx8fDE3Njk3MjQwOTR8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ПЕНА — ПЕНАЛЬТИ!" },
             { pt: "a prisão", ru: "тюрьма", imageQuery: "prison jail", soundHint: "ПРИЗАУ — ПРИЗОН!" },
             { pt: "a liberdade condicional", ru: "условное освобождение", imageQuery: "parole", soundHint: "ЛИБЕРДАДЕ КОНДИСИОНАЛ — ЛИБЕРТИ с КОНДИЦИЕЙ!" },
             { pt: "a indemnização", ru: "компенсация", imageQuery: "compensation damages", soundHint: "ИНДЕМНИЗАСАУ — ИНДЕМНИТИ!" },
