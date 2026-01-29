@@ -1037,49 +1037,71 @@ function renderWordLists() {
         </div>
     `;
     
-    // Тематические списки (встроенные) — группируем по категориям
+    // Тематические списки (встроенные) — группируем по УРОВНЯМ (A2, B1, B2)
     if (typeof THEMED_LISTS !== 'undefined') {
-        html += `<div class="list-section-title">Temáticos</div>`;
+        html += `<div class="list-section-title">Por nível</div>`;
         
-        // Собираем категории
-        const categories = {};
+        // Определяем уровень из ID списка (medico_a2 → a2)
+        const getLevelFromId = (id) => {
+            const match = id.match(/_([ab][12])$/);
+            return match ? match[1] : 'other';
+        };
+        
+        // Названия уровней
+        const levelNames = {
+            'a2': '📗 A2 — Básico',
+            'b1': '📘 B1 — Intermédio', 
+            'b2': '📙 B2 — Avançado'
+        };
+        
+        // Порядок уровней
+        const levelOrder = ['a2', 'b1', 'b2'];
+        
+        // Собираем списки по уровням
+        const levels = {};
         for (const [id, list] of Object.entries(THEMED_LISTS)) {
-            const cat = list.category || 'other';
-            if (!categories[cat]) {
-                categories[cat] = {
-                    name: list.categoryName || cat,
+            const level = getLevelFromId(id);
+            if (!levels[level]) {
+                levels[level] = {
+                    name: levelNames[level] || level.toUpperCase(),
                     items: []
                 };
             }
-            categories[cat].items.push({ id, list });
+            levels[level].items.push({ id, list });
         }
         
-        // Определяем какая категория раскрыта (по текущему выбранному списку)
-        let expandedCategory = safeStorage.getItem('expandedCategory') || '';
-        const currentList = THEMED_LISTS[currentId];
-        if (currentList && currentList.category) {
-            expandedCategory = currentList.category;
+        // Определяем какой уровень раскрыт (по текущему выбранному списку)
+        let expandedLevel = safeStorage.getItem('expandedCategory') || '';
+        const currentListLevel = getLevelFromId(currentId);
+        if (THEMED_LISTS[currentId]) {
+            expandedLevel = currentListLevel;
         }
         
-        // Рендерим каждую категорию
-        for (const [catId, cat] of Object.entries(categories)) {
-            const isExpanded = expandedCategory === catId;
-            const totalWords = cat.items.reduce((sum, item) => sum + item.list.words.length, 0);
+        // Рендерим каждый уровень в правильном порядке
+        for (const levelId of levelOrder) {
+            const level = levels[levelId];
+            if (!level) continue;
+            
+            const isExpanded = expandedLevel === levelId;
+            const totalWords = level.items.reduce((sum, item) => sum + item.list.words.length, 0);
             
             html += `
                 <div class="category-group ${isExpanded ? 'expanded' : ''}">
-                    <div class="category-header" data-category="${catId}">
+                    <div class="category-header" data-category="${levelId}">
                         <span class="category-arrow">▶</span>
-                        <span class="category-name">${cat.name}</span>
+                        <span class="category-name">${level.name}</span>
                         <span class="list-count">${totalWords}</span>
                     </div>
                     <div class="category-items">
             `;
             
-            for (const { id, list } of cat.items) {
+            // Сортируем темы по имени категории
+            level.items.sort((a, b) => (a.list.categoryName || '').localeCompare(b.list.categoryName || ''));
+            
+            for (const { id, list } of level.items) {
                 html += `
                     <div class="word-list-item sub-item ${currentId === id ? 'active' : ''}" data-list-id="${id}">
-                        <span class="list-name">${list.name}</span>
+                        <span class="list-name">${list.categoryName}</span>
                         <span class="list-count">${list.words.length}</span>
                     </div>
                 `;
