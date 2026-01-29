@@ -1292,12 +1292,14 @@ elements.restartBtn.addEventListener('click', showStartScreen);
 
 elements.modeBtns.forEach(btn => {
     btn.addEventListener('click', () => {
+        const oldMode = state.mode;
         elements.modeBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         state.mode = btn.dataset.mode;
         
-        // Если мы в середине сессии — обновить текущую карточку
-        if (state.currentSession.length > 0 && !elements.cardScreen.classList.contains('hidden')) {
+        // Если мы в середине сессии и режим реально изменился — обновить карточку
+        if (oldMode !== state.mode && state.currentSession && state.currentSession.length > 0 && state.currentIndex < state.currentSession.length) {
+            console.log('Mode changed mid-session, refreshing card');
             showCard();
         }
     });
