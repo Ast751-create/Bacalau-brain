@@ -756,7 +756,22 @@ async function loadImage(word) {
 // ==================== GAME LOGIC ====================
 function generateChoices(correctWord) {
     const choices = [correctWord];
-    const vocab = getCurrentVocabulary();
+    
+    // В режиме повтора берём слова из всех источников
+    let vocab = getCurrentVocabulary();
+    
+    // Добавляем слова из VOCABULARY если текущий список маленький
+    if (vocab.length < 10 && typeof VOCABULARY !== 'undefined') {
+        vocab = [...vocab, ...VOCABULARY];
+    }
+    
+    // Добавляем слова из THEMED_LISTS
+    if (vocab.length < 10 && typeof THEMED_LISTS !== 'undefined') {
+        for (const list of Object.values(THEMED_LISTS)) {
+            vocab = [...vocab, ...list.words];
+        }
+    }
+    
     const otherWords = vocab.filter(w => w.pt !== correctWord.pt);
     const shuffled = otherWords.sort(() => Math.random() - 0.5);
     
@@ -1590,13 +1605,18 @@ if (repeatPanelToggle) {
 
 if (repeatStartBtn) {
     repeatStartBtn.addEventListener('click', () => {
+        console.log('Repeat button clicked');
         startRepeatSession();
         repeatPanel.classList.remove('expanded');
     });
+} else {
+    console.error('repeatStartBtn not found!');
 }
 
 function startRepeatSession() {
+    console.log('startRepeatSession called');
     const repeatWords = getRepeatWordsArray();
+    console.log('Repeat words:', repeatWords);
     
     if (repeatWords.length === 0) {
         alert('Нет слов для повторения!');
@@ -1604,13 +1624,29 @@ function startRepeatSession() {
     }
     
     // Создаём специальную сессию из слов для повторения
-    state.currentSession = repeatWords.map(w => ({
-        pt: w.pt,
-        ru: w.ru,
-        imageQuery: w.ru,
-        soundHint: '',
-        isRepeatMode: true // маркер что это режим повтора
-    }));
+    // Ищем полные данные слова в оригинальных списках
+    state.currentSession = repeatWords.map(w => {
+        // Пробуем найти слово в тематических списках
+        let fullWord = null;
+        if (typeof THEMED_LISTS !== 'undefined') {
+            for (const list of Object.values(THEMED_LISTS)) {
+                fullWord = list.words.find(word => word.pt === w.pt);
+                if (fullWord) break;
+            }
+        }
+        // Пробуем в основном словаре
+        if (!fullWord && typeof VOCABULARY !== 'undefined') {
+            fullWord = VOCABULARY.find(word => word.pt === w.pt);
+        }
+        
+        return {
+            pt: w.pt,
+            ru: w.ru,
+            imageQuery: fullWord?.imageQuery || w.ru,
+            soundHint: fullWord?.soundHint || '',
+            isRepeatMode: true
+        };
+    });
     
     // Перемешиваем
     for (let i = state.currentSession.length - 1; i > 0; i--) {
