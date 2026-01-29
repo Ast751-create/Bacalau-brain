@@ -1959,7 +1959,7 @@ const THEMED_LISTS = {
             { pt: "a avaria", ru: "поломка", imageQuery: "breakdown", soundHint: "АВАРИЯ — АВАРИЯ!" },
             { pt: "o canalizador", ru: "сантехник", imageQuery: "plumber", soundHint: "КАНАЛИЗАДОР — КАНАЛИЗАЦИЮ чинит!" },
             { pt: "o eletricista", ru: "электрик", imageQuery: "electrician", soundHint: "ЭЛЕТРИШИШТА — ЭЛЕКТРИК!" },
-            { pt: "a fuga de água", ru: "протечка", imageQuery: "water leak", soundHint: "ФУГА ДЕ АГУА — ФУГА воды!" },
+            { pt: "a fuga de água", ru: "протечка", imageQuery: "water leak", soundHint: "Вода играет ФУГУ Баха и УБЕГАЕТ из трубы — сосед снизу в ужасе!" },
             { pt: "entupido/a", ru: "засорённый", imageQuery: "clogged", soundHint: "ЭНТУПИДУ — в ТУПИК зашла труба!" },
             { pt: "o bolor", ru: "плесень", imageQuery: "mold", soundHint: "БОЛОР — БОЛЬ от плесени!" },
             { pt: "a humidade", ru: "влажность", imageQuery: "humidity", soundHint: "УМИДАДЕ — HUMID (влажно)!" },
