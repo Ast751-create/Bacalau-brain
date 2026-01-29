@@ -389,6 +389,134 @@ function getMnemonic(word) {
     return mnemonics[word.pt] || word.mnemonic || word.soundHint || null;
 }
 
+// ==================== REPEAT WORDS ====================
+function getRepeatWords() {
+    const stored = safeStorage.getItem('pt-trainer-repeat-words');
+    return stored ? JSON.parse(stored) : {};
+}
+
+function saveRepeatWords(words) {
+    safeStorage.setItem('pt-trainer-repeat-words', JSON.stringify(words));
+}
+
+function addToRepeatList(word, source) {
+    const repeatWords = getRepeatWords();
+    const key = word.pt;
+    
+    if (repeatWords[key]) {
+        // Уже есть — сбрасываем счётчик правильных ответов
+        repeatWords[key].correctStreak = 0;
+    } else {
+        // Добавляем новое слово
+        repeatWords[key] = {
+            pt: word.pt,
+            ru: word.ru,
+            source: source || getCurrentListId(),
+            correctStreak: 0,
+            addedAt: Date.now()
+        };
+    }
+    
+    saveRepeatWords(repeatWords);
+    renderRepeatPanel();
+}
+
+function removeFromRepeatList(wordPt) {
+    const repeatWords = getRepeatWords();
+    delete repeatWords[wordPt];
+    saveRepeatWords(repeatWords);
+    renderRepeatPanel();
+}
+
+function updateRepeatWordStreak(word, isCorrect) {
+    const repeatWords = getRepeatWords();
+    const key = word.pt;
+    
+    if (!repeatWords[key]) return;
+    
+    if (isCorrect) {
+        repeatWords[key].correctStreak++;
+        
+        // Если 2 раза подряд правильно — удаляем из списка
+        if (repeatWords[key].correctStreak >= 2) {
+            delete repeatWords[key];
+            showToast('✅ Слово выучено!');
+        }
+    } else {
+        repeatWords[key].correctStreak = 0;
+    }
+    
+    saveRepeatWords(repeatWords);
+    renderRepeatPanel();
+}
+
+function isInRepeatList(word) {
+    const repeatWords = getRepeatWords();
+    return !!repeatWords[word.pt];
+}
+
+function getRepeatWordsArray() {
+    const repeatWords = getRepeatWords();
+    return Object.values(repeatWords);
+}
+
+function renderRepeatPanel() {
+    const repeatWords = getRepeatWords();
+    const words = Object.values(repeatWords);
+    const count = words.length;
+    
+    const countEl = document.getElementById('repeat-count');
+    const listEl = document.getElementById('repeat-words-list');
+    const startBtn = document.getElementById('repeat-start-btn');
+    const panel = document.getElementById('repeat-panel');
+    
+    if (!countEl || !listEl) return;
+    
+    // Обновляем счётчик
+    countEl.textContent = count;
+    countEl.classList.toggle('empty', count === 0);
+    
+    // Скрываем панель если нет слов
+    if (count === 0) {
+        panel.classList.add('hidden');
+        return;
+    }
+    
+    panel.classList.remove('hidden');
+    
+    // Рендерим слова
+    if (count === 0) {
+        listEl.innerHTML = '<div class="repeat-words-empty">Пока пусто — ошибайся чаще! 😄</div>';
+        startBtn.disabled = true;
+    } else {
+        listEl.innerHTML = words.map(word => `
+            <div class="repeat-word-chip">
+                <span>${word.pt}</span>
+                <span class="streak-dot ${word.correctStreak >= 1 ? 'active' : ''}"></span>
+                <span class="streak-dot ${word.correctStreak >= 2 ? 'active' : ''}"></span>
+            </div>
+        `).join('');
+        startBtn.disabled = false;
+    }
+}
+
+function showToast(message) {
+    // Простой тост
+    const existing = document.querySelector('.toast');
+    if (existing) existing.remove();
+    
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.textContent = message;
+    document.body.appendChild(toast);
+    
+    setTimeout(() => toast.classList.add('show'), 10);
+    setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 300);
+    }, 2000);
+}
+
 // ==================== TEXT-TO-SPEECH ====================
 let ptPTVoice = null;
 
@@ -752,6 +880,11 @@ function handleChoice(btn, correctWord) {
         createConfetti();
         
         speak(correctWord.pt);
+        
+        // Если слово в списке повторений — обновляем streak
+        if (isInRepeatList(correctWord)) {
+            updateRepeatWordStreak(correctWord, true);
+        }
     } else {
         btn.classList.add('wrong');
         elements.card.classList.add('shake');
@@ -764,6 +897,9 @@ function handleChoice(btn, correctWord) {
         playSound('wrong');
         
         setTimeout(() => speak(correctWord.pt), 500);
+        
+        // Добавляем в список повторений
+        addToRepeatList(correctWord, getCurrentListId());
     }
     
     // Мнемоника
@@ -1441,6 +1577,66 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
+// ==================== REPEAT PANEL ====================
+const repeatPanel = document.getElementById('repeat-panel');
+const repeatPanelToggle = document.getElementById('repeat-panel-toggle');
+const repeatStartBtn = document.getElementById('repeat-start-btn');
+
+if (repeatPanelToggle) {
+    repeatPanelToggle.addEventListener('click', () => {
+        repeatPanel.classList.toggle('expanded');
+    });
+}
+
+if (repeatStartBtn) {
+    repeatStartBtn.addEventListener('click', () => {
+        startRepeatSession();
+        repeatPanel.classList.remove('expanded');
+    });
+}
+
+function startRepeatSession() {
+    const repeatWords = getRepeatWordsArray();
+    
+    if (repeatWords.length === 0) {
+        alert('Нет слов для повторения!');
+        return;
+    }
+    
+    // Создаём специальную сессию из слов для повторения
+    state.currentSession = repeatWords.map(w => ({
+        pt: w.pt,
+        ru: w.ru,
+        imageQuery: w.ru,
+        soundHint: '',
+        isRepeatMode: true // маркер что это режим повтора
+    }));
+    
+    // Перемешиваем
+    for (let i = state.currentSession.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [state.currentSession[i], state.currentSession[j]] = [state.currentSession[j], state.currentSession[i]];
+    }
+    
+    // Ограничиваем до 20 слов
+    if (state.currentSession.length > CONFIG.WORDS_PER_SESSION) {
+        state.currentSession = state.currentSession.slice(0, CONFIG.WORDS_PER_SESSION);
+    }
+    
+    state.currentIndex = 0;
+    state.sessionCorrect = 0;
+    state.sessionWrong = 0;
+    state.history = [];
+    
+    elements.startScreen.classList.add('hidden');
+    elements.cardScreen.classList.remove('hidden');
+    elements.progressContainer.classList.remove('hidden');
+    
+    updateProgressBar();
+    showCard();
+}
+
 // ==================== INIT ====================
 initTTS();
 showStartScreen();
+renderRepeatPanel();
