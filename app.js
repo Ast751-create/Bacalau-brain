@@ -153,6 +153,7 @@ function createWordList(name, wordsText) {
             const parts = line.split(splitRegex);
             const pt = parts[0]?.trim();
             const ru = parts.slice(1).join('-').trim();
+            console.log('Parsing line:', line, '→', pt, '/', ru); // debug
             return {
                 pt: pt || '',
                 ru: ru || '',
@@ -161,6 +162,12 @@ function createWordList(name, wordsText) {
             };
         })
         .filter(w => w.pt && w.ru);
+    
+    console.log('Creating list with', words.length, 'words'); // debug
+    
+    if (words.length === 0) {
+        return null; // не создаём пустой список
+    }
     
     lists[id] = { name, words, created: Date.now() };
     saveWordLists(lists);
@@ -1171,6 +1178,10 @@ async function saveList() {
         listId = editingListId;
     } else {
         listId = createWordList(name, wordsText);
+        if (!listId) {
+            // createWordList вернул null — слова не распознались
+            return;
+        }
         setCurrentListId(listId);
     }
     
@@ -1199,7 +1210,11 @@ async function saveList() {
     }
     
     closeListModal();
+    renderWordLists(); // обновляем сайдбар сразу
     showStartScreen();
+    
+    // Показываем сколько слов сохранено
+    console.log('Saved list with', words.length, 'words');
 }
 
 // ==================== SETTINGS MODAL ====================
