@@ -144,16 +144,20 @@ function createWordList(name, wordsText) {
     
     const words = wordsText.split('\n')
         .map(line => line.trim())
-        .filter(line => line && line.includes(' - '))
+        .filter(line => line && line.includes('-'))
         .map(line => {
-            const [pt, ru] = line.split(' - ').map(s => s.trim());
+            // Поддерживаем разные форматы: "pt - ru", "pt-ru", "pt- ru", "pt -ru"
+            const parts = line.split(/\s*-\s*/);
+            const pt = parts[0]?.trim();
+            const ru = parts.slice(1).join('-').trim(); // на случай если в переводе есть тире
             return {
-                pt: pt,
-                ru: ru,
-                imageQuery: ru, // используем перевод для поиска картинки
+                pt: pt || '',
+                ru: ru || '',
+                imageQuery: ru || '', // используем перевод для поиска картинки
                 soundHint: ''
             };
-        });
+        })
+        .filter(w => w.pt && w.ru); // убираем пустые
     
     lists[id] = { name, words, created: Date.now() };
     saveWordLists(lists);
@@ -166,16 +170,19 @@ function updateWordList(id, name, wordsText) {
     
     const words = wordsText.split('\n')
         .map(line => line.trim())
-        .filter(line => line && line.includes(' - '))
+        .filter(line => line && line.includes('-'))
         .map(line => {
-            const [pt, ru] = line.split(' - ').map(s => s.trim());
+            const parts = line.split(/\s*-\s*/);
+            const pt = parts[0]?.trim();
+            const ru = parts.slice(1).join('-').trim();
             return {
-                pt: pt,
-                ru: ru,
-                imageQuery: ru,
+                pt: pt || '',
+                ru: ru || '',
+                imageQuery: ru || '',
                 soundHint: ''
             };
-        });
+        })
+        .filter(w => w.pt && w.ru);
     
     lists[id].name = name;
     lists[id].words = words;
@@ -1136,11 +1143,14 @@ async function saveList() {
     // Parse words to get the list
     const words = wordsText.split('\n')
         .map(line => line.trim())
-        .filter(line => line && line.includes(' - '))
+        .filter(line => line && line.includes('-'))
         .map(line => {
-            const [pt, ru] = line.split(' - ').map(s => s.trim());
-            return { pt, ru };
-        });
+            const parts = line.split(/\s*-\s*/);
+            const pt = parts[0]?.trim();
+            const ru = parts.slice(1).join('-').trim();
+            return { pt: pt || '', ru: ru || '' };
+        })
+        .filter(w => w.pt && w.ru);
     
     let listId;
     if (editingListId) {
