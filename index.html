@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacalhau Brain — учи португальский</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>📚 Списки</h2>
+                <button class="sidebar-toggle" id="sidebar-toggle">◀</button>
+            </div>
+            
+            <div class="word-lists" id="word-lists">
+                <!-- Списки генерируются JS -->
+            </div>
+            
+            <div class="sidebar-actions">
+                <button class="btn btn-primary btn-small" id="create-list-btn">+ Новый список</button>
+            </div>
+        </aside>
+
+        <!-- Main App -->
+        <div class="app">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-top">
+                    <button class="menu-btn" id="menu-btn" title="Списки">☰</button>
+                    <h1><svg class="logo-fish" width="32" height="32" viewBox="0 0 100 100">
+<defs><clipPath id="fishBody"><ellipse cx="45" cy="50" rx="35" ry="25"/></clipPath></defs>
+<g clip-path="url(#fishBody)"><rect x="10" y="25" width="25" height="50" fill="#006600"/><rect x="35" y="25" width="45" height="50" fill="#FF0000"/></g>
+<ellipse cx="45" cy="50" rx="35" ry="25" fill="none" stroke="#333" stroke-width="2"/>
+<polygon points="80,50 100,30 100,70" fill="#FF0000"/>
+<circle cx="25" cy="45" r="5" fill="#FFD700"/>
+</svg> Bacalhau Brain</h1>
+                    <button class="settings-btn" id="settings-btn" title="Настройки">⚙️</button>
+                </div>
+                <div class="stats-bar">
+                    <span class="stat" id="stat-learned">Изучено: <strong>0</strong></span>
+                    <span class="stat" id="stat-streak">Серия: <strong>0</strong></span>
+                    <span class="stat" id="stat-today">Сегодня: <strong>0</strong></span>
+                </div>
+            </header>
+
+            <!-- Settings Modal -->
+            <div class="modal hidden" id="settings-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Настройки</h2>
+                        <button class="close-btn" id="close-settings">×</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="setting-group">
+                            <label for="auto-advance">Авто-переход</label>
+                            <div class="setting-row">
+                                <input type="checkbox" id="auto-advance" checked>
+                                <span>Автоматически через</span>
+                                <input type="number" id="auto-advance-delay" value="5" min="2" max="30" style="width:60px">
+                                <span>сек</span>
+                            </div>
+                        </div>
+
+                        <div class="setting-group">
+                            <label for="openai-key">OpenAI API Key (опционально)</label>
+                            <p class="setting-hint">Для автоматической генерации мнемоник</p>
+                            <input type="password" id="openai-key" placeholder="sk-...">
+                            <button class="btn btn-secondary btn-small" id="save-api-key">Сохранить</button>
+                        </div>
+
+                        <div class="setting-group">
+                            <button class="btn btn-primary" id="generate-all-mnemonics">
+                                🤖 Сгенерировать все мнемоники
+                            </button>
+                            <p class="setting-hint" id="mnemonic-status"></p>
+                        </div>
+
+                        <div class="setting-group danger-zone">
+                            <button class="btn btn-danger btn-small" id="reset-progress">Сбросить прогресс</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Create/Edit List Modal -->
+            <div class="modal hidden" id="list-modal">
+                <div class="modal-content modal-large">
+                    <div class="modal-header">
+                        <h2 id="list-modal-title">Новый список</h2>
+                        <button class="close-btn" id="close-list-modal">×</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="setting-group">
+                            <label for="list-name">Название списка</label>
+                            <input type="text" id="list-name" placeholder="Мой список">
+                        </div>
+                        
+                        <div class="setting-group">
+                            <label>Слова</label>
+                            <p class="setting-hint">Формат: португальское слово | перевод (по одному на строку)</p>
+                            <textarea id="list-words" rows="10" placeholder="olá | привет
+obrigado | спасибо
+bom dia | доброе утро"></textarea>
+                        </div>
+
+                        <p class="setting-hint" id="list-api-hint">
+                            💡 Мнемоники сгенерируются автоматически, если добавлен OpenAI API key в настройках
+                        </p>
+                        
+                        <div class="modal-actions">
+                            <button class="btn btn-secondary" id="cancel-list">Отмена</button>
+                            <button class="btn btn-primary" id="save-list">Сохранить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mode Selection -->
+            <nav class="mode-nav" id="mode-nav">
+                <button class="mode-btn active" data-mode="pt-ru">PT → RU</button>
+                <button class="mode-btn" data-mode="ru-pt">RU → PT</button>
+                <button class="mode-btn" data-mode="image">🖼️ → Слово</button>
+            </nav>
+
+            <!-- Main Card Area -->
+            <main class="card-container">
+                <!-- Start Screen -->
+                <div class="screen start-screen" id="start-screen">
+                    <div class="start-content">
+                        <h2 id="start-greeting">Бакаляу сам себя не выучит!</h2>
+                        <p>Текущий список: <strong id="current-list-name">Основной</strong></p>
+                        <p>Слов в списке: <strong id="total-words">0</strong></p>
+                        <p>На повторение: <strong id="due-words">0</strong></p>
+                        <button class="btn btn-primary btn-large" id="start-btn">Начать</button>
+                    </div>
+                </div>
+
+                <!-- Card Screen -->
+                <div class="screen card-screen hidden" id="card-screen">
+                    <div class="card" id="card">
+                        <div class="card-image" id="card-image">
+                            <div class="image-placeholder">Загрузка...</div>
+                        </div>
+                        <div class="card-word" id="card-word">palavra</div>
+                        <div class="hint-container" id="hint-container">
+                            <button class="hint-btn" id="hint-btn">💡 Показать подсказку</button>
+                            <div class="card-mnemonic hidden" id="card-mnemonic"></div>
+                        </div>
+                    </div>
+
+                    <div class="choices" id="choices">
+                        <!-- Buttons generated by JS -->
+                    </div>
+
+                    <div class="feedback hidden" id="feedback">
+                        <div class="feedback-content">
+                            <span class="feedback-icon"></span>
+                            <span class="feedback-text"></span>
+                        </div>
+                        <div class="feedback-timer" id="feedback-timer">
+                            <div class="timer-bar" id="timer-bar"></div>
+                        </div>
+                        <div class="nav-buttons">
+                            <button class="btn btn-secondary" id="prev-btn">← Назад</button>
+                            <button class="btn btn-secondary" id="next-btn">Дальше →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results Screen -->
+                <div class="screen results-screen hidden" id="results-screen">
+                    <div class="results-content">
+                        <h2>Сессия завершена!</h2>
+                        <div class="results-stats">
+                            <div class="result-item">
+                                <span class="result-number" id="result-correct">0</span>
+                                <span class="result-label">Правильно</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-number" id="result-wrong">0</span>
+                                <span class="result-label">Ошибки</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-number" id="result-accuracy">0%</span>
+                                <span class="result-label">Точность</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-large" id="restart-btn">Ещё раз</button>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Progress Bar -->
+            <div class="progress-bar-container hidden" id="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+                <span class="progress-text" id="progress-text">0 / 0</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="vocabulary.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
