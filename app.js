@@ -584,13 +584,11 @@ function getDisplayText(word, type) {
         switch (state.mode) {
             case 'pt-ru': return word.pt;
             case 'ru-pt': return word.ru;
-            case 'image': return '';
         }
     } else {
         switch (state.mode) {
             case 'pt-ru': return word.ru;
             case 'ru-pt': return word.pt;
-            case 'image': return word.pt;
         }
     }
 }
