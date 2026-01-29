@@ -1030,12 +1030,7 @@ function renderWordLists() {
     const lists = getWordLists();
     const currentId = getCurrentListId();
     
-    let html = `
-        <div class="word-list-item ${currentId === 'default' ? 'active' : ''}" data-list-id="default">
-            <span class="list-name">📚 Vocabulário Geral</span>
-            <span class="list-count">${VOCABULARY.length}</span>
-        </div>
-    `;
+    let html = '';
     
     // Тематические списки (встроенные) — группируем по УРОВНЯМ (A2, B1, B2)
     if (typeof THEMED_LISTS !== 'undefined') {
@@ -1113,6 +1108,15 @@ function renderWordLists() {
             `;
         }
     }
+    
+    // Vocabulário Geral — после уровней
+    html += `
+        <div class="list-section-title">Outro</div>
+        <div class="word-list-item ${currentId === 'default' ? 'active' : ''}" data-list-id="default">
+            <span class="list-name">📚 Vocabulário Geral</span>
+            <span class="list-count">${VOCABULARY.length}</span>
+        </div>
+    `;
     
     // Пользовательские списки
     const userListsArray = Object.entries(lists);
