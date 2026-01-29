@@ -1,6 +1,6 @@
 // ==================== CONFIG ====================
 const CONFIG = {
-    WORDS_PER_SESSION: 10,
+    WORDS_PER_SESSION: 20,
     CHOICES_COUNT: 4,
     NEW_WORD_INTERVAL: 1,
     EASY_MULTIPLIER: 2.5,
@@ -849,16 +849,31 @@ const START_GREETINGS = [
     "Hoje é o dia! Сегодня тот самый день! 🚀"
 ];
 
+const CONTINUE_MESSAGES = [
+    "Продолжаем! 💪",
+    "Вперёд! 🚀",
+    "Ещё 20 слов! 📚",
+    "Não pares! 🔥",
+    "Ты на волне! 🌊",
+    "Следующий раунд! 🎯"
+];
+
+let isFirstSession = true;
+
 function showStartScreen() {
     elements.startScreen.classList.remove('hidden');
     elements.cardScreen.classList.add('hidden');
     elements.resultsScreen.classList.add('hidden');
     elements.progressContainer.classList.add('hidden');
     
-    // Рандомное приветствие
+    // Рандомное приветствие (разное для первого раза и продолжения)
     const greetingEl = document.getElementById('start-greeting');
     if (greetingEl) {
-        greetingEl.textContent = START_GREETINGS[Math.floor(Math.random() * START_GREETINGS.length)];
+        if (isFirstSession) {
+            greetingEl.textContent = START_GREETINGS[Math.floor(Math.random() * START_GREETINGS.length)];
+        } else {
+            greetingEl.textContent = CONTINUE_MESSAGES[Math.floor(Math.random() * CONTINUE_MESSAGES.length)];
+        }
     }
     
     const vocab = getCurrentVocabulary();
@@ -891,6 +906,8 @@ function startSession() {
         alert('Все слова изучены на сегодня! Возвращайся завтра 🎉');
         return;
     }
+    
+    isFirstSession = false; // После первой сессии показываем короткие сообщения
     
     state.currentIndex = 0;
     state.sessionCorrect = 0;

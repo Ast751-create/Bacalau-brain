@@ -1903,7 +1903,7 @@ const THEMED_LISTS = {
     "aluguer_a2": {
         name: "Básico",
         category: "aluguer",
-        categoryName: "🏠 Aluguer",
+        categoryName: "🏠 Casa",
         words: [
             { pt: "a casa", ru: "дом", imageQuery: "house", soundHint: "КАЗА — КАЗАРМА — дом!" },
             { pt: "o apartamento", ru: "квартира", imageQuery: "apartment", soundHint: "АПАРТАМЕНТУ — АПАРТАМЕНТЫ!" },
@@ -1940,7 +1940,7 @@ const THEMED_LISTS = {
     "aluguer_b1": {
         name: "Intermédio",
         category: "aluguer",
-        categoryName: "🏠 Aluguer",
+        categoryName: "🏠 Casa",
         words: [
             { pt: "arrendar/alugar", ru: "снимать жильё", imageQuery: "renting", soundHint: "АЛУГАР — АЛУГАРЬ снимает!" },
             { pt: "o contrato de arrendamento", ru: "договор аренды", imageQuery: "lease agreement", soundHint: "КОНТРАТУ ДЕ АРРЕНДАМЕНТУ — КОНТРАКТ АРЕНДЫ!" },
@@ -1982,7 +1982,7 @@ const THEMED_LISTS = {
     "aluguer_b2": {
         name: "Avançado",
         category: "aluguer",
-        categoryName: "🏠 Aluguer",
+        categoryName: "🏠 Casa",
         words: [
             { pt: "o mercado imobiliário", ru: "рынок недвижимости", imageQuery: "real estate market", soundHint: "МЕРКАДУ ИМОБИЛИАРИУ — МАРКЕТ ИМОБИЛИ (недвижки)!" },
             { pt: "a agência imobiliária", ru: "агентство недвижимости", imageQuery: "real estate agency", soundHint: "АЖЭНСИЯ ИМОБИЛИАРИЯ — АГЕНЦИЯ ИМОБИЛИ!" },
