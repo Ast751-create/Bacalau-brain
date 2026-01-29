@@ -913,19 +913,61 @@ function renderWordLists() {
     
     let html = `
         <div class="word-list-item ${currentId === 'default' ? 'active' : ''}" data-list-id="default">
-            <span class="list-name">📚 Основной</span>
+            <span class="list-name">📚 Vocabulário Geral</span>
             <span class="list-count">${VOCABULARY.length}</span>
         </div>
     `;
     
-    // Тематические списки (встроенные)
+    // Тематические списки (встроенные) — группируем по категориям
     if (typeof THEMED_LISTS !== 'undefined') {
-        html += `<div class="list-section-title">Тематические</div>`;
+        html += `<div class="list-section-title">Temáticos</div>`;
+        
+        // Собираем категории
+        const categories = {};
         for (const [id, list] of Object.entries(THEMED_LISTS)) {
+            const cat = list.category || 'other';
+            if (!categories[cat]) {
+                categories[cat] = {
+                    name: list.categoryName || cat,
+                    items: []
+                };
+            }
+            categories[cat].items.push({ id, list });
+        }
+        
+        // Определяем какая категория раскрыта (по текущему выбранному списку)
+        let expandedCategory = localStorage.getItem('expandedCategory') || '';
+        const currentList = THEMED_LISTS[currentId];
+        if (currentList && currentList.category) {
+            expandedCategory = currentList.category;
+        }
+        
+        // Рендерим каждую категорию
+        for (const [catId, cat] of Object.entries(categories)) {
+            const isExpanded = expandedCategory === catId;
+            const totalWords = cat.items.reduce((sum, item) => sum + item.list.words.length, 0);
+            
             html += `
-                <div class="word-list-item ${currentId === id ? 'active' : ''}" data-list-id="${id}">
-                    <span class="list-name">${list.name}</span>
-                    <span class="list-count">${list.words.length}</span>
+                <div class="category-group ${isExpanded ? 'expanded' : ''}">
+                    <div class="category-header" data-category="${catId}">
+                        <span class="category-arrow">▶</span>
+                        <span class="category-name">${cat.name}</span>
+                        <span class="list-count">${totalWords}</span>
+                    </div>
+                    <div class="category-items">
+            `;
+            
+            for (const { id, list } of cat.items) {
+                html += `
+                    <div class="word-list-item sub-item ${currentId === id ? 'active' : ''}" data-list-id="${id}">
+                        <span class="list-name">${list.name}</span>
+                        <span class="list-count">${list.words.length}</span>
+                    </div>
+                `;
+            }
+            
+            html += `
+                    </div>
                 </div>
             `;
         }
@@ -934,15 +976,15 @@ function renderWordLists() {
     // Пользовательские списки
     const userListsArray = Object.entries(lists);
     if (userListsArray.length > 0) {
-        html += `<div class="list-section-title">Мои списки</div>`;
+        html += `<div class="list-section-title">As minhas listas</div>`;
         for (const [id, list] of userListsArray) {
             html += `
                 <div class="word-list-item ${currentId === id ? 'active' : ''}" data-list-id="${id}">
                     <span class="list-name">📝 ${list.name}</span>
                     <span class="list-count">${list.words.length}</span>
                     <div class="list-actions">
-                        <button class="list-action-btn edit-list-btn" data-id="${id}" title="Редактировать">✏️</button>
-                        <button class="list-action-btn delete-list-btn" data-id="${id}" title="Удалить">🗑️</button>
+                        <button class="list-action-btn edit-list-btn" data-id="${id}" title="Editar">✏️</button>
+                        <button class="list-action-btn delete-list-btn" data-id="${id}" title="Eliminar">🗑️</button>
                     </div>
                 </div>
             `;
@@ -950,6 +992,28 @@ function renderWordLists() {
     }
     
     elements.wordLists.innerHTML = html;
+    
+    // Обработчики клика на категории (раскрытие/скрытие)
+    elements.wordLists.querySelectorAll('.category-header').forEach(header => {
+        header.addEventListener('click', () => {
+            const catId = header.dataset.category;
+            const group = header.closest('.category-group');
+            const wasExpanded = group.classList.contains('expanded');
+            
+            // Закрываем все
+            elements.wordLists.querySelectorAll('.category-group').forEach(g => {
+                g.classList.remove('expanded');
+            });
+            
+            // Открываем текущую (если была закрыта)
+            if (!wasExpanded) {
+                group.classList.add('expanded');
+                localStorage.setItem('expandedCategory', catId);
+            } else {
+                localStorage.removeItem('expandedCategory');
+            }
+        });
+    });
     
     // Обработчики клика на списки
     elements.wordLists.querySelectorAll('.word-list-item').forEach(item => {

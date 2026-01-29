@@ -1532,7 +1532,9 @@ const VOCABULARY = [
 const THEMED_LISTS = {
     // ========== МЕДИЦИНА ==========
     "medico_a2": {
-        name: "🏥 Медицина A2",
+        name: "Básico",
+        category: "medicina",
+        categoryName: "🏥 Medicina",
         words: [
             { pt: "a cabeça", ru: "голова", imageQuery: "head", soundHint: "КАБЕСА — КАБЕСОН (большая голова) думает!" },
             { pt: "o braço", ru: "рука (от плеча)", imageQuery: "arm", soundHint: "БРАСУ — БРАСлет на руке!" },
@@ -1567,7 +1569,9 @@ const THEMED_LISTS = {
         ]
     },
     "medico_b1": {
-        name: "🏥 Медицина B1",
+        name: "Intermédio",
+        category: "medicina",
+        categoryName: "🏥 Medicina",
         words: [
             { pt: "a dor de cabeça", ru: "головная боль", imageQuery: "headache pain", soundHint: "ДОР ДЕ КАБЕСА — ДЫРКА в КАБЕСЕ (голове) болит!" },
             { pt: "a tontura", ru: "головокружение", imageQuery: "dizziness vertigo", soundHint: "ТОНТУРА — ТОНна кружится вокруг головы!" },
@@ -1607,7 +1611,9 @@ const THEMED_LISTS = {
         ]
     },
     "medico_b2": {
-        name: "🏥 Медицина B2",
+        name: "Avançado",
+        category: "medicina",
+        categoryName: "🏥 Medicina",
         words: [
             { pt: "o diagnóstico diferencial", ru: "дифференциальный диагноз", imageQuery: "medical diagnosis", soundHint: "ДИАГНОСТИКУ ДИФЕРЕНСИАЛ — разные ДИАГНОЗЫ сравниваем!" },
             { pt: "a recaída", ru: "рецидив", imageQuery: "relapse illness", soundHint: "РЕКАИДА — РЕКА ИДА — болезнь вернулась как река!" },
@@ -1649,7 +1655,9 @@ const THEMED_LISTS = {
 
     // ========== РЕСТОРАН ==========
     "restaurante_a2": {
-        name: "🍽️ Ресторан A2",
+        name: "Básico",
+        category: "restaurante",
+        categoryName: "🍽️ Restaurante",
         words: [
             { pt: "o restaurante", ru: "ресторан", imageQuery: "restaurant", soundHint: "РЕШТАУРАНТЕ — РЕСТОРАН!" },
             { pt: "o café", ru: "кафе", imageQuery: "cafe coffee shop", soundHint: "КАФЕ — КАФЕ!" },
@@ -1684,7 +1692,9 @@ const THEMED_LISTS = {
         ]
     },
     "restaurante_b1": {
-        name: "🍽️ Ресторан B1",
+        name: "Intermédio",
+        category: "restaurante",
+        categoryName: "🍽️ Restaurante",
         words: [
             { pt: "reservar uma mesa", ru: "забронировать столик", imageQuery: "restaurant reservation", soundHint: "РЕЗЕРВАР УМА МЕЗА — РЕЗЕРВАЦИЯ стола!" },
             { pt: "a ementa", ru: "меню", imageQuery: "restaurant menu", soundHint: "ЭМЕНТА — МЕНЮ с МЕНТОЛОМ!" },
@@ -1724,7 +1734,9 @@ const THEMED_LISTS = {
         ]
     },
     "restaurante_b2": {
-        name: "🍽️ Ресторан B2",
+        name: "Avançado",
+        category: "restaurante",
+        categoryName: "🍽️ Restaurante",
         words: [
             { pt: "a gastronomia", ru: "гастрономия", imageQuery: "gastronomy", soundHint: "ГАШТРОНОМИЯ — ГАСТРОНОМИЯ!" },
             { pt: "o chef", ru: "шеф-повар", imageQuery: "chef cooking", soundHint: "ШЕФ — ШЕФ-повар!" },
@@ -1766,7 +1778,9 @@ const THEMED_LISTS = {
 
     // ========== АЭРОПОРТ ==========
     "aeroporto_a2": {
-        name: "✈️ Аэропорт A2",
+        name: "Básico",
+        category: "aeroporto",
+        categoryName: "✈️ Aeroporto",
         words: [
             { pt: "o aeroporto", ru: "аэропорт", imageQuery: "airport", soundHint: "АЭРОПОРТУ — АЭРОПОРТ!" },
             { pt: "o avião", ru: "самолёт", imageQuery: "airplane", soundHint: "АВИАУ — АВИАЦИЯ!" },
@@ -1801,7 +1815,9 @@ const THEMED_LISTS = {
         ]
     },
     "aeroporto_b1": {
-        name: "✈️ Аэропорт B1",
+        name: "Intermédio",
+        category: "aeroporto",
+        categoryName: "✈️ Aeroporto",
         words: [
             { pt: "o voo direto", ru: "прямой рейс", imageQuery: "direct flight", soundHint: "ВОУ ДИРЕКТУ — ДИРЕКТОР летит напрямую!" },
             { pt: "o voo com escala", ru: "рейс с пересадкой", imageQuery: "connecting flight", soundHint: "ВОУ КОМ ЭШКАЛА — с пересадкой по ШКАЛЕ!" },
@@ -1841,7 +1857,9 @@ const THEMED_LISTS = {
         ]
     },
     "aeroporto_b2": {
-        name: "✈️ Аэропорт B2",
+        name: "Avançado",
+        category: "aeroporto",
+        categoryName: "✈️ Aeroporto",
         words: [
             { pt: "o espaço aéreo", ru: "воздушное пространство", imageQuery: "airspace", soundHint: "ЭШПАСУ АЭРЕУ — ЭСПАС (пространство) АЭРО!" },
             { pt: "a rota aérea", ru: "воздушный маршрут", imageQuery: "flight route", soundHint: "РОТА АЭРЕА — РОТА (маршрут) в воздухе!" },
@@ -1883,7 +1901,9 @@ const THEMED_LISTS = {
 
     // ========== АРЕНДА ==========
     "aluguer_a2": {
-        name: "🏠 Аренда A2",
+        name: "Básico",
+        category: "aluguer",
+        categoryName: "🏠 Aluguer",
         words: [
             { pt: "a casa", ru: "дом", imageQuery: "house", soundHint: "КАЗА — КАЗАРМА — дом!" },
             { pt: "o apartamento", ru: "квартира", imageQuery: "apartment", soundHint: "АПАРТАМЕНТУ — АПАРТАМЕНТЫ!" },
@@ -1918,7 +1938,9 @@ const THEMED_LISTS = {
         ]
     },
     "aluguer_b1": {
-        name: "🏠 Аренда B1",
+        name: "Intermédio",
+        category: "aluguer",
+        categoryName: "🏠 Aluguer",
         words: [
             { pt: "arrendar/alugar", ru: "снимать жильё", imageQuery: "renting", soundHint: "АЛУГАР — АЛУГАРЬ снимает!" },
             { pt: "o contrato de arrendamento", ru: "договор аренды", imageQuery: "lease agreement", soundHint: "КОНТРАТУ ДЕ АРРЕНДАМЕНТУ — КОНТРАКТ АРЕНДЫ!" },
@@ -1958,7 +1980,9 @@ const THEMED_LISTS = {
         ]
     },
     "aluguer_b2": {
-        name: "🏠 Аренда B2",
+        name: "Avançado",
+        category: "aluguer",
+        categoryName: "🏠 Aluguer",
         words: [
             { pt: "o mercado imobiliário", ru: "рынок недвижимости", imageQuery: "real estate market", soundHint: "МЕРКАДУ ИМОБИЛИАРИУ — МАРКЕТ ИМОБИЛИ (недвижки)!" },
             { pt: "a agência imobiliária", ru: "агентство недвижимости", imageQuery: "real estate agency", soundHint: "АЖЭНСИЯ ИМОБИЛИАРИЯ — АГЕНЦИЯ ИМОБИЛИ!" },
