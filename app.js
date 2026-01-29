@@ -142,22 +142,25 @@ function createWordList(name, wordsText) {
     const lists = getWordLists();
     const id = 'list_' + Date.now();
     
+    // Поддерживаем все виды тире: - – —
+    const dashRegex = /[-–—]/;
+    const splitRegex = /\s*[-–—]\s*/;
+    
     const words = wordsText.split('\n')
         .map(line => line.trim())
-        .filter(line => line && line.includes('-'))
+        .filter(line => line && dashRegex.test(line))
         .map(line => {
-            // Поддерживаем разные форматы: "pt - ru", "pt-ru", "pt- ru", "pt -ru"
-            const parts = line.split(/\s*-\s*/);
+            const parts = line.split(splitRegex);
             const pt = parts[0]?.trim();
-            const ru = parts.slice(1).join('-').trim(); // на случай если в переводе есть тире
+            const ru = parts.slice(1).join('-').trim();
             return {
                 pt: pt || '',
                 ru: ru || '',
-                imageQuery: ru || '', // используем перевод для поиска картинки
+                imageQuery: ru || '',
                 soundHint: ''
             };
         })
-        .filter(w => w.pt && w.ru); // убираем пустые
+        .filter(w => w.pt && w.ru);
     
     lists[id] = { name, words, created: Date.now() };
     saveWordLists(lists);
@@ -168,11 +171,14 @@ function updateWordList(id, name, wordsText) {
     const lists = getWordLists();
     if (!lists[id]) return;
     
+    const dashRegex = /[-–—]/;
+    const splitRegex = /\s*[-–—]\s*/;
+    
     const words = wordsText.split('\n')
         .map(line => line.trim())
-        .filter(line => line && line.includes('-'))
+        .filter(line => line && dashRegex.test(line))
         .map(line => {
-            const parts = line.split(/\s*-\s*/);
+            const parts = line.split(splitRegex);
             const pt = parts[0]?.trim();
             const ru = parts.slice(1).join('-').trim();
             return {
@@ -1140,17 +1146,24 @@ async function saveList() {
         return;
     }
     
-    // Parse words to get the list
+    // Parse words to get the list (поддерживаем все виды тире)
+    const dashRegex = /[-–—]/;
+    const splitRegex = /\s*[-–—]\s*/;
     const words = wordsText.split('\n')
         .map(line => line.trim())
-        .filter(line => line && line.includes('-'))
+        .filter(line => line && dashRegex.test(line))
         .map(line => {
-            const parts = line.split(/\s*-\s*/);
+            const parts = line.split(splitRegex);
             const pt = parts[0]?.trim();
             const ru = parts.slice(1).join('-').trim();
             return { pt: pt || '', ru: ru || '' };
         })
         .filter(w => w.pt && w.ru);
+    
+    if (words.length === 0) {
+        alert('Не удалось распознать слова. Используй формат:\nслово - перевод\n(каждое с новой строки)');
+        return;
+    }
     
     let listId;
     if (editingListId) {
