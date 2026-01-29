@@ -1295,6 +1295,11 @@ elements.modeBtns.forEach(btn => {
         elements.modeBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         state.mode = btn.dataset.mode;
+        
+        // Если мы в середине сессии — обновить текущую карточку
+        if (state.currentSession.length > 0 && !elements.cardScreen.classList.contains('hidden')) {
+            showCard();
+        }
     });
 });
 
