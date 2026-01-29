@@ -144,9 +144,9 @@ function createWordList(name, wordsText) {
     
     const words = wordsText.split('\n')
         .map(line => line.trim())
-        .filter(line => line && line.includes('|'))
+        .filter(line => line && line.includes(' - '))
         .map(line => {
-            const [pt, ru] = line.split('|').map(s => s.trim());
+            const [pt, ru] = line.split(' - ').map(s => s.trim());
             return {
                 pt: pt,
                 ru: ru,
@@ -166,9 +166,9 @@ function updateWordList(id, name, wordsText) {
     
     const words = wordsText.split('\n')
         .map(line => line.trim())
-        .filter(line => line && line.includes('|'))
+        .filter(line => line && line.includes(' - '))
         .map(line => {
-            const [pt, ru] = line.split('|').map(s => s.trim());
+            const [pt, ru] = line.split(' - ').map(s => s.trim());
             return {
                 pt: pt,
                 ru: ru,
@@ -1107,7 +1107,7 @@ function openEditListModal(id) {
     
     document.getElementById('list-modal-title').textContent = 'Редактировать список';
     document.getElementById('list-name').value = list.name;
-    document.getElementById('list-words').value = list.words.map(w => `${w.pt} | ${w.ru}`).join('\n');
+    document.getElementById('list-words').value = list.words.map(w => `${w.pt} - ${w.ru}`).join('\n');
     updateListModalApiHint();
     document.getElementById('list-modal').classList.remove('hidden');
 }
@@ -1136,9 +1136,9 @@ async function saveList() {
     // Parse words to get the list
     const words = wordsText.split('\n')
         .map(line => line.trim())
-        .filter(line => line && line.includes('|'))
+        .filter(line => line && line.includes(' - '))
         .map(line => {
-            const [pt, ru] = line.split('|').map(s => s.trim());
+            const [pt, ru] = line.split(' - ').map(s => s.trim());
             return { pt, ru };
         });
     
