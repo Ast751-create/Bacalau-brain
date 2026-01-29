@@ -353,12 +353,14 @@ const VOCABULARY = [
         pt: "soltar", 
         ru: "отпускать", 
         imageQuery: "release let go free",
+        imageUrl: "https://images.unsplash.com/photo-1600783486034-4faaa227e01a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxyZWxlYXNlJTIwbGV0JTIwZ28lMjBmcmVlfGVufDB8MHx8fDE3Njk3MDcyOTN8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "СОЛЬ ТАРелку отпустила"
     },
     { 
         pt: "a oficina", 
         ru: "мастерская, автосервис", 
         imageQuery: "workshop garage mechanic",
+        imageUrl: "https://images.unsplash.com/photo-1599256871679-6a154745680b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3b3Jrc2hvcCUyMGdhcmFnZSUyMG1lY2hhbmljfGVufDB8MHx8fDE3Njk3MDcyOTR8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ОФИС + СИНА = мастерская"
     },
     { 
@@ -371,18 +373,21 @@ const VOCABULARY = [
         pt: "capaz", 
         ru: "способный", 
         imageQuery: "capable able skilled",
+        imageUrl: "https://images.unsplash.com/photo-1559911352-816690ce34cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjYXBhYmxlJTIwYWJsZSUyMHNraWxsZWR8ZW58MHwwfHx8MTc2OTcwNzI5OHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАПЕЦ какой способный!"
     },
     { 
         pt: "cometer erros", 
         ru: "совершать ошибки", 
         imageQuery: "mistake error wrong",
+        imageUrl: "https://images.unsplash.com/photo-1565184944956-70a161db60f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxtaXN0YWtlJTIwZXJyb3IlMjB3cm9uZ3xlbnwwfDB8fHwxNzY5NzA3MzAwfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КОМЕТА с ЭРОС-ом — ошибка орбиты"
     },
     { 
         pt: "estar à vontade", 
         ru: "чувствовать себя комфортно", 
         imageQuery: "comfortable relaxed cozy",
+        imageUrl: "https://images.unsplash.com/photo-1765918895026-753fec81b959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjb21mb3J0YWJsZSUyMHJlbGF4ZWQlMjBjb3p5fGVufDB8MHx8fDE3Njk3MDczMDJ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭСТАР а ВОНТАДЕ — ВСТАТЬ удобно"
     },
     { 
@@ -401,24 +406,28 @@ const VOCABULARY = [
         pt: "é improvável", 
         ru: "маловероятно", 
         imageQuery: "unlikely improbable doubt",
+        imageUrl: "https://images.unsplash.com/photo-1568573607914-9c9d34a5e127?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx1bmxpa2VseSUyMGltcHJvYmFibGUlMjBkb3VidHxlbnwwfDB8fHwxNzY5NzA3MzA4fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ИМ-ПРОВЕРЬ — маловероятно проверишь"
     },
     { 
         pt: "votar", 
         ru: "голосовать", 
         imageQuery: "vote election ballot",
+        imageUrl: "https://images.unsplash.com/photo-1595126731003-755959b6baf8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx2b3RlJTIwZWxlY3Rpb24lMjBiYWxsb3R8ZW58MHwwfHx8MTc2OTcwNzMxMHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ВОТАР = VOTE (голосовать)"
     },
     { 
         pt: "a testemunha", 
         ru: "свидетель", 
         imageQuery: "witness court testimony",
+        imageUrl: "https://images.unsplash.com/photo-1568092806323-8ec13dfa9b92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3aXRuZXNzJTIwY291cnQlMjB0ZXN0aW1vbnl8ZW58MHwwfHx8MTc2OTcwNzMxMnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ТЕСТЬ МУНЬКА — свидетель на свадьбе"
     },
     { 
         pt: "acreditar", 
         ru: "верить", 
         imageQuery: "believe trust faith",
+        imageUrl: "https://images.unsplash.com/photo-1579028055657-90417f188257?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxiZWxpZXZlJTIwdHJ1c3QlMjBmYWl0aHxlbnwwfDB8fHwxNzY5NzA3MzE0fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "А! КРЕДИТ АР — верю в кредит"
     },
     { 
@@ -431,12 +440,14 @@ const VOCABULARY = [
         pt: "duvidar", 
         ru: "сомневаться", 
         imageQuery: "doubt question uncertain",
+        imageUrl: "https://images.unsplash.com/photo-1740817747908-7b12b6145a66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkb3VidCUyMHF1ZXN0aW9uJTIwdW5jZXJ0YWlufGVufDB8MHx8fDE3Njk3MDczMTh8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ДУ ВИДАР — ДВА ВИДА = сомневаюсь какой"
     },
     { 
         pt: "apanhar o escaldão", 
         ru: "получить солнечный ожог", 
         imageQuery: "sunburn sun skin red",
+        imageUrl: "https://images.unsplash.com/photo-1683975095875-fab62ccaddb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdW5idXJuJTIwc3VuJTIwc2tpbiUyMHJlZHxlbnwwfDB8fHwxNzY5NzA3MzIwfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АПАНЬЯ ЭСКАЛЬДАО — обжёгся на ЭСКАЛАТОРЕ"
     },
     { 
@@ -455,48 +466,56 @@ const VOCABULARY = [
         pt: "itens", 
         ru: "предметы", 
         imageQuery: "items objects things",
+        imageUrl: "https://images.unsplash.com/photo-1521499892833-773a6c6fd0b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxpdGVtcyUyMG9iamVjdHMlMjB0aGluZ3N8ZW58MHwwfHx8MTc2OTcwNzMyNnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ИТЕНС = ITEMS (предметы)"
     },
     { 
         pt: "o carregador de telemóvel", 
         ru: "зарядка для телефона", 
         imageQuery: "phone charger cable",
+        imageUrl: "https://images.unsplash.com/photo-1731616103600-3fe7ccdc5a59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwaG9uZSUyMGNoYXJnZXIlMjBjYWJsZXxlbnwwfDB8fHwxNzY5NzA3MzI4fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАРРЕГАДОР — заКАРРячить телефон"
     },
     { 
         pt: "a carga", 
         ru: "заряд", 
         imageQuery: "charge battery power",
+        imageUrl: "https://images.unsplash.com/photo-1458007683879-47560d7e33c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjaGFyZ2UlMjBiYXR0ZXJ5JTIwcG93ZXJ8ZW58MHwwfHx8MTc2OTcwNzMzMHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАРГА — ЗАРЯД КАРГо"
     },
     { 
         pt: "carregar", 
         ru: "заряжать; нажимать", 
         imageQuery: "charge press load",
+        imageUrl: "https://images.unsplash.com/photo-1757728769016-3d144293a089?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjaGFyZ2UlMjBwcmVzcyUyMGxvYWR8ZW58MHwwfHx8MTc2OTcwNzMzMnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАРРЕГАР — заКАРРячить батарею"
     },
     { 
         pt: "o penteado", 
         ru: "причёска", 
         imageQuery: "hairstyle hair salon",
+        imageUrl: "https://images.unsplash.com/photo-1550791752-97b2f57d2b15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxoYWlyc3R5bGUlMjBoYWlyJTIwc2Fsb258ZW58MHwwfHx8MTc2OTcwNzMzNHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПЕНТЕАДО — ПЕНка для укладки"
     },
     { 
         pt: "o cabelo preso", 
         ru: "собранные волосы", 
         imageQuery: "ponytail tied hair",
+        imageUrl: "https://images.unsplash.com/photo-1601938219471-fb3393955f15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwb255dGFpbCUyMHRpZWQlMjBoYWlyfGVufDB8MHx8fDE3Njk3MDczMzV8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАБЕЛО ПРЕЗО — КАБЕЛЬ ПРИВЯЗан как волосы"
     },
     { 
         pt: "o rabo de cavalo", 
         ru: "хвостик (причёска)", 
         imageQuery: "ponytail horse tail",
+        imageUrl: "https://images.unsplash.com/photo-1713471187137-b8223509b539?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwb255dGFpbCUyMGhvcnNlJTIwdGFpbHxlbnwwfDB8fHwxNzY5NzA3MzM3fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "РАБО де КАВАЛО — хвост КАВАЛЕРА"
     },
     { 
         pt: "dispensar", 
         ru: "увольнять, обходиться без", 
         imageQuery: "dismiss fire without",
+        imageUrl: "https://images.unsplash.com/photo-1517594422361-5eeb8ae275a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkaXNtaXNzJTIwZmlyZSUyMHdpdGhvdXR8ZW58MHwwfHx8MTc2OTcwNzM0MHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ДИСПЕНСАР — ДИСПЕНСЕР уволен"
     },
     { 
@@ -509,12 +528,14 @@ const VOCABULARY = [
         pt: "escaldar", 
         ru: "обжечь", 
         imageQuery: "burn scald hot",
+        imageUrl: "https://images.unsplash.com/photo-1631364758416-d30d8c3a926f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxidXJuJTIwc2NhbGQlMjBob3R8ZW58MHwwfHx8MTc2OTcwNzM0NHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭСКАЛДАР — на ЭСКАЛАТОРЕ обжёгся"
     },
     { 
         pt: "queimar", 
         ru: "жечь, поджигать", 
         imageQuery: "burn fire flame",
+        imageUrl: "https://images.unsplash.com/photo-1554311781-71942bb4e59d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxidXJuJTIwZmlyZSUyMGZsYW1lfGVufDB8MHx8fDE3Njk3MDczNDZ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КЕЙМАР — КАЙМАК горит на сковороде"
     },
     { 
@@ -527,30 +548,35 @@ const VOCABULARY = [
         pt: "o orifício", 
         ru: "отверстие", 
         imageQuery: "hole opening aperture",
+        imageUrl: "https://images.unsplash.com/photo-1657137966767-757d6ed7ac6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxob2xlJTIwb3BlbmluZyUyMGFwZXJ0dXJlfGVufDB8MHx8fDE3Njk3MDczNTB8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ОРИФИСИО — ОФИС с отверстием"
     },
     { 
         pt: "os pneus", 
         ru: "шины", 
         imageQuery: "tire wheel car",
+        imageUrl: "https://images.unsplash.com/photo-1703778981898-162e53237591?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx0aXJlJTIwd2hlZWwlMjBjYXJ8ZW58MHwwfHx8MTc2OTcwNzM1Mnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПНЕУС — ПНЕВМОшина"
     },
     { 
         pt: "o nadador", 
         ru: "пловец", 
         imageQuery: "swimmer swimming pool",
+        imageUrl: "https://images.unsplash.com/photo-1640135055069-26852ff4c2cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzd2ltbWVyJTIwc3dpbW1pbmclMjBwb29sfGVufDB8MHx8fDE3Njk3MDczNTR8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "НАДАДОР — НАД водой АДОР плывёт"
     },
     { 
         pt: "temido", 
         ru: "пугающий, которого боятся", 
         imageQuery: "feared scary intimidating",
+        imageUrl: "https://images.unsplash.com/photo-1765513275789-3fa26f20badc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmZWFyZWQlMjBzY2FyeSUyMGludGltaWRhdGluZ3xlbnwwfDB8fHwxNzY5NzA3MzU2fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ТЕМИДО — в ТЕМНОТЕ страшно"
     },
     { 
         pt: "o dispositivo", 
         ru: "устройство", 
         imageQuery: "device gadget technology",
+        imageUrl: "https://images.unsplash.com/photo-1761645446921-27d641efa0b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkZXZpY2UlMjBnYWRnZXQlMjB0ZWNobm9sb2d5fGVufDB8MHx8fDE3Njk3MDczNTh8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ДИСПОЗИТИВО — ДИСПОЗИЦИЯ устройства"
     },
     { 
@@ -563,30 +589,35 @@ const VOCABULARY = [
         pt: "o cabo", 
         ru: "кабель, провод", 
         imageQuery: "cable wire cord",
+        imageUrl: "https://images.unsplash.com/photo-1584809923235-fabdba83d1df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjYWJsZSUyMHdpcmUlMjBjb3JkfGVufDB8MHx8fDE3Njk3MDczNjJ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАБО = КАБЕЛЬ"
     },
     { 
         pt: "a fé", 
         ru: "вера", 
         imageQuery: "faith belief religion",
+        imageUrl: "https://images.unsplash.com/photo-1607545666078-25f57ed744b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmYWl0aCUyMGJlbGllZiUyMHJlbGlnaW9ufGVufDB8MHx8fDE3Njk3MDczNjN8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ФЕ — ФЕя верит в чудо"
     },
     { 
         pt: "as pessoas de Leste", 
         ru: "люди с востока", 
         imageQuery: "eastern people asia",
+        imageUrl: "https://images.unsplash.com/photo-1597349594381-8879f0a1206b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxlYXN0ZXJuJTIwcGVvcGxlJTIwYXNpYXxlbnwwfDB8fHwxNzY5NzA3MzY1fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПЕСОАШ де ЛЕШТ — люди с ЛЕСТИ (востока)"
     },
     { 
         pt: "sugerir", 
         ru: "предлагать", 
         imageQuery: "suggest recommend propose",
+        imageUrl: "https://images.unsplash.com/photo-1617376322364-09b7706ef949?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdWdnZXN0JTIwcmVjb21tZW5kJTIwcHJvcG9zZXxlbnwwfDB8fHwxNzY5NzA3MzY3fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "СУЖЕРИР — СУ! ЖЕРИ — предложи сыр!"
     },
     { 
         pt: "fugir", 
         ru: "убегать", 
         imageQuery: "escape run away flee",
+        imageUrl: "https://images.unsplash.com/photo-1721884258632-a93d386ababf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxlc2NhcGUlMjBydW4lMjBhd2F5JTIwZmxlZXxlbnwwfDB8fHwxNzY5NzA3MzY5fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ФУЖИР — ФУ! ЖИР убегает с тела"
     },
     // ===== ВТОРАЯ ПАРТИЯ =====
@@ -600,12 +631,14 @@ const VOCABULARY = [
         pt: "as baleias", 
         ru: "киты", 
         imageQuery: "whale ocean sea",
+        imageUrl: "https://images.unsplash.com/photo-1530099531892-0932c5324757?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3aGFsZSUyMG9jZWFuJTIwc2VhfGVufDB8MHx8fDE3Njk3MDczNzN8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "БАЛЕЙАШ — БАЛЕТ китов в океане"
     },
     { 
         pt: "o aluguer", 
         ru: "аренда", 
         imageQuery: "rent lease rental",
+        imageUrl: "https://images.unsplash.com/photo-1760898002480-a89156856aa0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxyZW50JTIwbGVhc2UlMjByZW50YWx8ZW58MHwwfHx8MTc2OTcwNzM3NXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АЛУГЕР — АЛУ! ГЕРой арендует"
     },
     { 
@@ -618,18 +651,21 @@ const VOCABULARY = [
         pt: "a vedação", 
         ru: "забор", 
         imageQuery: "fence barrier wall",
+        imageUrl: "https://images.unsplash.com/photo-1624285928647-75f414ca15d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmZW5jZSUyMGJhcnJpZXIlMjB3YWxsfGVufDB8MHx8fDE3Njk3MDczNzl8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ВЕДАСАО — ВЕДАть за забором"
     },
     { 
         pt: "o colchão", 
         ru: "матрас", 
         imageQuery: "mattress bed sleep",
+        imageUrl: "https://images.unsplash.com/photo-1743748978909-169017ab0720?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxtYXR0cmVzcyUyMGJlZCUyMHNsZWVwfGVufDB8MHx8fDE3Njk3MDczODF8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КОЛШАО — КОЛется на матрасе"
     },
     { 
         pt: "ano novo, vida nova", 
         ru: "новый год, новая жизнь", 
         imageQuery: "new year celebration fresh start",
+        imageUrl: "https://images.unsplash.com/photo-1765667525131-70f351668b41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxuZXclMjB5ZWFyJTIwY2VsZWJyYXRpb24lMjBmcmVzaCUyMHN0YXJ0fGVufDB8MHx8fDE3Njk3MDczODN8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АНО НОВО, ВИДА НОВА — прямой перевод"
     },
     { 
@@ -642,12 +678,14 @@ const VOCABULARY = [
         pt: "reprovar", 
         ru: "провалить (экзамен)", 
         imageQuery: "fail exam test",
+        imageUrl: "https://images.unsplash.com/photo-1659353884792-c2c21739820d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmYWlsJTIwZXhhbSUyMHRlc3R8ZW58MHwwfHx8MTc2OTcwNzM4N3ww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "РЕПРОВАР — РЕ-ПРОВАЛ экзамена"
     },
     { 
         pt: "andar a ler", 
         ru: "читать в последнее время", 
         imageQuery: "reading book lately",
+        imageUrl: "https://images.unsplash.com/photo-1693128871234-178319fca4bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxyZWFkaW5nJTIwYm9vayUyMGxhdGVseXxlbnwwfDB8fHwxNzY5NzA3Mzg4fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АНДАР а ЛЕР — ХОДИТЬ и ЧИТАТЬ"
     },
     { 
@@ -1495,146 +1533,146 @@ const THEMED_LISTS = {
     "medico": {
         name: "🏥 No consultório médico",
         words: [
-            { pt: "a dor de cabeça", ru: "головная боль", imageQuery: "headache pain" },
-            { pt: "a tontura", ru: "головокружение", imageQuery: "dizziness vertigo" },
-            { pt: "a náusea", ru: "тошнота", imageQuery: "nausea sick" },
-            { pt: "vomitar", ru: "рвать (тошнить)", imageQuery: "vomit sick" },
-            { pt: "a febre", ru: "температура/лихорадка", imageQuery: "fever thermometer" },
-            { pt: "os calafrios", ru: "озноб", imageQuery: "chills cold shiver" },
-            { pt: "a tosse", ru: "кашель", imageQuery: "cough sick" },
-            { pt: "tossir", ru: "кашлять", imageQuery: "coughing person" },
-            { pt: "espirrar", ru: "чихать", imageQuery: "sneezing person" },
-            { pt: "o corrimento nasal", ru: "насморк", imageQuery: "runny nose" },
-            { pt: "a garganta inflamada", ru: "воспалённое горло", imageQuery: "sore throat" },
-            { pt: "engolir", ru: "глотать", imageQuery: "swallowing" },
-            { pt: "a tensão arterial", ru: "артериальное давление", imageQuery: "blood pressure" },
-            { pt: "medir a tensão", ru: "измерить давление", imageQuery: "measuring blood pressure" },
-            { pt: "a análise de sangue", ru: "анализ крови", imageQuery: "blood test" },
-            { pt: "a receita médica", ru: "рецепт врача", imageQuery: "medical prescription" },
-            { pt: "o diagnóstico", ru: "диагноз", imageQuery: "diagnosis doctor" },
-            { pt: "a inflamação", ru: "воспаление", imageQuery: "inflammation swelling" },
-            { pt: "inchado/a", ru: "опухший", imageQuery: "swollen body part" },
-            { pt: "a alergia", ru: "аллергия", imageQuery: "allergy reaction" },
-            { pt: "a erupção cutânea", ru: "сыпь на коже", imageQuery: "skin rash" },
-            { pt: "a comichão", ru: "зуд", imageQuery: "itching scratching" },
-            { pt: "coçar", ru: "чесать", imageQuery: "scratching skin" },
-            { pt: "a dor nas costas", ru: "боль в спине", imageQuery: "back pain" },
-            { pt: "a coluna vertebral", ru: "позвоночник", imageQuery: "spine backbone" },
-            { pt: "a articulação", ru: "сустав", imageQuery: "joint body" },
-            { pt: "o músculo", ru: "мышца", imageQuery: "muscle anatomy" },
-            { pt: "a entorse", ru: "растяжение", imageQuery: "sprain ankle" },
-            { pt: "a fratura", ru: "перелом", imageQuery: "bone fracture xray" },
-            { pt: "o gesso", ru: "гипс", imageQuery: "plaster cast" },
-            { pt: "os pontos", ru: "швы", imageQuery: "stitches wound" },
-            { pt: "a cicatriz", ru: "шрам", imageQuery: "scar skin" },
-            { pt: "desmaiar", ru: "терять сознание", imageQuery: "fainting person" },
-            { pt: "a urgência", ru: "скорая помощь/неотложка", imageQuery: "emergency room" },
-            { pt: "o especialista", ru: "специалист (врач)", imageQuery: "medical specialist" }
+            { pt: "a dor de cabeça", ru: "головная боль", imageQuery: "headache pain", soundHint: "ДОР ДЕ КАБЕСА — ДЫРКА в КАБЕСЕ (голове) болит!" },
+            { pt: "a tontura", ru: "головокружение", imageQuery: "dizziness vertigo", soundHint: "ТОНТУРА — ТОНна кружится вокруг головы!" },
+            { pt: "a náusea", ru: "тошнота", imageQuery: "nausea sick", soundHint: "НАУЗА — НА УЗИ так тошнит, что выбегаешь из кабинета!" },
+            { pt: "vomitar", ru: "рвать (тошнить)", imageQuery: "vomit sick", soundHint: "ВОМИТАР — ВОМбат ТАРЕЛКУ вырвал — все в шоке!" },
+            { pt: "a febre", ru: "температура/лихорадка", imageQuery: "fever thermometer", soundHint: "ФЕБРЕ — ФЕБРАль такой холодный, а у тебя жар 40!" },
+            { pt: "os calafrios", ru: "озноб", imageQuery: "chills cold shiver", soundHint: "КАЛАФРИУШ — КАЛА трясёт от холода, ФРИУш (frio = холод)!" },
+            { pt: "a tosse", ru: "кашель", imageQuery: "cough sick", soundHint: "ТОСЕ — ТОСтер кашляет крошками — кхе-кхе!" },
+            { pt: "tossir", ru: "кашлять", imageQuery: "coughing person", soundHint: "ТУСИР — ТУСовщик так накурился, что кашляет без остановки!" },
+            { pt: "espirrar", ru: "чихать", imageQuery: "sneezing person", soundHint: "ЭШПИРРАР — ЭШ! ПИРРАТ чихнул так, что улетела шляпа!" },
+            { pt: "o corrimento nasal", ru: "насморк", imageQuery: "runny nose", soundHint: "КУРРИМЕНТУ НАЗАЛ — из носа КУРИЦА МЕНТОЛ течёт!" },
+            { pt: "a garganta inflamada", ru: "воспалённое горло", imageQuery: "sore throat", soundHint: "ГАРГАНТА — ГАРГАНТЮА так орал, что горло воспалилось!" },
+            { pt: "engolir", ru: "глотать", imageQuery: "swallowing", soundHint: "ЭНГОЛИР — ЭН ГОЛИРует и глотает шарики целиком!" },
+            { pt: "a tensão arterial", ru: "артериальное давление", imageQuery: "blood pressure", soundHint: "ТЕНСАУ — ТЕНСИОН (напряжение) в артериях зашкаливает!" },
+            { pt: "medir a tensão", ru: "измерить давление", imageQuery: "measuring blood pressure", soundHint: "МЕДИР А ТЕНСАУ — МЕДИК измеряет ТЕНСИОН рукой!" },
+            { pt: "a análise de sangue", ru: "анализ крови", imageQuery: "blood test", soundHint: "АНАЛИЗЕ ДЕ САНГВЕ — АНАЛИЗ САНГВИНИКА — весёлая кровь!" },
+            { pt: "a receita médica", ru: "рецепт врача", imageQuery: "medical prescription", soundHint: "РЕСЕЙТА МЕДИКА — РЕЦЕПТ от МЕДИКА такой страшный, что аптекарь падает!" },
+            { pt: "o diagnóstico", ru: "диагноз", imageQuery: "diagnosis doctor", soundHint: "ДИАГНОСТИКУ — ДИАГНОСТ ИКУ поставил диагноз: слишком много суши!" },
+            { pt: "a inflamação", ru: "воспаление", imageQuery: "inflammation swelling", soundHint: "ИНФЛАМАСАУ — ИНФЛЯЦИЯ такая, что всё воспалилось от цен!" },
+            { pt: "inchado/a", ru: "опухший", imageQuery: "swollen body part", soundHint: "ИНШАДУ — ИН ШАДУ (в тени) сидел — и опух от комаров!" },
+            { pt: "a alergia", ru: "аллергия", imageQuery: "allergy reaction", soundHint: "АЛЕРЖИЯ — АЛЕРГИЯ (почти так же звучит)!" },
+            { pt: "a erupção cutânea", ru: "сыпь на коже", imageQuery: "skin rash", soundHint: "ЭРУПСАУ КУТАНИЯ — вулкан ЭРУПЦИЯ на КОЖЕ — всё в сыпи!" },
+            { pt: "a comichão", ru: "зуд", imageQuery: "itching scratching", soundHint: "КОМИШАУ — КОМИССИЯ так зудит, что все чешутся от бумаг!" },
+            { pt: "coçar", ru: "чесать", imageQuery: "scratching skin", soundHint: "КУСАР — КУСАТЬ себя, когда чешется — ааа!" },
+            { pt: "a dor nas costas", ru: "боль в спине", imageQuery: "back pain", soundHint: "ДОР НАШ КОШТАШ — ДЫРКА НА КОСТЯХ спины болит!" },
+            { pt: "a coluna vertebral", ru: "позвоночник", imageQuery: "spine backbone", soundHint: "КОЛУНА ВЕРТЕБРАЛ — КОЛОННА ВЕРТИТСЯ в спине!" },
+            { pt: "a articulação", ru: "сустав", imageQuery: "joint body", soundHint: "АРТИКУЛАСАУ — АРТИКУЛЯЦИЯ суставов — они щёлкают как слова!" },
+            { pt: "o músculo", ru: "мышца", imageQuery: "muscle anatomy", soundHint: "МУШКУЛУ — МУСКУЛ (почти одинаково)!" },
+            { pt: "a entorse", ru: "растяжение", imageQuery: "sprain ankle", soundHint: "ЭНТОРСЕ — ЭН ТОРС растянул — теперь ходит как робот!" },
+            { pt: "a fratura", ru: "перелом", imageQuery: "bone fracture xray", soundHint: "ФРАТУРА — ФРАКТУРА кости — хрустнула как ФРУКТ!" },
+            { pt: "o gesso", ru: "гипс", imageQuery: "plaster cast", soundHint: "ЖЕССУ — ЖЕСТЬ! В гипсе как мумия!" },
+            { pt: "os pontos", ru: "швы", imageQuery: "stitches wound", soundHint: "УШ ПОНТУШ — ПОНТЫ показывает: вот мои ШВЫ, 10 штук!" },
+            { pt: "a cicatriz", ru: "шрам", imageQuery: "scar skin", soundHint: "СИКАТРИШ — СИКА (коза) оставила ШРАМ рогами!" },
+            { pt: "desmaiar", ru: "терять сознание", imageQuery: "fainting person", soundHint: "ДЕЖМАЙАР — ДЕД в МАЕ упал в обморок от жары!" },
+            { pt: "a urgência", ru: "скорая помощь/неотложка", imageQuery: "emergency room", soundHint: "УРЖЭНСИЯ — URGENT! СРОЧНО! Скорая мчится!" },
+            { pt: "o especialista", ru: "специалист (врач)", imageQuery: "medical specialist", soundHint: "ЭШПЕСИАЛИШТА — СПЕЦИАЛИСТ (почти одинаково)!" }
         ]
     },
     "restaurante": {
         name: "🍽️ No restaurante",
         words: [
-            { pt: "reservar uma mesa", ru: "забронировать столик", imageQuery: "restaurant reservation" },
-            { pt: "a ementa/o cardápio", ru: "меню", imageQuery: "restaurant menu" },
-            { pt: "o prato do dia", ru: "блюдо дня", imageQuery: "daily special dish" },
-            { pt: "a entrada", ru: "закуска", imageQuery: "appetizer starter" },
-            { pt: "o prato principal", ru: "основное блюдо", imageQuery: "main course" },
-            { pt: "a sobremesa", ru: "десерт", imageQuery: "dessert sweet" },
-            { pt: "a conta", ru: "счёт", imageQuery: "restaurant bill" },
-            { pt: "a gorjeta", ru: "чаевые", imageQuery: "tip money" },
-            { pt: "bem passado", ru: "хорошо прожаренный", imageQuery: "well done steak" },
-            { pt: "mal passado", ru: "с кровью (мясо)", imageQuery: "rare steak" },
-            { pt: "ao ponto", ru: "средней прожарки", imageQuery: "medium steak" },
-            { pt: "grelhado/a", ru: "на гриле", imageQuery: "grilled food" },
-            { pt: "frito/a", ru: "жареный", imageQuery: "fried food" },
-            { pt: "cozido/a", ru: "варёный", imageQuery: "boiled food" },
-            { pt: "assado/a", ru: "запечённый", imageQuery: "roasted food" },
-            { pt: "estufado/a", ru: "тушёный", imageQuery: "stewed food" },
-            { pt: "cru/crua", ru: "сырой", imageQuery: "raw food" },
-            { pt: "picante", ru: "острый", imageQuery: "spicy food chili" },
-            { pt: "salgado/a", ru: "солёный", imageQuery: "salty food" },
-            { pt: "insosso/a", ru: "пресный/безвкусный", imageQuery: "bland food" },
-            { pt: "a intolerância alimentar", ru: "пищевая непереносимость", imageQuery: "food intolerance" },
-            { pt: "sem glúten", ru: "без глютена", imageQuery: "gluten free" },
-            { pt: "sem lactose", ru: "без лактозы", imageQuery: "lactose free" },
-            { pt: "vegetariano/a", ru: "вегетарианский", imageQuery: "vegetarian food" },
-            { pt: "vegano/a", ru: "веганский", imageQuery: "vegan food" },
-            { pt: "o guardanapo", ru: "салфетка", imageQuery: "napkin table" },
-            { pt: "os talheres", ru: "столовые приборы", imageQuery: "cutlery silverware" },
-            { pt: "reclamar", ru: "жаловаться", imageQuery: "complaining customer" },
-            { pt: "está frio", ru: "холодное (о еде)", imageQuery: "cold food" },
-            { pt: "demorou muito", ru: "долго ждать", imageQuery: "waiting long time" }
+            { pt: "reservar uma mesa", ru: "забронировать столик", imageQuery: "restaurant reservation", soundHint: "РЕЗЕРВАР УМА МЕЗА — РЕЗЕРВАЦИЯ стола, УМА МЕЗА — одна МЕЗА (стол)!" },
+            { pt: "a ementa/o cardápio", ru: "меню", imageQuery: "restaurant menu", soundHint: "ЭМЕНТА — МЕНЮ с МЕНТОЛОМ — освежает выбор!" },
+            { pt: "o prato do dia", ru: "блюдо дня", imageQuery: "daily special dish", soundHint: "ПРАТУ ДУ ДИА — ПРУТ ДУА (два прута) — на них блюдо дня!" },
+            { pt: "a entrada", ru: "закуска", imageQuery: "appetizer starter", soundHint: "ЭНТРАДА — на ВХОДЕ (entrance) дают закуску!" },
+            { pt: "o prato principal", ru: "основное блюдо", imageQuery: "main course", soundHint: "ПРАТУ ПРИНСИПАЛ — ПРУТ ПРИНЦИПАЛА — директор ест главное блюдо!" },
+            { pt: "a sobremesa", ru: "десерт", imageQuery: "dessert sweet", soundHint: "СОБРЕМЕЗА — СВЕРХ МЕЗЫ (стола) — десерт на столе!" },
+            { pt: "a conta", ru: "счёт", imageQuery: "restaurant bill", soundHint: "КОНТА — КОНТА (счёт) как в банке — плати!" },
+            { pt: "a gorjeta", ru: "чаевые", imageQuery: "tip money", soundHint: "ГОРЖЕТА — ГОРЖУСЬ, что дал чаевые — официант счастлив!" },
+            { pt: "bem passado", ru: "хорошо прожаренный", imageQuery: "well done steak", soundHint: "БЕМ ПАССАДУ — БЕН ПАССАЖИР хорошо прожарился на солнце!" },
+            { pt: "mal passado", ru: "с кровью (мясо)", imageQuery: "rare steak", soundHint: "МАЛ ПАССАДУ — МАЛ прожарен — кровь течёт!" },
+            { pt: "ao ponto", ru: "средней прожарки", imageQuery: "medium steak", soundHint: "АУ ПОНТУ — АУ! ТОЧНО в ПОНТУ — средняя прожарка!" },
+            { pt: "grelhado/a", ru: "на гриле", imageQuery: "grilled food", soundHint: "ГРЕЛЬЯДУ — ГРИЛЬ ЯДУ (ем) — на гриле жарится!" },
+            { pt: "frito/a", ru: "жареный", imageQuery: "fried food", soundHint: "ФРИТУ — ФРИТЮР! Всё жареное в масле!" },
+            { pt: "cozido/a", ru: "варёный", imageQuery: "boiled food", soundHint: "КОЗИДУ — КОЗЁЛ в ДУше варится — варёный!" },
+            { pt: "assado/a", ru: "запечённый", imageQuery: "roasted food", soundHint: "АССАДУ — АССАСИН запекает врагов в духовке!" },
+            { pt: "estufado/a", ru: "тушёный", imageQuery: "stewed food", soundHint: "ЭШТУФАДУ — в ШТУФЕ (печке) тушится мясо!" },
+            { pt: "cru/crua", ru: "сырой", imageQuery: "raw food", soundHint: "КРУ — КРУтое суши — СЫРАЯ рыба!" },
+            { pt: "picante", ru: "острый", imageQuery: "spicy food chili", soundHint: "ПИКАНТЕ — ПИКАНТНЫЙ (острый) перец жжёт рот!" },
+            { pt: "salgado/a", ru: "солёный", imageQuery: "salty food", soundHint: "САЛГАДУ — САЛО ГАДУ (гад) солёное ест!" },
+            { pt: "insosso/a", ru: "пресный/безвкусный", imageQuery: "bland food", soundHint: "ИНСОССУ — ИН-СОУС (без соуса) — пресно и скучно!" },
+            { pt: "a intolerância alimentar", ru: "пищевая непереносимость", imageQuery: "food intolerance", soundHint: "ИНТОЛЕРАНСЯ АЛИМЕНТАР — ИНТОЛЕРАНТНЫЙ к АЛИМЕНТАМ (еде)!" },
+            { pt: "sem glúten", ru: "без глютена", imageQuery: "gluten free", soundHint: "СЕМ ГЛУТЕН — СЕМь раз проверь — БЕЗ ГЛЮТЕНА!" },
+            { pt: "sem lactose", ru: "без лактозы", imageQuery: "lactose free", soundHint: "СЕМ ЛАКТОЗЕ — СЕМья без ЛАКТОЗЫ живёт!" },
+            { pt: "vegetariano/a", ru: "вегетарианский", imageQuery: "vegetarian food", soundHint: "ВЕЖЕТАРИАНУ — ВЕГЕТАРИАНЕЦ (почти одинаково)!" },
+            { pt: "vegano/a", ru: "веганский", imageQuery: "vegan food", soundHint: "ВЕГАНУ — ВЕГАН (почти одинаково)!" },
+            { pt: "o guardanapo", ru: "салфетка", imageQuery: "napkin table", soundHint: "ГУАРДАНАПУ — ГВАРДЕЕЦ вытирает НОС НАПУ (салфеткой)!" },
+            { pt: "os talheres", ru: "столовые приборы", imageQuery: "cutlery silverware", soundHint: "УШ ТАЛЬЕРЕШ — ТАЛЬЕРЫ (тарелки) и приборы лежат красиво!" },
+            { pt: "reclamar", ru: "жаловаться", imageQuery: "complaining customer", soundHint: "РЕКЛАМАР — РЕКЛАМАЦИЯ! Жалоба на плохую еду!" },
+            { pt: "está frio", ru: "холодное (о еде)", imageQuery: "cold food", soundHint: "ЭШТА ФРИУ — ЭТО ФРИГО (холодильник) — еда холодная!" },
+            { pt: "demorou muito", ru: "долго ждать", imageQuery: "waiting long time", soundHint: "ДЕМОРУ МУЙТУ — ДЕМОН РУчку МУТИТ — жду вечность!" }
         ]
     },
     "aeroporto": {
         name: "✈️ No aeroporto",
         words: [
-            { pt: "o voo", ru: "рейс", imageQuery: "flight airplane" },
-            { pt: "a escala", ru: "пересадка", imageQuery: "layover connection flight" },
-            { pt: "o voo direto", ru: "прямой рейс", imageQuery: "direct flight" },
-            { pt: "o check-in", ru: "регистрация", imageQuery: "airport check-in" },
-            { pt: "o balcão de check-in", ru: "стойка регистрации", imageQuery: "check-in counter" },
-            { pt: "o cartão de embarque", ru: "посадочный талон", imageQuery: "boarding pass" },
-            { pt: "a porta de embarque", ru: "выход на посадку", imageQuery: "boarding gate" },
-            { pt: "embarcar", ru: "садиться (на борт)", imageQuery: "boarding plane" },
-            { pt: "desembarcar", ru: "выходить (из самолёта)", imageQuery: "disembarking plane" },
-            { pt: "a bagagem de mão", ru: "ручная кладь", imageQuery: "carry-on luggage" },
-            { pt: "a bagagem de porão", ru: "багаж в трюме", imageQuery: "checked luggage" },
-            { pt: "despachar a bagagem", ru: "сдать багаж", imageQuery: "checking luggage" },
-            { pt: "o excesso de bagagem", ru: "перевес багажа", imageQuery: "overweight luggage" },
-            { pt: "a recolha de bagagem", ru: "выдача багажа", imageQuery: "baggage claim" },
-            { pt: "a bagagem extraviada", ru: "потерянный багаж", imageQuery: "lost luggage" },
-            { pt: "o controlo de segurança", ru: "контроль безопасности", imageQuery: "security check airport" },
-            { pt: "o controlo de passaportes", ru: "паспортный контроль", imageQuery: "passport control" },
-            { pt: "a alfândega", ru: "таможня", imageQuery: "customs airport" },
-            { pt: "declarar", ru: "декларировать", imageQuery: "customs declaration" },
-            { pt: "o atraso", ru: "задержка", imageQuery: "flight delay" },
-            { pt: "o voo cancelado", ru: "отменённый рейс", imageQuery: "cancelled flight" },
-            { pt: "remarcar o voo", ru: "перебронировать рейс", imageQuery: "rebooking flight" },
-            { pt: "a indemnização", ru: "компенсация", imageQuery: "compensation money" },
-            { pt: "o cinto de segurança", ru: "ремень безопасности", imageQuery: "seatbelt airplane" },
-            { pt: "a turbulência", ru: "турбулентность", imageQuery: "turbulence airplane" },
-            { pt: "aterrar", ru: "приземляться", imageQuery: "plane landing" },
-            { pt: "descolar", ru: "взлетать", imageQuery: "plane takeoff" },
-            { pt: "a pista", ru: "взлётная полоса", imageQuery: "runway airport" },
-            { pt: "o piloto", ru: "пилот", imageQuery: "airplane pilot" },
-            { pt: "a tripulação", ru: "экипаж", imageQuery: "flight crew" }
+            { pt: "o voo", ru: "рейс", imageQuery: "flight airplane", soundHint: "ВОУ! — ВОУ! Какой крутой рейс — лечу в Лиссабон!" },
+            { pt: "a escala", ru: "пересадка", imageQuery: "layover connection flight", soundHint: "ЭШКАЛА — по ШКАЛЕ пересадок — три штуки!" },
+            { pt: "o voo direto", ru: "прямой рейс", imageQuery: "direct flight", soundHint: "ВОУ ДИРЕКТУ — ВОУ ДИРЕКТОР летит прямым рейсом!" },
+            { pt: "o check-in", ru: "регистрация", imageQuery: "airport check-in", soundHint: "ЧЕК-ИН — ЧЕК-ИН (интернациональное слово)!" },
+            { pt: "o balcão de check-in", ru: "стойка регистрации", imageQuery: "check-in counter", soundHint: "БАЛКАУ ДЕ ЧЕК-ИН — на БАЛКОНЕ стойка регистрации!" },
+            { pt: "o cartão de embarque", ru: "посадочный талон", imageQuery: "boarding pass", soundHint: "КАРТАУ ДЕ ЭМБАРКЕ — КАРТОН для ЭМБАРГО на посадку!" },
+            { pt: "a porta de embarque", ru: "выход на посадку", imageQuery: "boarding gate", soundHint: "ПОРТА ДЕ ЭМБАРКЕ — ПОРТА (дверь) на ЭМБАРКАЦИЮ!" },
+            { pt: "embarcar", ru: "садиться (на борт)", imageQuery: "boarding plane", soundHint: "ЭМБАРКАР — ЭМБАРГО снято — садимся на борт!" },
+            { pt: "desembarcar", ru: "выходить (из самолёта)", imageQuery: "disembarking plane", soundHint: "ДЕЗЭМБАРКАР — ДЕЗ (без) ЭМБАРГО — выходим!" },
+            { pt: "a bagagem de mão", ru: "ручная кладь", imageQuery: "carry-on luggage", soundHint: "БАГАЖЕМ ДЕ МАУ — БАГАЖ в МАУ (руке) несу!" },
+            { pt: "a bagagem de porão", ru: "багаж в трюме", imageQuery: "checked luggage", soundHint: "БАГАЖЕМ ДЕ ПОРАУ — БАГАЖ в ПОРУ (трюме) сдаю!" },
+            { pt: "despachar a bagagem", ru: "сдать багаж", imageQuery: "checking luggage", soundHint: "ДЕШПАШАР А БАГАЖЕМ — ДИСПЕТЧЕР забирает БАГАЖ!" },
+            { pt: "o excesso de bagagem", ru: "перевес багажа", imageQuery: "overweight luggage", soundHint: "ЭКСЕССУ ДЕ БАГАЖЕМ — ЭКСЦЕСС багажа — 30 кг лишних!" },
+            { pt: "a recolha de bagagem", ru: "выдача багажа", imageQuery: "baggage claim", soundHint: "РЕКОЛЬЯ ДЕ БАГАЖЕМ — РЕКОЛЬЯ (собираю) свой БАГАЖ с ленты!" },
+            { pt: "a bagagem extraviada", ru: "потерянный багаж", imageQuery: "lost luggage", soundHint: "БАГАЖЕМ ЭШТРАВИАДА — БАГАЖ ЭКСТРА-ВИАДУК — улетел куда-то!" },
+            { pt: "o controlo de segurança", ru: "контроль безопасности", imageQuery: "security check airport", soundHint: "КОНТРОЛУ ДЕ СЕГУРАНСА — КОНТРОЛЬ СЕГУРАНСЫ (безопасности)!" },
+            { pt: "o controlo de passaportes", ru: "паспортный контроль", imageQuery: "passport control", soundHint: "КОНТРОЛУ ДЕ ПАССАПОРТЕШ — КОНТРОЛЬ ПАСПОРТОВ!" },
+            { pt: "a alfândega", ru: "таможня", imageQuery: "customs airport", soundHint: "АЛФАНДЕГА — АЛФАВИТ ДЕДА проверяют на таможне!" },
+            { pt: "declarar", ru: "декларировать", imageQuery: "customs declaration", soundHint: "ДЕКЛАРАР — ДЕКЛАРАЦИЯ (почти одинаково)!" },
+            { pt: "o atraso", ru: "задержка", imageQuery: "flight delay", soundHint: "АТРАЗУ — А ТРАССА закрыта — рейс задержан!" },
+            { pt: "o voo cancelado", ru: "отменённый рейс", imageQuery: "cancelled flight", soundHint: "ВОУ КАНСЭЛАДУ — ВОУ КАНСЭЛ (отмена) — не летим!" },
+            { pt: "remarcar o voo", ru: "перебронировать рейс", imageQuery: "rebooking flight", soundHint: "РЕМАРКАР У ВОУ — РЕМАРКА на ВОУ — меняю дату!" },
+            { pt: "a indemnização", ru: "компенсация", imageQuery: "compensation money", soundHint: "ИНДЕМНИЗАСАУ — ИНДЕМНИТИ (компенсация) за задержку!" },
+            { pt: "o cinto de segurança", ru: "ремень безопасности", imageQuery: "seatbelt airplane", soundHint: "СИНТУ ДЕ СЕГУРАНСА — СИНТЕТИЧЕСКИЙ ремень СЕГУРАНСЫ!" },
+            { pt: "a turbulência", ru: "турбулентность", imageQuery: "turbulence airplane", soundHint: "ТУРБУЛЭНСИЯ — ТУРБУЛЕНТНОСТЬ (почти одинаково)!" },
+            { pt: "aterrar", ru: "приземляться", imageQuery: "plane landing", soundHint: "АТЕРРАР — А ТЕРРА (земля) — приземляемся!" },
+            { pt: "descolar", ru: "взлетать", imageQuery: "plane takeoff", soundHint: "ДЕШКОЛАР — ДЕСК КОЛАРИТ — стол отклеивается от земли и взлетает!" },
+            { pt: "a pista", ru: "взлётная полоса", imageQuery: "runway airport", soundHint: "ПИШТА — ПИСТОЛЕТ лежит на ПОЛОСЕ — не бери!" },
+            { pt: "o piloto", ru: "пилот", imageQuery: "airplane pilot", soundHint: "ПИЛОТУ — ПИЛОТ (почти одинаково)!" },
+            { pt: "a tripulação", ru: "экипаж", imageQuery: "flight crew", soundHint: "ТРИПУЛАСАУ — ТРИ ПУЛИ у экипажа — стюардессы вооружены!" }
         ]
     },
     "aluguer": {
         name: "🏠 Aluguer de casa",
         words: [
-            { pt: "arrendar/alugar", ru: "снимать (жильё)", imageQuery: "renting apartment" },
-            { pt: "o senhorio", ru: "арендодатель", imageQuery: "landlord property" },
-            { pt: "o inquilino", ru: "арендатор/квартирант", imageQuery: "tenant renter" },
-            { pt: "o contrato de arrendamento", ru: "договор аренды", imageQuery: "lease agreement" },
-            { pt: "a renda/o aluguel", ru: "арендная плата", imageQuery: "rent payment" },
-            { pt: "a caução", ru: "залог", imageQuery: "security deposit" },
-            { pt: "as despesas incluídas", ru: "коммуналка включена", imageQuery: "utilities included" },
-            { pt: "a água", ru: "вода (коммуналка)", imageQuery: "water bill" },
-            { pt: "a eletricidade", ru: "электричество", imageQuery: "electricity bill" },
-            { pt: "o gás", ru: "газ", imageQuery: "gas bill" },
-            { pt: "o aquecimento", ru: "отопление", imageQuery: "heating system" },
-            { pt: "o ar condicionado", ru: "кондиционер", imageQuery: "air conditioning" },
-            { pt: "mobilado/a", ru: "с мебелью", imageQuery: "furnished apartment" },
-            { pt: "não mobilado", ru: "без мебели", imageQuery: "unfurnished apartment" },
-            { pt: "o T1/T2/T3", ru: "1/2/3-комнатная квартира", imageQuery: "apartment rooms" },
-            { pt: "o andar", ru: "этаж", imageQuery: "floor building" },
-            { pt: "o elevador", ru: "лифт", imageQuery: "elevator lift" },
-            { pt: "a garagem", ru: "гараж/парковка", imageQuery: "garage parking" },
-            { pt: "a varanda", ru: "балкон", imageQuery: "balcony apartment" },
-            { pt: "o terraço", ru: "терраса", imageQuery: "terrace rooftop" },
-            { pt: "a avaria", ru: "поломка", imageQuery: "broken appliance" },
-            { pt: "o canalizador", ru: "сантехник", imageQuery: "plumber fixing" },
-            { pt: "o eletricista", ru: "электрик", imageQuery: "electrician working" },
-            { pt: "a fuga de água", ru: "протечка воды", imageQuery: "water leak" },
-            { pt: "entupido/a", ru: "засорённый", imageQuery: "clogged drain" },
-            { pt: "o bolor", ru: "плесень", imageQuery: "mold wall" },
-            { pt: "a humidade", ru: "влажность/сырость", imageQuery: "humidity dampness" },
-            { pt: "rescindir o contrato", ru: "расторгнуть договор", imageQuery: "contract termination" },
-            { pt: "o pré-aviso", ru: "предупреждение (об уходе)", imageQuery: "notice period" },
-            { pt: "a vistoria", ru: "осмотр (квартиры)", imageQuery: "apartment inspection" }
+            { pt: "arrendar/alugar", ru: "снимать (жильё)", imageQuery: "renting apartment", soundHint: "АЛУГАР — АЛУГАРЬ (как вратарь) ловит квартиру в аренду!" },
+            { pt: "o senhorio", ru: "арендодатель", imageQuery: "landlord property", soundHint: "СЕНЬОРЬЮ — СЕНЬОР-хозяин требует деньги каждый месяц!" },
+            { pt: "o inquilino", ru: "арендатор/квартирант", imageQuery: "tenant renter", soundHint: "ИНКИЛИНУ — ИНКОГНИТО живёт квартирант — никто его не знает!" },
+            { pt: "o contrato de arrendamento", ru: "договор аренды", imageQuery: "lease agreement", soundHint: "КОНТРАТУ ДЕ АРРЕНДАМЕНТУ — КОНТРАКТ АРЕНДЫ (понятно)!" },
+            { pt: "a renda/o aluguel", ru: "арендная плата", imageQuery: "rent payment", soundHint: "РЕНДА — РЕНТА (арендная плата) — плати РЕНДУ!" },
+            { pt: "a caução", ru: "залог", imageQuery: "security deposit", soundHint: "КАУСАУ — КАУЧУК денег отдал в ЗАЛОГ — не вернут!" },
+            { pt: "as despesas incluídas", ru: "коммуналка включена", imageQuery: "utilities included", soundHint: "АШ ДЕШПЕЗАШ ИНКЛУИДАШ — ДЕПЕШИ (расходы) ВКЛЮЧЕНЫ в цену!" },
+            { pt: "a água", ru: "вода (коммуналка)", imageQuery: "water bill", soundHint: "АГУА — АГУА (вода) — АГУ, малыш пьёт воду!" },
+            { pt: "a eletricidade", ru: "электричество", imageQuery: "electricity bill", soundHint: "ЭЛЕТРИСИДАДЕ — ЭЛЕКТРИЧЕСТВО (почти одинаково)!" },
+            { pt: "o gás", ru: "газ", imageQuery: "gas bill", soundHint: "ГАШ — ГАЗ (почти одинаково)!" },
+            { pt: "o aquecimento", ru: "отопление", imageQuery: "heating system", soundHint: "АКЕСИМЕНТУ — АКВА СЕМЕНТО — водяное отопление греет как цемент!" },
+            { pt: "o ar condicionado", ru: "кондиционер", imageQuery: "air conditioning", soundHint: "АР КОНДИСИОНАДУ — АЙР КОНДИШН (кондиционер)!" },
+            { pt: "mobilado/a", ru: "с мебелью", imageQuery: "furnished apartment", soundHint: "МОБИЛАДУ — МОБИЛЬ (мебель) в квартире есть!" },
+            { pt: "não mobilado", ru: "без мебели", imageQuery: "unfurnished apartment", soundHint: "НАУ МОБИЛАДУ — НЕТ МОБИЛИ (мебели) — пустая квартира!" },
+            { pt: "o T1/T2/T3", ru: "1/2/3-комнатная квартира", imageQuery: "apartment rooms", soundHint: "Т1/Т2/Т3 — Т = ТИПОЛОГИЯ, цифра = комнаты!" },
+            { pt: "o andar", ru: "этаж", imageQuery: "floor building", soundHint: "АНДАР — АНДРЕЙ живёт на пятом этаже!" },
+            { pt: "o elevador", ru: "лифт", imageQuery: "elevator lift", soundHint: "ЭЛЕВАДОР — ЭЛЕВАТОР поднимает на этаж!" },
+            { pt: "a garagem", ru: "гараж/парковка", imageQuery: "garage parking", soundHint: "ГАРАЖЕМ — ГАРАЖ (почти одинаково)!" },
+            { pt: "a varanda", ru: "балкон", imageQuery: "balcony apartment", soundHint: "ВАРАНДА — ВЕРАНДА (балкон) с видом на море!" },
+            { pt: "o terraço", ru: "терраса", imageQuery: "terrace rooftop", soundHint: "ТЕРРАСУ — ТЕРРАСА (почти одинаково)!" },
+            { pt: "a avaria", ru: "поломка", imageQuery: "broken appliance", soundHint: "АВАРИЯ — АВАРИЯ (поломка) — всё сломалось!" },
+            { pt: "o canalizador", ru: "сантехник", imageQuery: "plumber fixing", soundHint: "КАНАЛИЗАДОР — КАНАЛИЗАЦИЮ чинит сантехник!" },
+            { pt: "o eletricista", ru: "электрик", imageQuery: "electrician working", soundHint: "ЭЛЕТРИШИШТА — ЭЛЕКТРИК (почти одинаково)!" },
+            { pt: "a fuga de água", ru: "протечка воды", imageQuery: "water leak", soundHint: "ФУГА ДЕ АГУА — ФУГА (побег) воды из трубы!" },
+            { pt: "entupido/a", ru: "засорённый", imageQuery: "clogged drain", soundHint: "ЭНТУПИДУ — ЭН ТУПИК зашла труба — засорилась!" },
+            { pt: "o bolor", ru: "плесень", imageQuery: "mold wall", soundHint: "БОЛОР — БОЛОР (боль) от плесени на стенах!" },
+            { pt: "a humidade", ru: "влажность/сырость", imageQuery: "humidity dampness", soundHint: "УМИДАДЕ — HUMID (влажность) — сыро везде!" },
+            { pt: "rescindir o contrato", ru: "расторгнуть договор", imageQuery: "contract termination", soundHint: "РЕШИНДИР У КОНТРАТУ — РАСЩЕПИТЬ КОНТРАКТ — расторгаем!" },
+            { pt: "o pré-aviso", ru: "предупреждение (об уходе)", imageQuery: "notice period", soundHint: "ПРЕ-АВИЗУ — ПРЕ-АВИЗО (предупреждение) за месяц!" },
+            { pt: "a vistoria", ru: "осмотр (квартиры)", imageQuery: "apartment inspection", soundHint: "ВИШТОРИЯ — ВИЗИТ ТОРИ — Тори осматривает квартиру!" }
         ]
     }
 };
