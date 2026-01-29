@@ -125,12 +125,11 @@ async function main() {
             errors++;
         }
         
-        // Лимит для тестирования (поменяй на 45 для полной загрузки)
-        const BATCH_LIMIT = 45;
+        // Лимит Unsplash: 50 запросов в час
+        const BATCH_LIMIT = 50;
         if (fetched >= BATCH_LIMIT) {
-            console.log(`\n⚠️  Достигнут лимит теста (${BATCH_LIMIT} картинок)`);
-            console.log('Сохранено в image-urls.json');
-            console.log('Измени BATCH_LIMIT в скрипте для загрузки большего количества.\n');
+            console.log(`\n✓ Достигнут лимит Unsplash (${BATCH_LIMIT} картинок/час)`);
+            console.log('Следующая порция загрузится автоматически через 2 часа.\n');
             break;
         }
     }

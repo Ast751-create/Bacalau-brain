@@ -1,0 +1,43 @@
+name: Fetch Unsplash Images
+
+on:
+  schedule:
+    # Каждые 90 минут (1.5 часа)
+    - cron: '0 */2 * * *'  # каждые 2 часа (минимум для GitHub Actions)
+  workflow_dispatch: # ручной запуск
+
+jobs:
+  fetch-images:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Fetch images from Unsplash
+        run: node fetch-images.js
+        continue-on-error: true
+      
+      - name: Apply images to vocabulary
+        run: node apply-images.js
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --quiet || echo "changes=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git commit -m "🖼️ Auto-fetch images from Unsplash [skip ci]"
+          git push
