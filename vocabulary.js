@@ -434,6 +434,7 @@ const VOCABULARY = [
         pt: "aperceber-se", 
         ru: "осознавать", 
         imageQuery: "realize understand aware",
+        imageUrl: "https://images.unsplash.com/photo-1616431766562-810a58f0f703?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxyZWFsaXplJTIwdW5kZXJzdGFuZCUyMGF3YXJlfGVufDB8MHx8fDE3Njk3NTk3NjF8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "А! ПЕРЕЦ БЕР — осознал остроту"
     },
     { 
@@ -859,6 +860,7 @@ const VOCABULARY = [
         pt: "sincero", 
         ru: "искренний", 
         imageQuery: "sincere honest genuine",
+        imageUrl: "https://images.unsplash.com/photo-1712145176765-cc1a308331e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzaW5jZXJlJTIwaG9uZXN0JTIwZ2VudWluZXxlbnwwfDB8fHwxNzY5NzQ5MTM4fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "СИНСЕРО = СИНСЕР (sincere), искренний"
     },
     { 
@@ -942,6 +944,7 @@ const VOCABULARY = [
         pt: "suficiente", 
         ru: "достаточно", 
         imageQuery: "enough sufficient plenty",
+        imageUrl: "https://images.unsplash.com/photo-1562911920-b71679650b17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxlbm91Z2glMjBzdWZmaWNpZW50JTIwcGxlbnR5fGVufDB8MHx8fDE3Njk3NDkxNDJ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "СУФле — ДОСТАТОЧНО! Повар так объелся, что катится по кухне как шар!"
     },
     { 
@@ -1381,12 +1384,14 @@ const VOCABULARY = [
         pt: "o alojamento", 
         ru: "жильё, проживание", 
         imageQuery: "accommodation housing hotel",
+        imageUrl: "https://images.unsplash.com/photo-1635333498618-096756445c00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhY2NvbW1vZGF0aW9uJTIwaG91c2luZyUyMGhvdGVsfGVufDB8MHx8fDE3Njk3NDkxNjJ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АЛОЖАМЕНТУ — А ЛЁЖА МЕНТУ = где лежать"
     },
     { 
         pt: "o batismo", 
         ru: "крещение", 
         imageQuery: "baptism church christening",
+        imageUrl: "https://images.unsplash.com/photo-1721862650498-1e7274dec2ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxiYXB0aXNtJTIwY2h1cmNoJTIwY2hyaXN0ZW5pbmd8ZW58MHwwfHx8MTc2OTc0OTE2NHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "БАТИШМУ — БАТЯ крестит"
     },
     { 
@@ -1399,12 +1404,14 @@ const VOCABULARY = [
         pt: "mergulhar", 
         ru: "нырять", 
         imageQuery: "dive underwater swimming",
+        imageUrl: "https://images.unsplash.com/photo-1662548214109-8d6b90ed0059?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkaXZlJTIwdW5kZXJ3YXRlciUyMHN3aW1taW5nfGVufDB8MHx8fDE3Njk3NDkxNjh8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "МЕРГУЛЬЯР — МЕРГает и ГУЛЯет под водой"
     },
     { 
         pt: "cume da montanha", 
         ru: "вершина горы", 
         imageQuery: "mountain top peak summit",
+        imageUrl: "https://images.unsplash.com/photo-1681672132013-d299dc8f1680?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMHRvcCUyMHBlYWslMjBzdW1taXR8ZW58MHwwfHx8MTc2OTc0OTE3Mnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КУМЕ да МОНТАНЬЯ — КУМА на горе"
     },
     { 
@@ -1418,54 +1425,63 @@ const VOCABULARY = [
         pt: "o presépio", 
         ru: "рождественский вертеп", 
         imageQuery: "nativity scene christmas",
+        imageUrl: "https://images.unsplash.com/photo-1544906200-5471c5769123?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxuYXRpdml0eSUyMHNjZW5lJTIwY2hyaXN0bWFzfGVufDB8MHx8fDE3Njk3NDkxNzd8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПРЕЗЕПИУ — ПРЕЗент ЕПИскопу на Рождество"
     },
     { 
         pt: "as competências", 
         ru: "навыки, компетенции", 
         imageQuery: "skills competence abilities",
+        imageUrl: "https://images.unsplash.com/photo-1559911352-816690ce34cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxza2lsbHMlMjBjb21wZXRlbmNlJTIwYWJpbGl0aWVzfGVufDB8MHx8fDE3Njk3NDkxNzl8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КОМПЕТЕНТный специалист жонглирует десятью задачами — босс аплодирует!"
     },
     { 
         pt: "julgar", 
         ru: "судить", 
         imageQuery: "judge court verdict",
+        imageUrl: "https://images.unsplash.com/photo-1568092806323-8ec13dfa9b92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxqdWRnZSUyMGNvdXJ0JTIwdmVyZGljdHxlbnwwfDB8fHwxNzY5NzQ5MTgxfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЖУЛГАР — ЖУЛИК на суде"
     },
     { 
         pt: "fazer um julgamento", 
         ru: "выносить суждение", 
         imageQuery: "judgment decision court",
+        imageUrl: "https://images.unsplash.com/photo-1767972463877-b64ba4283cd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxqdWRnbWVudCUyMGRlY2lzaW9uJTIwY291cnR8ZW58MHwwfHx8MTc2OTc0OTE4M3ww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ФАЗЕР ЖУЛГАМЕНТУ — делать суждение"
     },
     { 
         pt: "o feriado", 
         ru: "выходной день", 
         imageQuery: "holiday day off calendar",
+        imageUrl: "https://images.unsplash.com/photo-1579892239804-00e520393fb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxob2xpZGF5JTIwZGF5JTIwb2ZmJTIwY2FsZW5kYXJ8ZW58MHwwfHx8MTc2OTc0OTE4NXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ФЕРИАДУ — ФЕРия выходного дня"
     },
     { 
         pt: "as férias", 
         ru: "каникулы, отпуск", 
         imageQuery: "vacation holiday beach",
+        imageUrl: "https://images.unsplash.com/photo-1668404521060-1b28e8e435b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx2YWNhdGlvbiUyMGhvbGlkYXklMjBiZWFjaHxlbnwwfDB8fHwxNzY5NzQ5MTg3fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ФЕРИАШ — ФЕРия отпуска"
     },
     { 
         pt: "o ouro", 
         ru: "золото", 
         imageQuery: "gold treasure shiny",
+        imageUrl: "https://images.unsplash.com/photo-1759150467267-9ca29e646f92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxnb2xkJTIwdHJlYXN1cmUlMjBzaGlueXxlbnwwfDB8fHwxNzY5NzQ5MTg5fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ОУРУ — ОРУДУЙ золотом"
     },
     { 
         pt: "a prata", 
         ru: "серебро", 
         imageQuery: "silver metal shiny",
+        imageUrl: "https://images.unsplash.com/photo-1740071747223-2aa69e145f35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzaWx2ZXIlMjBtZXRhbCUyMHNoaW55fGVufDB8MHx8fDE3Njk3NTk4MjV8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПРАТА — ПРАТо серебряное"
     },
     { 
         pt: "envelhecer", 
         ru: "стареть", 
         imageQuery: "aging old wrinkles",
+        imageUrl: "https://images.unsplash.com/photo-1763472051866-2e627b1800ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhZ2luZyUyMG9sZCUyMHdyaW5rbGVzfGVufDB8MHx8fDE3Njk3NTk4Mjd8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭНВЕЛЬЕСЕР — ЭН ВЕЛЬЕ стареет"
     },
     { 
@@ -1478,54 +1494,63 @@ const VOCABULARY = [
         pt: "reconhecer", 
         ru: "узнавать, признавать", 
         imageQuery: "recognize acknowledge face",
+        imageUrl: "https://images.unsplash.com/photo-1656981415660-df2b9fd91990?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxyZWNvZ25pemUlMjBhY2tub3dsZWRnZSUyMGZhY2V8ZW58MHwwfHx8MTc2OTc1OTgzMXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "РЕКОгносцировка — шпион УЗНАЁТ врага и прячется за газетой с дыркой!"
     },
     { 
         pt: "a lágrima", 
         ru: "слеза", 
         imageQuery: "tear crying sad",
+        imageUrl: "https://images.unsplash.com/photo-1494368308039-ed3393a402a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx0ZWFyJTIwY3J5aW5nJTIwc2FkfGVufDB8MHx8fDE3Njk3NTk4MzN8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЛАГРИМА — ЛАГерь РИМА плачет слезами"
     },
     { 
         pt: "querer dizer", 
         ru: "означать", 
         imageQuery: "mean meaning definition",
+        imageUrl: "https://images.unsplash.com/photo-1709802336700-3500fbdfeef2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxtZWFuJTIwbWVhbmluZyUyMGRlZmluaXRpb258ZW58MHwwfHx8MTc2OTc1OTgzNXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КЕРЕР ДИЗЕР — хотеть сказать = означать"
     },
     { 
         pt: "abraçar", 
         ru: "обнимать", 
         imageQuery: "hug embrace arms",
+        imageUrl: "https://images.unsplash.com/photo-1638581925480-ebc84a2c3ab2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxodWclMjBlbWJyYWNlJTIwYXJtc3xlbnwwfDB8fHwxNzY5NzU5ODM2fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АБРАСАР — АБРАкадабра СА-обнять"
     },
     { 
         pt: "quem conta um conto acrescenta um ponto", 
         ru: "кто рассказывает — приукрашивает", 
         imageQuery: "storytelling exaggerate tale",
+        imageUrl: "https://images.unsplash.com/photo-1639104796286-9d5d0dd11430?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdG9yeXRlbGxpbmclMjBleGFnZ2VyYXRlJTIwdGFsZXxlbnwwfDB8fHwxNzY5NzU5ODM4fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "Кто считает сказку — добавит ПОНТ (пункт)"
     },
     { 
         pt: "dar uma volta", 
         ru: "прогуляться", 
         imageQuery: "stroll walk around",
+        imageUrl: "https://images.unsplash.com/photo-1558371370-c53fd452f8bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdHJvbGwlMjB3YWxrJTIwYXJvdW5kfGVufDB8MHx8fDE3Njk3NTk4NDB8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ДАР УМА ВОЛТА — дать круг = прогулка"
     },
     { 
         pt: "patinagem no gelo", 
         ru: "катание на коньках", 
         imageQuery: "ice skating rink",
+        imageUrl: "https://images.unsplash.com/photo-1647269600917-6e505fdc6bd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxpY2UlMjBza2F0aW5nJTIwcmlua3xlbnwwfDB8fHwxNzY5NzU5ODQyfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПАТИНАЖЕМ НУ ЖЕЛУ — ПАТи на ЖЕЛЕ (льду)"
     },
     { 
         pt: "patinar", 
         ru: "кататься на коньках", 
         imageQuery: "skating ice skates",
+        imageUrl: "https://images.unsplash.com/photo-1682953395720-23019a54dccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxza2F0aW5nJTIwaWNlJTIwc2thdGVzfGVufDB8MHx8fDE3Njk3NTk4NDR8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПАТИНАР — ПАТи катается"
     },
     { 
         pt: "a pista de gelo", 
         ru: "каток", 
         imageQuery: "ice rink skating",
+        imageUrl: "https://images.unsplash.com/photo-1647269600917-6e505fdc6bd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxpY2UlMjByaW5rJTIwc2thdGluZ3xlbnwwfDB8fHwxNzY5NzU5ODQ1fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПИШТА де ЖЕЛУ — ПИСТА из ЖЕЛЕ"
     },
     { 
@@ -1538,18 +1563,21 @@ const VOCABULARY = [
         pt: "a roda gigante", 
         ru: "колесо обозрения", 
         imageQuery: "ferris wheel amusement park",
+        imageUrl: "https://images.unsplash.com/photo-1626209025747-b41ee6ec191f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmZXJyaXMlMjB3aGVlbCUyMGFtdXNlbWVudCUyMHBhcmt8ZW58MHwwfHx8MTc2OTc3MTk5NHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "РОДА ЖИГАНТЕ — РОДА ГИГАНТСКАЯ"
     },
     { 
         pt: "o carrossel", 
         ru: "карусель", 
         imageQuery: "carousel merry go round",
+        imageUrl: "https://images.unsplash.com/photo-1715730772196-548bca84403f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjYXJvdXNlbCUyMG1lcnJ5JTIwZ28lMjByb3VuZHxlbnwwfDB8fHwxNzY5NzU5ODQ5fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КАРУСЕЛЬ раскрутилась так — дети летят по орбите как спутники, родители визжат!"
     },
     { 
         pt: "é uma seca", 
         ru: "это скучно", 
         imageQuery: "boring bored yawn",
+        imageUrl: "https://images.unsplash.com/photo-1758600588638-67f2e0ee6ce3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxib3JpbmclMjBib3JlZCUyMHlhd258ZW58MHwwfHx8MTc2OTc1OTg1MXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "Э УМА СЕКА — СУХО и скучно"
     },
     { 
@@ -1562,42 +1590,49 @@ const VOCABULARY = [
         pt: "bué", 
         ru: "очень, много (сленг)", 
         imageQuery: "very much lot slang",
+        imageUrl: "https://images.unsplash.com/photo-1597392582469-a697322d5c16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx2ZXJ5JTIwbXVjaCUyMGxvdCUyMHNsYW5nfGVufDB8MHx8fDE3Njk3NTk4NTV8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "БУЕ — БУЕ-навка = много"
     },
     { 
         pt: "o pastor", 
         ru: "пастух", 
         imageQuery: "shepherd sheep herding",
+        imageUrl: "https://images.unsplash.com/photo-1570219200417-705946338e9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzaGVwaGVyZCUyMHNoZWVwJTIwaGVyZGluZ3xlbnwwfDB8fHwxNzY5NzU5ODU2fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПАСТОР в рясе пасёт овец — они слушают проповедь и кивают головами!"
     },
     { 
         pt: "a missa do Galo", 
         ru: "рождественская месса", 
         imageQuery: "christmas mass church midnight",
+        imageUrl: "https://images.unsplash.com/photo-1702504126817-91eabe5bad22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjaHJpc3RtYXMlMjBtYXNzJTIwY2h1cmNoJTIwbWlkbmlnaHR8ZW58MHwwfHx8MTc2OTc1OTg1OHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "МИССА ДО ГАЛУ — месса ПЕТУХА (на рассвете)"
     },
     { 
         pt: "a joia", 
         ru: "драгоценность", 
         imageQuery: "jewel gem diamond",
+        imageUrl: "https://images.unsplash.com/photo-1631013636761-c533d81e96a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxqZXdlbCUyMGdlbSUyMGRpYW1vbmR8ZW58MHwwfHx8MTc2OTc1OTg2MHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЖОЯ — ЖОАН носит драгоценности"
     },
     { 
         pt: "o barro", 
         ru: "глина", 
         imageQuery: "clay pottery mud",
+        imageUrl: "https://images.unsplash.com/photo-1718711621203-74a4b19839e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjbGF5JTIwcG90dGVyeSUyMG11ZHxlbnwwfDB8fHwxNzY5NzU5ODYyfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "БАРРУ — БАРРикада из глины"
     },
     { 
         pt: "as atividades lúdicas", 
         ru: "игровые занятия", 
         imageQuery: "games activities fun play",
+        imageUrl: "https://images.unsplash.com/photo-1541692641319-981cc79ee10a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxnYW1lcyUyMGFjdGl2aXRpZXMlMjBmdW4lMjBwbGF5fGVufDB8MHx8fDE3Njk3NTk4NjR8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АТИВИДАДЕШ ЛЮДИКАШ — ЛЮДИ КАк играют"
     },
     { 
         pt: "a sombra", 
         ru: "тень", 
         imageQuery: "shadow dark silhouette",
+        imageUrl: "https://images.unsplash.com/photo-1599415978762-6f45ca6502ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzaGFkb3clMjBkYXJrJTIwc2lsaG91ZXR0ZXxlbnwwfDB8fHwxNzY5NzU5ODY2fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "СОМБРА — СОМ БРАл тень"
     },
     { 
@@ -1617,21 +1652,36 @@ const THEMED_LISTS = {
         category: "medicina",
         categoryName: "🏥 Medicina",
         words: [
-            { pt: "a cabeça", ru: "голова", imageQuery: "head", soundHint: "КАБЕСА — КАБЕСОН (большая голова) думает!" },
-            { pt: "o braço", ru: "рука (от плеча)", imageQuery: "arm", soundHint: "БРАСУ — БРАСлет на руке!" },
-            { pt: "a mão", ru: "кисть руки", imageQuery: "hand", soundHint: "МАУ — МАУгли машет рукой!" },
-            { pt: "a perna", ru: "нога", imageQuery: "leg", soundHint: "ПЕРНА — ПЕРИНА упала на ногу!" },
-            { pt: "o pé", ru: "ступня", imageQuery: "foot", soundHint: "ПЕ — ПЕшком идти на своих ступнях!" },
-            { pt: "as costas", ru: "спина", imageQuery: "back body", soundHint: "АШ КОШТАШ — КОСТИ на спине болят!" },
-            { pt: "o estômago", ru: "желудок", imageQuery: "stomach", soundHint: "ЭШТОМАГУ — в СТОМАКЕ (желудке) еда!" },
-            { pt: "o coração", ru: "сердце", imageQuery: "heart", soundHint: "КУРАСАУ — КУРАЖ в сердце бьётся!" },
-            { pt: "o olho", ru: "глаз", imageQuery: "eye", soundHint: "ОЛЬЮ — ОЛЯ смотрит глазами!" },
-            { pt: "a orelha", ru: "ухо", imageQuery: "ear", soundHint: "ОРЕЛЬЯ — ОРЁЛ слышит ушами далеко!" },
-            { pt: "o nariz", ru: "нос", imageQuery: "nose", soundHint: "НАРИШ — НАРИСУЙ нос!" },
-            { pt: "a boca", ru: "рот", imageQuery: "mouth", soundHint: "БОКА — БОКА рта улыбаются!" },
-            { pt: "o dente", ru: "зуб", imageQuery: "tooth", soundHint: "ДЕНТЕ — ДАНТИСТ лечит зубы!" },
-            { pt: "a língua", ru: "язык", imageQuery: "tongue", soundHint: "ЛИНГУА — ЛИНГВИСТ знает языки!" },
-            { pt: "o pescoço", ru: "шея", imageQuery: "neck", soundHint: "ПЕШКОСУ — ПЕШКОМ по ШЕЕ идёт муравей!" },
+            { pt: "a cabeça", ru: "голова", imageQuery: "head",
+        imageUrl: "https://images.unsplash.com/photo-1542702937-506268e68902?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxoZWFkfGVufDB8MHx8fDE3Njk3NTk4NzB8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КАБЕСА — КАБЕСОН (большая голова) думает!" },
+            { pt: "o braço", ru: "рука (от плеча)", imageQuery: "arm",
+        imageUrl: "https://images.unsplash.com/photo-1586726370832-3440a511e479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhcm18ZW58MHwwfHx8MTc2OTc1OTg3MXww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "БРАСУ — БРАСлет на руке!" },
+            { pt: "a mão", ru: "кисть руки", imageQuery: "hand",
+        imageUrl: "https://images.unsplash.com/photo-1586726370832-3440a511e479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxoYW5kfGVufDB8MHx8fDE3Njk3NTk4NzN8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "МАУ — МАУгли машет рукой!" },
+            { pt: "a perna", ru: "нога", imageQuery: "leg",
+        imageUrl: "https://images.unsplash.com/photo-1537094082840-dcbbfa99385f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsZWd8ZW58MHwwfHx8MTc2OTc1OTg3NHww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ПЕРНА — ПЕРИНА упала на ногу!" },
+            { pt: "o pé", ru: "ступня", imageQuery: "foot",
+        imageUrl: "https://images.unsplash.com/photo-1627903634010-cacbe106fad2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmb290fGVufDB8MHx8fDE3Njk3NTk4NzZ8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ПЕ — ПЕшком идти на своих ступнях!" },
+            { pt: "as costas", ru: "спина", imageQuery: "back body",
+        imageUrl: "https://images.unsplash.com/photo-1620216977705-df5ba73ca1a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxiYWNrJTIwYm9keXxlbnwwfDB8fHwxNzY5NzU5ODc4fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "АШ КОШТАШ — КОСТИ на спине болят!" },
+            { pt: "o estômago", ru: "желудок", imageQuery: "stomach",
+        imageUrl: "https://images.unsplash.com/photo-1565113333059-133e190b1e78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdG9tYWNofGVufDB8MHx8fDE3Njk3NTk4ODB8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ЭШТОМАГУ — в СТОМАКЕ (желудке) еда!" },
+            { pt: "o coração", ru: "сердце", imageQuery: "heart",
+        imageUrl: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxoZWFydHxlbnwwfDB8fHwxNzY5NzU5ODgyfDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КУРАСАУ — КУРАЖ в сердце бьётся!" },
+            { pt: "o olho", ru: "глаз", imageQuery: "eye",
+        imageUrl: "https://images.unsplash.com/photo-1483519173755-be893fab1f46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxleWV8ZW58MHwwfHx8MTc2OTc1OTg4NHww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ОЛЬЮ — ОЛЯ смотрит глазами!" },
+            { pt: "a orelha", ru: "ухо", imageQuery: "ear",
+        imageUrl: "https://images.unsplash.com/photo-1602703651892-7f0e73a14302?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxlYXJ8ZW58MHwwfHx8MTc2OTc1OTg4NXww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ОРЕЛЬЯ — ОРЁЛ слышит ушами далеко!" },
+            { pt: "o nariz", ru: "нос", imageQuery: "nose",
+        imageUrl: "https://images.unsplash.com/photo-1529386317747-0a2a51add902?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxub3NlfGVufDB8MHx8fDE3Njk3NTk4ODd8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "НАРИШ — НАРИСУЙ нос!" },
+            { pt: "a boca", ru: "рот", imageQuery: "mouth",
+        imageUrl: "https://images.unsplash.com/photo-1581939511501-4ec557ff0957?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxtb3V0aHxlbnwwfDB8fHwxNzY5NzU5ODg5fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "БОКА — БОКА рта улыбаются!" },
+            { pt: "o dente", ru: "зуб", imageQuery: "tooth",
+        imageUrl: "https://images.unsplash.com/photo-1664530837411-0c2e8a3d4dca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx0b290aHxlbnwwfDB8fHwxNzY5NzU5ODkwfDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ДЕНТЕ — ДАНТИСТ лечит зубы!" },
+            { pt: "a língua", ru: "язык", imageQuery: "tongue",
+        imageUrl: "https://images.unsplash.com/photo-1693693550337-e86bbd770d58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx0b25ndWV8ZW58MHwwfHx8MTc2OTc1OTg5Mnww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ЛИНГУА — ЛИНГВИСТ знает языки!" },
+            { pt: "o pescoço", ru: "шея", imageQuery: "neck",
+        imageUrl: "https://images.unsplash.com/photo-1599817878414-43ef36677cf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxuZWNrfGVufDB8MHx8fDE3Njk3NTk4OTR8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ПЕШКОСУ — ПЕШКОМ по ШЕЕ идёт муравей!" },
             { pt: "o ombro", ru: "плечо", imageQuery: "shoulder", soundHint: "ОМБРУ — ОМБРЕ на плечах — красивая причёска!" },
             { pt: "o joelho", ru: "колено", imageQuery: "knee", soundHint: "ЖУЭЛЬЮ — ЖУЁТ ЛЁД коленом — больно!" },
             { pt: "o dedo", ru: "палец", imageQuery: "finger", soundHint: "ДЕДУ — ДЕД показывает пальцем!" },
