@@ -646,6 +646,7 @@ const VOCABULARY = [
         pt: "de antecedência", 
         ru: "заранее", 
         imageQuery: "advance prior beforehand",
+        imageUrl: "https://images.unsplash.com/photo-1562911920-b71679650b17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhZHZhbmNlJTIwcHJpb3IlMjBiZWZvcmVoYW5kfGVufDB8MHx8fDE3Njk5NzkyNzJ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АНТЕ! СЕЛ заранее ДЕНЬги откладывать — теперь миллионер, все завидуют!"
     },
     { 
@@ -1379,6 +1380,7 @@ const VOCABULARY = [
         pt: "fixo", 
         ru: "фиксированный", 
         imageQuery: "fixed static stable",
+        imageUrl: "https://images.unsplash.com/photo-1597775199311-02d23b1a30e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmaXhlZCUyMHN0YXRpYyUyMHN0YWJsZXxlbnwwfDB8fHwxNzY5OTc5MzAxfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ФИШКА прибита к столу — ФИКСИРОВАННАЯ цена, торговаться бесполезно!"
     },
     { 
