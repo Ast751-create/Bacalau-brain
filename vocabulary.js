@@ -695,6 +695,7 @@ const VOCABULARY = [
         pt: "andar cansada", 
         ru: "быть уставшим в последнее время", 
         imageQuery: "tired exhausted lately",
+        imageUrl: "https://images.unsplash.com/photo-1591144670842-ac7c69216bec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx0aXJlZCUyMGV4aGF1c3RlZCUyMGxhdGVseXxlbnwwfDB8fHwxNzcwMTQzODU1fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АНДАР КАНСАДА — ХОДИТЬ уставшим"
     },
     { 
