@@ -1422,6 +1422,7 @@ const VOCABULARY = [
         pt: "perdurar", 
         ru: "длиться, сохраняться", 
         imageQuery: "last endure persist",
+        imageUrl: "https://images.unsplash.com/photo-1546472466-081e1113893a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsYXN0JTIwZW5kdXJlJTIwcGVyc2lzdHxlbnwwfDB8fHwxNzcwMDk1MzA2fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПЕРДУРАР — ПЕРДюрить = выдержать долго"
     },
     // ===== ПЯТАЯ ПАРТИЯ =====
@@ -2488,7 +2489,8 @@ const THEMED_LISTS = {
         imageUrl: "https://images.unsplash.com/photo-1596248675029-bd9b0c7dc479?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsYXRlJTIwcGF5bWVudHxlbnwwfDB8fHwxNzY5OTQzNDg1fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "МОРА НУ ПАГАМЕНТУ — МОРАТОРИЙ на платёж!" },
             { pt: "os juros de mora", ru: "пени за просрочку", imageQuery: "late fees",
         imageUrl: "https://images.unsplash.com/photo-1615715250904-9c87fa9e18c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsYXRlJTIwZmVlc3xlbnwwfDB8fHwxNzY5OTU0MjAzfDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "УШ ЖУРУШ ДЕ МОРА — ЖУРИТЬ за МОРАТОРИЙ!" },
-            { pt: "a caducidade do contrato", ru: "истечение договора", imageQuery: "contract expiry", soundHint: "КАДУСИДАДЕ — КАДУЦЕЙ истёк!" },
+            { pt: "a caducidade do contrato", ru: "истечение договора", imageQuery: "contract expiry",
+        imageUrl: "https://images.unsplash.com/photo-1653378972269-aae6d81e2c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjb250cmFjdCUyMGV4cGlyeXxlbnwwfDB8fHwxNzcwMDk1MzM1fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КАДУСИДАДЕ — КАДУЦЕЙ истёк!" },
             { pt: "a denúncia do contrato", ru: "расторжение договора", imageQuery: "contract termination",
         imageUrl: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjb250cmFjdCUyMHRlcm1pbmF0aW9ufGVufDB8MHx8fDE3Njk4NTAwODJ8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ДЕНУНСИЯ — ДЕНОНСАЦИЯ контракта!" },
             { pt: "a oposição à renovação", ru: "отказ от продления", imageQuery: "renewal rejection",
@@ -2582,7 +2584,8 @@ const THEMED_LISTS = {
         imageUrl: "https://images.unsplash.com/photo-1664445067303-12e42bd54adf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjYXJlZnVsJTIwd2FybmluZ3xlbnwwfDB8fHwxNzY5ODU2OTU4fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КУИДАДУ — КУИДАТ (осторожно)!" },
             { pt: "perigo!", ru: "опасность!", imageQuery: "danger",
         imageUrl: "https://images.unsplash.com/photo-1555699875-5773b06e8ee2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkYW5nZXJ8ZW58MHwwfHx8MTc2OTg1Njk2MHww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ПЕРИГУ — ПЕРИГЕЙ (опасность)!" },
-            { pt: "não se mexa!", ru: "не двигайтесь!", imageQuery: "dont move", soundHint: "НАУ СЕ МЕША — не МЕША (мешай) движению!" },
+            { pt: "não se mexa!", ru: "не двигайтесь!", imageQuery: "dont move",
+        imageUrl: "https://images.unsplash.com/photo-1636588365992-3988d894bffb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkb250JTIwbW92ZXxlbnwwfDB8fHwxNzcwMDk1MzQyfDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "НАУ СЕ МЕША — не МЕША (мешай) движению!" },
             { pt: "fique calmo/a", ru: "успокойтесь", imageQuery: "stay calm",
         imageUrl: "https://images.unsplash.com/photo-1610936534815-d90df2fdd7b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdGF5JTIwY2FsbXxlbnwwfDB8fHwxNzY5ODU2OTY0fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ФИКЕ КАЛМУ — ФИКУС КАЛМОМ стоит!" },
             { pt: "vai ficar tudo bem", ru: "всё будет хорошо", imageQuery: "everything ok", soundHint: "ВАЙ ФИКАР ТУДУ БЕМ — всё будет БЕМ (хорошо)!" }
