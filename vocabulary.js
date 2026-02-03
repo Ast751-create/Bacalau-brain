@@ -781,6 +781,7 @@ const VOCABULARY = [
         pt: "humilde", 
         ru: "скромный", 
         imageQuery: "humble modest simple",
+        imageUrl: "https://images.unsplash.com/photo-1562776903-cc60d622df72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxodW1ibGUlMjBtb2Rlc3QlMjBzaW1wbGV8ZW58MHwwfHx8MTc3MDEwNTUwNXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "УМИЛДЕ — УМИЛЬНЫЙ скромняга"
     },
     { 
