@@ -2674,7 +2674,8 @@ const THEMED_LISTS = {
         category: "emergencias",
         categoryName: "🚨 Emergências",
         words: [
-            { pt: "a ocorrência", ru: "происшествие", imageQuery: "incident occurrence", soundHint: "ОКОРРЭНСИЯ — ОКУРЕНС (происшествие)!" },
+            { pt: "a ocorrência", ru: "происшествие", imageQuery: "incident occurrence",
+        imageUrl: "https://images.unsplash.com/photo-1628687542057-0cee6d405dd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxpbmNpZGVudCUyMG9jY3VycmVuY2V8ZW58MHwwfHx8MTc3MDIzOTE4OHww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ОКОРРЭНСИЯ — ОКУРЕНС (происшествие)!" },
             { pt: "o auto de notícia", ru: "протокол о происшествии", imageQuery: "police report",
         imageUrl: "https://images.unsplash.com/photo-1538228690983-3deb38ddc221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwb2xpY2UlMjByZXBvcnR8ZW58MHwwfHx8MTc2OTg1NzAxOXww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "АУТУ ДЕ НОТИСИЯ — АВТО НОТИФИКАЦИИ!" },
             { pt: "a peritagem", ru: "экспертиза", imageQuery: "forensic examination",
