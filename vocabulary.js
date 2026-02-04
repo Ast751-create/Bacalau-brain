@@ -400,6 +400,7 @@ const VOCABULARY = [
         pt: "é provável", 
         ru: "вероятно", 
         imageQuery: "probably likely chance",
+        imageUrl: "https://images.unsplash.com/photo-1733759845506-e197dbc047c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwcm9iYWJseSUyMGxpa2VseSUyMGNoYW5jZXxlbnwwfDB8fHwxNzcwMjQ1NzQzfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПРОВЕРЬ — вероятно правда"
     },
     { 
