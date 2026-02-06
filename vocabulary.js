@@ -790,6 +790,7 @@ const VOCABULARY = [
         pt: "arrogante", 
         ru: "высокомерный", 
         imageQuery: "arrogant proud snobbish",
+        imageUrl: "https://images.unsplash.com/photo-1712145176765-cc1a308331e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhcnJvZ2FudCUyMHByb3VkJTIwc25vYmJpc2h8ZW58MHwwfHx8MTc3MDM4ODA4MHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АРОГАНТ задрал нос так высоко — врезался в люстру и повис на ней!"
     },
     { 
