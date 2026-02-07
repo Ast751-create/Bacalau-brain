@@ -167,6 +167,7 @@ const VOCABULARY = [
         pt: "inegável", 
         ru: "неоспоримый", 
         imageQuery: "undeniable obvious truth",
+        imageUrl: "https://images.unsplash.com/photo-1592831383304-ef689ec9dcc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx1bmRlbmlhYmxlJTIwb2J2aW91cyUyMHRydXRofGVufDB8MHx8fDE3NzA0ODM2NzN8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ИН-НЕГАТИВ — нельзя отрицать"
     },
     { 
