@@ -271,6 +271,7 @@ const VOCABULARY = [
         pt: "o conhecimento", 
         ru: "знание", 
         imageQuery: "knowledge brain books learning",
+        imageUrl: "https://images.unsplash.com/photo-1758691463569-66de91d76452?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxrbm93bGVkZ2UlMjBicmFpbiUyMGJvb2tzJTIwbGVhcm5pbmd8ZW58MHwwfHx8MTc3MDQ5MTA3N3ww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КОНЯ СИМЕНТом знает — умный строитель"
     },
     { 
