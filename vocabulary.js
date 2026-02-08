@@ -526,6 +526,7 @@ const VOCABULARY = [
         pt: "fundamental", 
         ru: "очень важный", 
         imageQuery: "fundamental important basic",
+        imageUrl: "https://images.unsplash.com/photo-1628132031417-8bf59e4dfffe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmdW5kYW1lbnRhbCUyMGltcG9ydGFudCUyMGJhc2ljfGVufDB8MHx8fDE3NzA1NTkwNTV8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ФУНДАМЕНТ — очень важен"
     },
     { 
