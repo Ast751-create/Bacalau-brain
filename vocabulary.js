@@ -230,6 +230,7 @@ const VOCABULARY = [
         pt: "não adianta", 
         ru: "бесполезно", 
         imageQuery: "useless pointless frustrated",
+        imageUrl: "https://images.unsplash.com/photo-1617621308849-94d0f89ae68b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx1c2VsZXNzJTIwcG9pbnRsZXNzJTIwZnJ1c3RyYXRlZHxlbnwwfDB8fHwxNzcwNTYyNjgyfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "НА АДИДАСАХ пытаются танцевать балет — БЕСПОЛЕЗНО, все падают и рвут кроссовки!"
     },
     { 
