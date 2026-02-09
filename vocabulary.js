@@ -1597,6 +1597,7 @@ const VOCABULARY = [
         pt: "deixar tudo para a última hora", 
         ru: "откладывать на последний момент", 
         imageQuery: "procrastination last minute deadline",
+        imageUrl: "https://images.unsplash.com/photo-1547822050-0fdeeb81c946?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwcm9jcmFzdGluYXRpb24lMjBsYXN0JTIwbWludXRlJTIwZGVhZGxpbmV8ZW58MHwwfHx8MTc3MDYyNDQ0MXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ДЕЙШАР ТУДУ пара УЛТИМА ОРА — последний час"
     },
     { 
