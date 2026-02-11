@@ -161,6 +161,7 @@ const VOCABULARY = [
         pt: "negar", 
         ru: "отрицать", 
         imageQuery: "deny refuse no",
+        imageUrl: "https://images.unsplash.com/photo-1762008310452-3f53aa66c276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkZW55JTIwcmVmdXNlJTIwbm98ZW58MHwwfHx8MTc3MDgzMTM3Mnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "Фотограф смотрит на НЕГАТИВ и кричит: НЕТ! ОТРИЦАЮ! — и рвёт все фотки!"
     },
     { 
