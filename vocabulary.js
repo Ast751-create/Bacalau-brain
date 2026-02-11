@@ -1045,6 +1045,7 @@ const VOCABULARY = [
         pt: "ao modo como", 
         ru: "таким образом, как", 
         imageQuery: "way manner method",
+        imageUrl: "https://images.unsplash.com/photo-1696654149774-6674b4d1ee35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3YXklMjBtYW5uZXIlMjBtZXRob2R8ZW58MHwwfHx8MTc3MDg1MTA0Mnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АО МОДУ КОМУ — по МОДЕ как"
     },
     { 
