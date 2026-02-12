@@ -590,6 +590,7 @@ const VOCABULARY = [
         pt: "através de", 
         ru: "через", 
         imageQuery: "through across via",
+        imageUrl: "https://images.unsplash.com/photo-1743181300030-bab43c5b825c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx0aHJvdWdoJTIwYWNyb3NzJTIwdmlhfGVufDB8MHx8fDE3NzA4OTc1MTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АТРАВЕШ — А ТРАВЫ через поле"
     },
     { 
