@@ -351,6 +351,7 @@ const VOCABULARY = [
         pt: "no entanto", 
         ru: "однако", 
         imageQuery: "however contrast but",
+        imageUrl: "https://images.unsplash.com/photo-1712145176765-cc1a308331e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxob3dldmVyJTIwY29udHJhc3QlMjBidXR8ZW58MHwwfHx8MTc3MDk5Mjg5Nnww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "НО! ЭН ТАНТО — однако танцуем"
     },
     { 
@@ -757,6 +758,7 @@ const VOCABULARY = [
         pt: "indelicado", 
         ru: "неделикатный, грубый", 
         imageQuery: "rude impolite tactless",
+        imageUrl: "https://images.unsplash.com/photo-1712145176765-cc1a308331e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxydWRlJTIwaW1wb2xpdGUlMjB0YWN0bGVzc3xlbnwwfDB8fHwxNzcwOTkyOTA5fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ИНДЕЛИКАДО = НЕделикатный"
     },
     { 
