@@ -467,6 +467,7 @@ const VOCABULARY = [
         pt: "caso", 
         ru: "если, в случае", 
         imageQuery: "case condition if",
+        imageUrl: "https://images.unsplash.com/photo-1600456899121-68eda5705257?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjYXNlJTIwY29uZGl0aW9uJTIwaWZ8ZW58MHwwfHx8MTc3MTA4MTAyNXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "В этом КАЗОвом СЛУЧАЕ — чемодан открылся и оттуда выпрыгнул клоун!"
     },
     { 
