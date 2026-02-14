@@ -973,6 +973,7 @@ const VOCABULARY = [
         pt: "os desconhecidos", 
         ru: "незнакомцы", 
         imageQuery: "strangers unknown faces",
+        imageUrl: "https://images.unsplash.com/photo-1605486066632-74ee8fc55b5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzdHJhbmdlcnMlMjB1bmtub3duJTIwZmFjZXN8ZW58MHwwfHx8MTc3MTA1NTMyNXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ДЕШКОНЬЕСИДОШ — ДЕС-КОНЯ не знаю = незнакомец"
     },
     { 
