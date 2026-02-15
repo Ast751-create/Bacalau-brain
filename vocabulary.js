@@ -1508,6 +1508,7 @@ const VOCABULARY = [
         pt: "aproximar-se de", 
         ru: "приближаться к", 
         imageQuery: "approach come closer near",
+        imageUrl: "https://images.unsplash.com/photo-1729882429209-7db0cbadae33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhcHByb2FjaCUyMGNvbWUlMjBjbG9zZXIlMjBuZWFyfGVufDB8MHx8fDE3NzExMzIzNDV8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "А! ПРОКСИмити — датчик орёт, когда ПРИБЛИЖАЕШЬСЯ, все подпрыгивают!"
     },
     { 
