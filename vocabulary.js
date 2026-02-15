@@ -1294,6 +1294,7 @@ const VOCABULARY = [
         pt: "atraído", 
         ru: "привлечённый", 
         imageQuery: "attracted drawn interested",
+        imageUrl: "https://images.unsplash.com/photo-1712145176765-cc1a308331e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhdHRyYWN0ZWQlMjBkcmF3biUyMGludGVyZXN0ZWR8ZW58MHwwfHx8MTc3MTE5NjIwNHww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "А! ТРАктор ИДУ к нему — ПРИВЛЕЧЁН магнитной силой, ноги скользят!"
     },
     { 
