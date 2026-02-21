@@ -1044,6 +1044,7 @@ const VOCABULARY = [
         pt: "sou pobre, mas honrado", 
         ru: "я бедный, но честный", 
         imageQuery: "poor honest humble dignity",
+        imageUrl: "https://images.unsplash.com/photo-1653750365234-c1c10a5bf1b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwb29yJTIwaG9uZXN0JTIwaHVtYmxlJTIwZGlnbml0eXxlbnwwfDB8fHwxNzcxNjQ2NjM3fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "СОУ ПОБРЕ — я БЕДНЫЙ, но ЧЕСТНЫЙ! Бомж возвращает найденный кошелёк миллионеру!"
     },
     { 
