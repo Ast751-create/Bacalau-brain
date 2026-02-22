@@ -1309,6 +1309,7 @@ const VOCABULARY = [
         pt: "mais vale tarde do que nunca", 
         ru: "лучше поздно, чем никогда", 
         imageQuery: "late better never time",
+        imageUrl: "https://images.unsplash.com/photo-1719492351046-8bce602a10c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsYXRlJTIwYmV0dGVyJTIwbmV2ZXIlMjB0aW1lfGVufDB8MHx8fDE3NzE3OTg3ODB8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "МАЙШ ВАЛЕ ТАРДЕ — больше ценит поздно"
     },
     { 
