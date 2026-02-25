@@ -1323,6 +1323,7 @@ const VOCABULARY = [
         pt: "a expetativa", 
         ru: "ожидание", 
         imageQuery: "expectation hope waiting",
+        imageUrl: "https://images.unsplash.com/photo-1646204635366-5d46ad352eb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxleHBlY3RhdGlvbiUyMGhvcGUlMjB3YWl0aW5nfGVufDB8MHx8fDE3NzIwNDYwNjV8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭШ! ПЕТя ТЯНЕТ шею в ОЖИДАНИИ — так долго ждал, что шея стала как у жирафа!"
     },
     { 
