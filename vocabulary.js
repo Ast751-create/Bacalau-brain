@@ -2031,7 +2031,8 @@ const THEMED_LISTS = {
         imageUrl: "https://images.unsplash.com/photo-1609427955204-d0a737cb2c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxvcmRlcmluZyUyMGZvb2R8ZW58MHwwfHx8MTc2OTgwMjU2M3ww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КЕРИЯ ПЕДИР — КЕРЮ ПЕДИТЬ — хочу заказать!" },
             { pt: "o que recomenda?", ru: "что порекомендуете?", imageQuery: "recommendation",
         imageUrl: "https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxyZWNvbW1lbmRhdGlvbnxlbnwwfDB8fHwxNzY5ODAyNTY1fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "У КЕ РЕКОМЕНДА — что РЕКОМЕНДУЕТЕ?" },
-            { pt: "pode trazer...", ru: "принесите, пожалуйста...", imageQuery: "bring please", soundHint: "ПОДЕ ТРАЗЕР — ПОДАТЬ ТРАЗЕР (принести)!" },
+            { pt: "pode trazer...", ru: "принесите, пожалуйста...", imageQuery: "bring please",
+        imageUrl: "https://images.unsplash.com/photo-1733759845506-e197dbc047c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxicmluZyUyMHBsZWFzZXxlbnwwfDB8fHwxNzcyMDMwNjg4fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ПОДЕ ТРАЗЕР — ПОДАТЬ ТРАЗЕР (принести)!" },
             { pt: "está incluído?", ru: "это включено?", imageQuery: "included",
         imageUrl: "https://images.unsplash.com/photo-1604182824439-3a0b56f0a4dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxpbmNsdWRlZHxlbnwwfDB8fHwxNzY5ODAyNTY4fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ЭШТА ИНКЛУИДУ — это ВКЛЮЧЕНО?" }
         ]
