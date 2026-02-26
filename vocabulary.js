@@ -2549,7 +2549,8 @@ const THEMED_LISTS = {
         imageUrl: "https://images.unsplash.com/photo-1758600587382-2d7da8b9e361?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxldmVyeXRoaW5nJTIwb2t8ZW58MHwwfHx8MTc2OTg1MDExMHww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ЭШТА ТУДУ ЭМ ОРДЕМ — ТУТ ОРДЕР?" },
             { pt: "preciso de reparações", ru: "нужен ремонт", imageQuery: "need repairs",
         imageUrl: "https://images.unsplash.com/photo-1517850308794-7793767fdb81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxuZWVkJTIwcmVwYWlyc3xlbnwwfDB8fHwxNzY5OTcyNzg1fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ПРЕСИЗУ ДЕ РЕПАРАСОЕШ — ПРИЗЁР РЕПАРАЦИИ!" },
-            { pt: "quando será feito?", ru: "когда сделают?", imageQuery: "when done", soundHint: "КУАНДУ СЕРА ФЕЙТУ — КОГДА СЕРА (будет) ФАКТ?" }
+            { pt: "quando será feito?", ru: "когда сделают?", imageQuery: "when done",
+        imageUrl: "https://images.unsplash.com/photo-1764197943107-3fbc3a10f8cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3aGVuJTIwZG9uZXxlbnwwfDB8fHwxNzcyMTI0ODgwfDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КУАНДУ СЕРА ФЕЙТУ — КОГДА СЕРА (будет) ФАКТ?" }
         ]
     },
 
