@@ -461,6 +461,7 @@ const VOCABULARY = [
         pt: "imprescindível", 
         ru: "необходимый", 
         imageQuery: "essential important must",
+        imageUrl: "https://images.unsplash.com/photo-1746291645205-2538ad640857?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxlc3NlbnRpYWwlMjBpbXBvcnRhbnQlMjBtdXN0fGVufDB8MHx8fDE3NzMyOTgxODZ8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ИМ ПРЕСС ИНДИЯ — прессе необходим"
     },
     { 
