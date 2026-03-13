@@ -1422,6 +1422,7 @@ const VOCABULARY = [
         pt: "aliás", 
         ru: "кстати, впрочем", 
         imageQuery: "by the way furthermore",
+        imageUrl: "https://images.unsplash.com/photo-1761682247650-29240975b890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxieSUyMHRoZSUyMHdheSUyMGZ1cnRoZXJtb3JlfGVufDB8MHx8fDE3NzM0MTI3OTV8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АЛИАШ — А! ЛИАна, кстати..."
     },
     { 
