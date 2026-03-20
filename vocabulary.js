@@ -372,6 +372,7 @@ const VOCABULARY = [
         pt: "aos poucos", 
         ru: "постепенно", 
         imageQuery: "slowly gradually step",
+        imageUrl: "https://images.unsplash.com/photo-1770351978852-43d97c436b4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxzbG93bHklMjBncmFkdWFsbHklMjBzdGVwfGVufDB8MHx8fDE3NzQwMzIxMjN8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "АУ! ПОУКО — постепенно кричу"
     },
     { 
@@ -2304,7 +2305,8 @@ const THEMED_LISTS = {
         imageUrl: "https://images.unsplash.com/photo-1630293223470-669b53debd22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsaWZlJTIwdmVzdHxlbnwwfDB8fHwxNzY5ODM1MDA4fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КОЛЕТЕ САЛВА-ВИДАШ — КОЛЛЕКТИВ СПАС ЖИЗНЬ!" },
             { pt: "a evacuação", ru: "эвакуация", imageQuery: "evacuation",
         imageUrl: "https://images.unsplash.com/photo-1609868036123-99a6a59c280c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxldmFjdWF0aW9ufGVufDB8MHx8fDE3Njk4MzUwMTB8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ЭВАКУАСАУ — ЭВАКУАЦИЯ!" },
-            { pt: "o overbooking", ru: "овербукинг", imageQuery: "overbooking", soundHint: "ОВЕРБУКИНГ — ОВЕРБУКИНГ!" },
+            { pt: "o overbooking", ru: "овербукинг", imageQuery: "overbooking",
+        imageUrl: "https://images.unsplash.com/photo-1535054149463-ca279197643f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxvdmVyYm9va2luZ3xlbnwwfDB8fHwxNzc0MDMyMTQyfDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ОВЕРБУКИНГ — ОВЕРБУКИНГ!" },
             { pt: "a lista de espera", ru: "лист ожидания", imageQuery: "waiting list",
         imageUrl: "https://images.unsplash.com/photo-1761150358917-c20cefac2438?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3YWl0aW5nJTIwbGlzdHxlbnwwfDB8fHwxNzY5ODM1MDE0fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ЛИШТА ДЕ ЭШПЕРА — ЛИСТ ЭСПЕРАНТО — ждём!" },
             { pt: "o upgrade", ru: "повышение класса", imageQuery: "upgrade",
