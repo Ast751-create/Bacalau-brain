@@ -2812,7 +2812,8 @@ const THEMED_LISTS = {
         imageUrl: "https://images.unsplash.com/photo-1628527304948-06157ee3c8a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwYXlpbmd8ZW58MHwwfHx8MTc2OTg3MTMwMXww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ПАГАР — ПЛАТИТЬ!" },
             { pt: "o recibo", ru: "квитанция", imageQuery: "receipt",
         imageUrl: "https://images.unsplash.com/photo-1634733988138-bf2c3a2a13fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxyZWNlaXB0fGVufDB8MHx8fDE3Njk4NDQwODZ8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "РЕСИБУ — РЕСИВ (получаю) квитанцию!" },
-            { pt: "o comprovativo", ru: "подтверждение", imageQuery: "proof confirmation", soundHint: "КОМПРОВАТИВУ — КОМПРОВАТ (подтвердить)!" },
+            { pt: "o comprovativo", ru: "подтверждение", imageQuery: "proof confirmation",
+        imageUrl: "https://images.unsplash.com/photo-1766340744738-0c3355ea9879?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwcm9vZiUyMGNvbmZpcm1hdGlvbnxlbnwwfDB8fHwxNzc0MDAyODcxfDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КОМПРОВАТИВУ — КОМПРОВАТ (подтвердить)!" },
             { pt: "a morada", ru: "адрес", imageQuery: "address",
         imageUrl: "https://images.unsplash.com/photo-1542120926-32f3559e9473?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhZGRyZXNzfGVufDB8MHx8fDE3Njk4NzEzMDR8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "МОРАДА — МОРА тут — адрес!" },
             { pt: "o código postal", ru: "почтовый индекс", imageQuery: "zip code", soundHint: "КОДИГУ ПОШТАЛ — КОД ПОЧТЫ!" },
@@ -3494,7 +3495,8 @@ const THEMED_LISTS = {
         imageUrl: "https://images.unsplash.com/photo-1586906426963-3b66bfd9fda9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxyZWdpc3RlcmVkJTIwbWFpbHxlbnwwfDB8fHwxNzY5OTIzMjUzfDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "РЕЖИШТАДУ — РЕГИСТРИД!" },
             { pt: "a confirmação", ru: "подтверждение", imageQuery: "confirmation",
         imageUrl: "https://images.unsplash.com/photo-1706517212966-43695534fe88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjb25maXJtYXRpb258ZW58MHwwfHx8MTc2OTkyMzI1NXww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КОНФИРМАСАУ — КОНФИРМАЦИЯ!" },
-            { pt: "o comprovativo", ru: "квитанция", imageQuery: "receipt proof", soundHint: "КОМПРОВАТИВУ — КОМПРОВАТ!" },
+            { pt: "o comprovativo", ru: "квитанция", imageQuery: "receipt proof",
+        imageUrl: "https://images.unsplash.com/photo-1766340744738-0c3355ea9879?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwcm9vZiUyMGNvbmZpcm1hdGlvbnxlbnwwfDB8fHwxNzc0MDAyODcxfDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КОМПРОВАТИВУ — КОМПРОВАТ!" },
             { pt: "chegar", ru: "прийти/дойти", imageQuery: "arriving",
         imageUrl: "https://images.unsplash.com/photo-1527007622069-3a0241e1cd8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhcnJpdmluZ3xlbnwwfDB8fHwxNzY5OTIzMjU5fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ШЕГАР — ШАГАТЬ к цели!" }
         ]
