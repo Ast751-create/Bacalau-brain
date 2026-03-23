@@ -400,6 +400,7 @@ const VOCABULARY = [
         pt: "embora", 
         ru: "хотя", 
         imageQuery: "although however despite",
+        imageUrl: "https://images.unsplash.com/photo-1655154145755-12c5ee046eab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhbHRob3VnaCUyMGhvd2V2ZXIlMjBkZXNwaXRlfGVufDB8MHx8fDE3NzQyMzA5Nzd8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ЭМ! БОРА хотя и поздно"
     },
     { 
