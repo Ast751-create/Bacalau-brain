@@ -2260,7 +2260,8 @@ const THEMED_LISTS = {
         imageUrl: "https://images.unsplash.com/photo-1625414502065-e62281323f94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxmbGlnaHQlMjBkZWxheWVkfGVufDB8MHx8fDE3Njk4MTQwMDl8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ВОУ ЭШТА АТРАЗАДУ — рейс ОТРАЗИЛСЯ — задержка!" },
             { pt: "qual é a porta de embarque?", ru: "какой выход на посадку?", imageQuery: "which gate",
         imageUrl: "https://images.unsplash.com/photo-1584464319281-f1f7ec650059?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3aGljaCUyMGdhdGV8ZW58MHwwfHx8MTc2OTgxNDAxMHww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КУАЛ Э А ПОРТА — КУАЛ ПОРТА — какой гейт?" },
-            { pt: "onde é o check-in?", ru: "где регистрация?", imageQuery: "where check in", soundHint: "ОНДЕ Э У ЧЕК-ИН — ГДЕ ЧЕК-ИН?" },
+            { pt: "onde é o check-in?", ru: "где регистрация?", imageQuery: "where check in",
+        imageUrl: "https://images.unsplash.com/photo-1755397198828-bf81a4cc95ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3aGVyZSUyMGNoZWNrJTIwaW58ZW58MHwwfHx8MTc3NDk3NjAxN3ww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ОНДЕ Э У ЧЕК-ИН — ГДЕ ЧЕК-ИН?" },
             { pt: "perdi a minha bagagem", ru: "я потерял багаж", imageQuery: "lost my luggage",
         imageUrl: "https://images.unsplash.com/photo-1723902281477-fc5a683354e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxsb3N0JTIwbXklMjBsdWdnYWdlfGVufDB8MHx8fDE3Njk4MTQwMTR8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ПЕРДИ А МИНЬЯ БАГАЖЕМ — ПОТЕРЯЛ мой БАГАЖ!" }
         ]
