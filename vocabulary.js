@@ -757,6 +757,7 @@ const VOCABULARY = [
         pt: "bruto", 
         ru: "грубый", 
         imageQuery: "rude rough brutal",
+        imageUrl: "https://images.unsplash.com/photo-1632097085701-47a587a39dcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxydWRlJTIwcm91Z2glMjBicnV0YWx8ZW58MHwwfHx8MTc3NTA3NTk4MXww&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "БРУТО = БРУТАЛЬНЫЙ, грубый"
     },
     { 
@@ -2333,7 +2334,8 @@ const THEMED_LISTS = {
         imageUrl: "https://images.unsplash.com/photo-1724699056521-8662d346c34b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxwZXQlMjBpbiUyMGNhYmlufGVufDB8MHx8fDE3Njk4MzUwMzB8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "АНИМАЛ НА КАБИНЕ — АНИМАЛ в КАБИНЕ!" },
             { pt: "o código de reserva", ru: "код бронирования", imageQuery: "booking code",
         imageUrl: "https://images.unsplash.com/photo-1583147986942-2249ecc53aa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxib29raW5nJTIwY29kZXxlbnwwfDB8fHwxNzcwNTkxNjczfDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КОДИГУ ДЕ РЕЗЕРВА — КОД РЕЗЕРВАЦИИ!" },
-            { pt: "confirmar a reserva", ru: "подтвердить бронь", imageQuery: "confirm booking", soundHint: "КОНФИРМАР А РЕЗЕРВА — КОНФИРМАЦИЯ РЕЗЕРВА!" },
+            { pt: "confirmar a reserva", ru: "подтвердить бронь", imageQuery: "confirm booking",
+        imageUrl: "https://images.unsplash.com/photo-1729860646477-c0f603c0300b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjb25maXJtJTIwYm9va2luZ3xlbnwwfDB8fHwxNzc1MDc1OTkzfDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КОНФИРМАР А РЕЗЕРВА — КОНФИРМАЦИЯ РЕЗЕРВА!" },
             { pt: "cancelar a reserva", ru: "отменить бронь", imageQuery: "cancel booking",
         imageUrl: "https://images.unsplash.com/photo-1583147986942-2249ecc53aa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjYW5jZWwlMjBib29raW5nfGVufDB8MHx8fDE3NzEwODg0Nzh8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КАНСЭЛАР А РЕЗЕРВА — КАНСЕЛ РЕЗЕРВА!" },
             { pt: "pedir reembolso", ru: "просить возврат", imageQuery: "request refund",
