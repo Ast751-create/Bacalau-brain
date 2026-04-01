@@ -769,6 +769,7 @@ const VOCABULARY = [
         pt: "desinteressado", 
         ru: "незаинтересованный", 
         imageQuery: "uninterested indifferent bored",
+        imageUrl: "https://images.unsplash.com/photo-1659356575945-19d7b03be982?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx1bmludGVyZXN0ZWQlMjBpbmRpZmZlcmVudCUyMGJvcmVkfGVufDB8MHx8fDE3NzUwMDk0MjN8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ДЕЗИНТЕРЕСАДО = ДЕЗ-ИНТЕРЕС"
     },
     { 
@@ -1865,7 +1866,8 @@ const THEMED_LISTS = {
         imageUrl: "https://images.unsplash.com/photo-1579755219068-207d2d6c397d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjdXJlJTIwaGVhbGluZ3xlbnwwfDB8fHwxNzY5Nzk1NzQ2fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "КУРА — КУРА вылечилась — несёт яйца!" },
             { pt: "incurável", ru: "неизлечимый", imageQuery: "incurable",
         imageUrl: "https://images.unsplash.com/photo-1525190809240-c06c7cbf17d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxpbmN1cmFibGV8ZW58MHwwfHx8MTc2OTc5NTc0OHww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ИНКУРАВЕЛ — ИН-КУРА — не вылечить!" },
-            { pt: "a sequela", ru: "последствие (болезни)", imageQuery: "aftermath illness", soundHint: "СЕКЕЛА — СЕКВЕЛ болезни — продолжение!" },
+            { pt: "a sequela", ru: "последствие (болезни)", imageQuery: "aftermath illness",
+        imageUrl: "https://images.unsplash.com/photo-1550792436-181701c71f63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhZnRlcm1hdGglMjBpbGxuZXNzfGVufDB8MHx8fDE3NzUwMDk0MzJ8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "СЕКЕЛА — СЕКВЕЛ болезни — продолжение!" },
             { pt: "a imunidade", ru: "иммунитет", imageQuery: "immune system",
         imageUrl: "https://images.unsplash.com/photo-1707079917481-b0d32393008b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxpbW11bmUlMjBzeXN0ZW18ZW58MHwwfHx8MTc2OTc5NTc1Mnww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ИМУНИДАДЕ — ИММУНИТЕТ!" },
             { pt: "a vacina", ru: "вакцина", imageQuery: "vaccine injection",
@@ -2313,7 +2315,8 @@ const THEMED_LISTS = {
         imageUrl: "https://images.unsplash.com/photo-1761150358917-c20cefac2438?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx3YWl0aW5nJTIwbGlzdHxlbnwwfDB8fHwxNzY5ODM1MDE0fDA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ЛИШТА ДЕ ЭШПЕРА — ЛИСТ ЭСПЕРАНТО — ждём!" },
             { pt: "o upgrade", ru: "повышение класса", imageQuery: "upgrade",
         imageUrl: "https://images.unsplash.com/photo-1602763288580-927cfda37a72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHx1cGdyYWRlfGVufDB8MHx8fDE3Njk4MzUwMTZ8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "АПГРЕЙД — АПГРЕЙД!" },
-            { pt: "o downgrade", ru: "понижение класса", imageQuery: "downgrade", soundHint: "ДАУНГРЕЙД — ДАУНГРЕЙД!" },
+            { pt: "o downgrade", ru: "понижение класса", imageQuery: "downgrade",
+        imageUrl: "https://images.unsplash.com/photo-1631758266859-4be5e09cbd6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxkb3duZ3JhZGV8ZW58MHwwfHx8MTc3NTAwOTQzNHww&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ДАУНГРЕЙД — ДАУНГРЕЙД!" },
             { pt: "a franquia de bagagem", ru: "норма багажа", imageQuery: "baggage allowance",
         imageUrl: "https://images.unsplash.com/photo-1723902281477-fc5a683354e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxiYWdnYWdlJTIwYWxsb3dhbmNlfGVufDB8MHx8fDE3Njk4MzUwMjF8MA&ixlib=rb-4.1.0&q=80&w=400", soundHint: "ФРАНКИЯ — ФРАНШИЗА багажа!" },
             { pt: "o peso máximo", ru: "максимальный вес", imageQuery: "maximum weight",
