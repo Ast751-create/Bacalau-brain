@@ -638,6 +638,7 @@ const VOCABULARY = [
         pt: "por acaso", 
         ru: "случайно", 
         imageQuery: "accident random chance",
+        imageUrl: "https://images.unsplash.com/photo-1572881287389-21e69a2be5de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxhY2NpZGVudCUyMHJhbmRvbSUyMGNoYW5jZXxlbnwwfDB8fHwxNzc1MDQ5MTY3fDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ПОР АКАЗО — ПОРой ОКАЗИЯ случается"
     },
     { 
