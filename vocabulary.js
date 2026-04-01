@@ -866,6 +866,7 @@ const VOCABULARY = [
         pt: "imprudente", 
         ru: "неосторожный", 
         imageQuery: "reckless careless imprudent",
+        imageUrl: "https://images.unsplash.com/photo-1487932451588-8f8110a354e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxyZWNrbGVzcyUyMGNhcmVsZXNzJTIwaW1wcnVkZW50fGVufDB8MHx8fDE3NzUwMjI3NTl8MA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "ИМПРУДЕНТЕ = ИМ-пруденция, НЕосторожный"
     },
     { 
