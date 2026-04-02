@@ -792,6 +792,7 @@ const VOCABULARY = [
         pt: "cruel", 
         ru: "жестокий", 
         imageQuery: "cruel harsh mean",
+        imageUrl: "https://images.unsplash.com/photo-1729671318318-9272ef391e6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUwNTd8MHwxfHNlYXJjaHwxfHxjcnVlbCUyMGhhcnNoJTIwbWVhbnxlbnwwfDB8fHwxNzc1MDk1MDgwfDA&ixlib=rb-4.1.0&q=80&w=400",
         soundHint: "КРУЭЛла де Виль так ЖЕСТОКА — она гонится за щенками с ножницами!"
     },
     { 
